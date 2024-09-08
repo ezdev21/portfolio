@@ -9,6 +9,7 @@ import madot from "../../Assets/Projects/madot.png";
 import tiruhakim from "../../Assets/Projects/tiruhakim.png";
 import union from "../../Assets/Projects/union.png";
 import jestra from "../../Assets/Projects/jestra.png";
+import social_media from "../../Assets/Projects/social-media.png"
 
 function Projects() {
   return (
@@ -94,6 +95,15 @@ function Projects() {
               description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
               ghLink="https://github.com/ezdev21/union-academy"
               demoLink="https://tiruhakim.com"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={social_media}
+              isBlog={false}
+              title="Social Media Platform"
+              description="social media platform project built in laravel 10 websocket(pusher) vue and tailwindcss.realtime posts comments and chats,follow friends,create post,chat system integrated,friend requests and suggestions.videos Resources"
+              ghLink="https://github.com/ezdev21/social-media"
             />
           </Col>
         </Row>
