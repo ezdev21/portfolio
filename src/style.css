@@ -608,6 +608,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  background-color: green;
 }
 
 .resume {
