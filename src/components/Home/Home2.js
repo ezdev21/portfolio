@@ -24,8 +24,6 @@ function Home2() {
               <br/>
               <br/>
               More than 3 years of working  experience on real-life projects to build web applications for businesses using Laravel.
-              <br/>
-              <br/>
               Primarily focusing on web development, I am skilled in Laravel,Vue and React. In addition to web development, I have a brief experience working with cross-platform technologies, Flutter and Kotlin.
               <br/>
               <br/>
