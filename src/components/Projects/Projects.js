@@ -2,14 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import ecommerce from "../../Assets/Projects/ecommerce.png";
-import video_sharing from "../../Assets/Projects/video-sharing.png";
-import pool from "../../Assets/Projects/pool.png";
-import madot from "../../Assets/Projects/madot.png";
-import tiruhakim from "../../Assets/Projects/tiruhakim.png";
-import union from "../../Assets/Projects/union.png";
-import jestra from "../../Assets/Projects/jestra.png";
-import social_media from "../../Assets/Projects/social-media.png"
+import ecommerce from "../../Assets/Projects/ecommerce_optimized.png";
+import video_sharing from "../../Assets/Projects/video-sharing_optimized.png";
+import pool from "../../Assets/Projects/pool_optimized.png";
+import madot from "../../Assets/Projects/madot_optimized.png";
+import tiruhakim from "../../Assets/Projects/tiruhakim_optimized.png";
+import union from "../../Assets/Projects/union_optimized.png";
+import jestra from "../../Assets/Projects/jestra_optimized.png";
+import social_media from "../../Assets/Projects/social-media_optimized.png"
 
 function Projects() {
   return (
