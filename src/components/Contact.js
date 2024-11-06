@@ -4,14 +4,17 @@ import Particle from "./Particle";
 import Form from 'react-bootstrap/Form';
 
 function Contact(){
+    const contact = ()=>{
+
+    }
     return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Form>
-        <Form.Group className="mb-3">
-          <Form.Label style={{textAlign:"left"}}><strong>Subject</strong></Form.Label>
-          <Form.Control size="lg" type="text" placeholder="" />
+        <Form onSubmit={contact} style={{backgroundColor:"#472c4c",padding:"15px",borderRadius:"15px"}}>
+        <Form.Group className="mb-3 align-left">
+          <Form.Label>Subject</Form.Label>
+          <Form.Control size="lg" type="text" placeholder="subject" />
         </Form.Group>
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
@@ -19,10 +22,10 @@ function Contact(){
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={3} />
+          <Form.Control as="textarea" rows={3} placeholder="message"/>
         </Form.Group>
-        <Form.Group className="mb-4">
-          <Form.Control type="send" style={{color:"white",backgroundColor:"purple",padding:"10px"}} value="Submit" />
+        <Form.Group className="mb-4 d-flex ">
+          <Form.Control type="submit" style={{color:"white",backgroundColor:"purple",padding:"10px"}} value="Submit" />
         </Form.Group>
         </Form>
       </Container>
