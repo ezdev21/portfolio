@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Contact from "./components/Contact";
+import Gimp from "./components/Projects/Gimp";
 
 import {
   BrowserRouter as Router,
@@ -42,6 +42,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/hire" element={<Navigate to="/"/>} />
+          <Route path="/projects/gimp" element={<Gimp />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
