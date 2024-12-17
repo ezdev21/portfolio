@@ -28,9 +28,7 @@ import {
   SiSass,
   SiLivewire,
   SiGraphql,
-  SiAndroidstudio,
   SiFlutter,
-  SiQt,
   SiQuasar,
   SiGimp
 } from "react-icons/si";
@@ -143,13 +141,10 @@ function Techstack() {
     </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiFlutter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiQt />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiQuasar />
