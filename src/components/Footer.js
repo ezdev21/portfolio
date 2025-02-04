@@ -11,14 +11,14 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
+      <Row style={{display: 'flex',alignItems:'end'}}>
+        <Col md="5" className="footer-copywright">
           <div style={{color: '#fff'}}>
             <h2 style={{color: '#fff',fontWeight: '400'}}>Let's Talk</h2>
             <p>Every project start with a chat. I will be happy to discuss your project.</p>
           </div>
         </Col>
-        <Col md="4" className="footer-copywright">
+        <Col md="3" className="footer-copywright">
           <h3>Copyright © {year} Ezra F.</h3>
         </Col>
         <Col md="4" className="footer-body">
@@ -26,11 +26,11 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/ezdev21"
-                style={{ color: "white" }}
+                style={{ color: "white", fontSize: '15px' }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <AiFillGithub size={25} />
               </a>
             </li>
             <li className="social-icons">
@@ -40,7 +40,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn size={25} />
               </a>
             </li>
             <li className="social-icons">
@@ -50,7 +50,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaTelegram />
+                <FaTelegram size={25} />
               </a>
             </li>
             <li className="social-icons">
@@ -60,7 +60,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <AiOutlineTwitter size={25} />
               </a>
             </li>
           </ul>
