@@ -102,7 +102,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
+                to="#"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Hire

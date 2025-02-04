@@ -13,10 +13,13 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by EZRA</h3>
+          <div style={{color: '#fff'}}>
+            <h2 style={{color: '#fff',fontWeight: '400'}}>Let's Talk</h2>
+            <p>Every project start with a chat. I will be happy to discuss your project.</p>
+          </div>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} EF</h3>
+          <h3>Copyright © {year} Ezra F.</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -28,16 +31,6 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://x.com/ezdev21"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
@@ -58,6 +51,16 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaTelegram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://x.com/ezdev21"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
           </ul>
