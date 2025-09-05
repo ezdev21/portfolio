@@ -13,9 +13,9 @@ function Footer() {
     <Container fluid className="footer">
       <Row style={{display: 'flex',alignItems:'end'}}>
         <Col md="5" className="footer-copywright">
-          <div style={{color: '#fff'}}>
+          <div style={{color: '#fff', display: 'flex', flexDirection:'column', alignItems:'start'}}>
             <h2 style={{color: '#fff',fontWeight: '400'}}>Let's Talk</h2>
-            <p>Every project start with a chat. I will be happy to discuss your project.</p>
+            <h3>Every project start with a chat. I will be happy to discuss your project.</h3>
           </div>
         </Col>
         <Col md="3" className="footer-copywright">
