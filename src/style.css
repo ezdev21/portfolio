@@ -404,8 +404,7 @@ button:focus {
 .footer {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding: 30px 40px !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -436,6 +435,8 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
+  display: flex;
+  justify-content: end;
 }
 
 .blockquote-footer {
