@@ -12,7 +12,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row style={{display: 'flex',alignItems:'end'}}>
-        <Col md="5" className="footer-copywright">
+        <Col md="6" className="footer-copywright">
           <div style={{color: '#fff', display: 'flex', flexDirection:'column', alignItems:'start'}}>
             <h2 style={{color: '#fff',fontWeight: '400'}}>Let's Talk</h2>
             <h3>Every project start with a chat. I will be happy to discuss your project.</h3>
@@ -21,7 +21,7 @@ function Footer() {
         <Col md="3" className="footer-copywright">
           <h3>Copyright © {year} Ezra F.</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        <Col md="3" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
