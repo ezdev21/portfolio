@@ -7,12 +7,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="mb-0" style={{fontSize: "1.25em",textAlign:'left'}}>
           <p>
-              I am a versatile software developer with a passion for building innovative web and mobile applications. With a strong
-              background in full-stack development and mobile app development, I have successfully led the development of
-              complex web applications, optimized user interfaces for performance and responsiveness, and implemented
-              scalable architectures using cutting-edge frameworks.
-              I am always excited to explore new technologies, contribute to impactful projects, and work with dynamic teams that
-              push the boundaries of innovation.
+              I’m a software engineer by profession, driven by a passion for solving real-world problems and creating meaningful
+              solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
+              developing full-stack solutions that meet business requirements and exceed user expectations.
           </p>
           
           <p style={{ color: "rgb(155 126 172)" }}>
