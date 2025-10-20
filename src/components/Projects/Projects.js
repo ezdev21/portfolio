@@ -50,7 +50,6 @@ function Projects() {
               title="Ecommerce wesbsite and application"
               description="ecommerce app project made in laravel rest and lighthouse graphql Vuejs and tailwindcss with docker running environment tested with phpunit 10. get latest products,full search feature included,watch later products and add to cart "
               ghLink="https://github.com/ezdev21/ecommerce"
-              demoLink="https://github.com/ezdev21/ecommerce-mobile"
             />
           </Col>
 
@@ -61,7 +60,6 @@ function Projects() {
               title="Video sharing webiste and application"
               description="video sharing website made with laravel,Vuejs and tailwindcss project with docker sail running environment tested with phpunit. 10 get latest videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!! "
               ghLink="https://github.com/ezdev21/video-sharing"
-              demoLink="https://github.com/ezdev21/video-mobile"             
             />
           </Col>
 
@@ -82,7 +80,6 @@ function Projects() {
               isBlog={false}
               title="Hospital Rating System"
               description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
-              ghLink="https://github.com/ezdev21/doctor-rating-web"
               demoLink="https://tiruhakim.com"
             />
           </Col>
@@ -93,7 +90,6 @@ function Projects() {
               isBlog={false}
               title="Union Academy website"
               description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
-              ghLink="https://github.com/ezdev21/union-academy"
               demoLink="https://tiruhakim.com"
             />
           </Col>
