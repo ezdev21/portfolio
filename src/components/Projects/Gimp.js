@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import Particle from "../Particle";
 
 import img3DEffects from "../../Assets/gimp/3D-effects.jpg";
 import imgGlow from "../../Assets/gimp/anter-glow-original.webp";
@@ -61,7 +60,6 @@ import imgYellowTeeth from "../../Assets/gimp/yellow-teeth.webp";
 function Gimp(){
   return(
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <div className="min-h-screen">
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", color: '#fff' }}><strong className="purple">Gimp</strong> Projects</h1>

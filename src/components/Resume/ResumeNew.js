@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
-import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/RESUME_EZRA_UPDATED.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -16,8 +15,6 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
-
         <Row className="resume"  style={{minHeight: '100vh'}}>
           <div className="d-flex justify-content-center">
           <Document file={pdf}>
