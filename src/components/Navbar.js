@@ -9,6 +9,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineFork,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -89,7 +90,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 href="https://x.com/ezdev21"
                 target="_blank"
@@ -97,17 +98,29 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
-                to=""
+                to="#"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Hire
               </Nav.Link>
+            </Nav.Item> */}
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                target="_blank"
+                to="https://github.com/soumyajit4419/Portfolio"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFork style={{ marginBottom: "2px" }} /> Fork
+              </Nav.Link>
             </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
