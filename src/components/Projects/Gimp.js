@@ -110,10 +110,10 @@ function Gimp(){
             <img className="gimp-image col-md-3" src={imgRain} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgRainStorm} alt="gimp project"/><img className="gimp-image col-md-3" src={img3DEffects} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgRealShadow} alt="gimp project"/>
+            <img className="gimp-image col-md-3" src={imgSakaSmith} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgSakaMusiala} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgShadow} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgSKullFace} alt="gimp project"/>
-            <img className="gimp-image col-md-3" src={imgSakaSmith} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgSliced} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgStitch} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgTextAroundCIrcle} alt="gimp project"/>
