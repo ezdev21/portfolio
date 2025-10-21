@@ -9,23 +9,21 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlineFork,
+  AiFillStar,
 } from "react-icons/ai";
 
-import { CgFileDocument } from "react-icons/cg";
+import { CgFileDocument, CgGitFork } from "react-icons/cg";
+import { Button } from "react-bootstrap";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
+  window.addEventListener("scroll", () => {
     if (window.scrollY >= 50) {
       updateNavbar(true);
-    } else {
-      updateNavbar(false);
     }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
+  });
 
   return (
     <Navbar
@@ -109,15 +107,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
-                to="https://github.com/soumyajit4419/Portfolio"
-                onClick={() => updateExpanded(false)}
+                className="fork-btn-inner"
               >
-                <AiOutlineFork style={{ marginBottom: "2px" }} /> Fork
-              </Nav.Link>
+                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                <AiFillStar style={{ fontSize: "1.1em" }} />
+              </Button>
             </Nav.Item>
 
           </Nav>
