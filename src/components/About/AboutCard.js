@@ -12,7 +12,7 @@ function AboutCard() {
               developing full-stack solutions that meet business requirements and exceed user expectations.
           </p>
           
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(155 126 172)", fontFamily: "Playwrite DE SAS" }}>
             "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."{" "}
           </p>
           <footer className="blockquote-footer">Linus Torvalds</footer>
