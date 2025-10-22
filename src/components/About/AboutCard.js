@@ -7,9 +7,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="mb-0" style={{fontSize: "1.25em",textAlign:'left'}}>
           <p>
-              I’m a software engineer by profession, driven by a passion for solving real-world problems and creating meaningful
-              solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
-              developing full-stack solutions that meet business requirements and exceed user expectations.
+              I am a Full-Stack developer based in Addis Ababa, Ethiopia. I graduated in Electrical and Computer Engineering from Addis Ababa University, and my journey in web development began during my first internship. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
           </p>
           
           <p style={{ color: "rgb(155 126 172)", fontFamily: "Playwrite DE SAS" }}>

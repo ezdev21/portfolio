@@ -19,22 +19,12 @@ function Home2() {
             </h1>
 
             <p className="home-about-body">
-              <p>
               Hey there! 👋 I'm a super versatile software engineer who's all about crafting web and mobile apps that push the boundaries of what's possible.
               <br/>
               <br/>
-              I'm a full-stack engineer with over 4 years of experience. I have built numerous web applications using various
-              programming languages, frameworks, and tools. My expertise includes developing scalable and performant
-              applications, implementing responsive and intuitive user interfaces, and working collaboratively with cross-functional
-              teams. I am passionate about writing clean and maintainable code, staying up-to-date with industry trends, and
-              continuously improving my skills. With a strong foundation in both front-end and back-end development, I am adept
-              at designing and developing full-stack solutions that meet business requirements and exceed user expectations.
-              <br/>
-              <br/>
-              As a team player,  I am great at using version control systems and CI/CD tools to collaborate with teammates on projects. Well-familiar with agile Software Development methodology and modern project management tools and technologies
-              </p>
-              <br />
-              <br />
+              I’m a software engineer by profession, driven by a passion for solving real-world problems and creating meaningful
+              solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
+              developing full-stack solutions that meet business requirements and exceed user expectations.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
