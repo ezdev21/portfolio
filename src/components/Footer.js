@@ -14,8 +14,8 @@ function Footer() {
       <Row style={{display: 'flex',alignItems:'end'}}>
         <Col md="6" className="footer-copywright">
           <div style={{color: '#fff', display: 'flex', flexDirection:'column', alignItems:'start'}}>
-            <h2 style={{color: '#fff',fontWeight: '400'}}>Let's Talk</h2>
-            <h3>Every project start with a chat. I will be happy to discuss your project.</h3>
+            <h2 style={{color: '#fff',fontWeight: '400'}}>Get in touch</h2>
+            <h3 className="text-start">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</h3>
           </div>
         </Col>
         <Col md="3" className="footer-copywright">
