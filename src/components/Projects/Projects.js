@@ -20,6 +20,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tiruhakim}
+              isBlog={false}
+              title="Hospital Management System"
+              description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
+              demoLink="https://tiruhakim.com"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pool}
@@ -32,21 +43,31 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={madot}
+              imgPath={jestra}
               isBlog={false}
-              title="Madot Technology Solutions"
-              description="The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country, and bringing the wealth of stakeholders and employees to a better standard of living."
-              demoLink="https://madottechnology.com"
+              title="Logistics System"
+              description="Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.it can have a positive impact on a business’s bottom line and the customer’s experience by reducing the costs related to shipping, storage, and spoilage and ensuring customers receive their products as expected"
+              demoLink="https://jestra.ecs.et"
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
               title="Ecommerce wesbsite and application"
-              description="ecommerce app project made in laravel rest and lighthouse graphql Vuejs and tailwindcss with docker running environment tested with phpunit 10. get latest products,full search feature included,watch later products and add to cart "
+              description="ecommerce app project made in laravel rest and graphql api, Vuejs and tailwindcss with docker running environment tested with phpunit 10. get latest products,full search feature included,watch later products and add to cart "
               ghLink="https://github.com/ezdev21/ecommerce"
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={madot}
+              isBlog={false}
+              title="Madot Technology Solutions"
+              description="The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country, and bringing the wealth of stakeholders and employees to a better standard of living."
+              demoLink="https://madottechnology.com"
             />
           </Col>
 
@@ -62,32 +83,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jestra}
-              isBlog={false}
-              title="Logistics System"
-              description="Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.it can have a positive impact on a business’s bottom line and the customer’s experience by reducing the costs related to shipping, storage, and spoilage and ensuring customers receive their products as expected"
-              demoLink="https://jestra.ecs.et"
-            />
-          </Col>
-
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tiruhakim}
-              isBlog={false}
-              title="Hospital Rating System"
-              description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
-              demoLink="https://tiruhakim.com"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={union}
               isBlog={false}
               title="Union Academy website"
               description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
-              demoLink="https://tiruhakim.com"
+              demoLink="https://union.wogenholdings.com/"
             />
           </Col>
           <Col md={4} className="project-card">
