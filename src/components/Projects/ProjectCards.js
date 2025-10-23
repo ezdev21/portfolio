@@ -2,9 +2,15 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 function ProjectCards(props) {
   return (
+    <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2, delay: 1 }}
+      >
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
       <Card.Body>
@@ -39,6 +45,7 @@ function ProjectCards(props) {
         )}
       </Card.Body>
     </Card>
+    </motion.div>
   );
 }
 export default ProjectCards;
