@@ -7,7 +7,8 @@ import madot from "../../Assets/Projects/madot_optimized.png";
 import tiruhakim from "../../Assets/Projects/tiruhakim_optimized.png";
 import union from "../../Assets/Projects/union_optimized.png";
 import jestra from "../../Assets/Projects/jestra_optimized.png";
-import social_media from "../../Assets/Projects/social-media_optimized.png"
+import social_media from "../../Assets/Projects/social-media_optimized.png";
+import biritu from "../../Assets/Projects/biritu_optimized.png";
 
 function Projects() {
   return (
@@ -38,6 +39,16 @@ function Projects() {
               title="Pool Transport"
               description="Pool technology solution PLC is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. Which works in providing solution towards solving problems. Among these technology-based systems; POOL technology offers transportation services to people, organizations, and institutions."
               demoLink="https://pool.et"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={biritu}
+              isBlog={false}
+              title="Biritu"
+              description="A Digital Savings Account(Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
+              demoLink="https:biritu.et"
             />
           </Col>
 
