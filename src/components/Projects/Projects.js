@@ -26,7 +26,7 @@ function Projects() {
             <ProjectCard
               imgPath={tiruhakim}
               isBlog={false}
-              title="Hospital Management System"
+              title="Tiruhakim"
               description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
               demoLink="https://tiruhakim.com"
             />
@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={pool}
               isBlog={false}
-              title="Pool Transport"
-              description="Pool technology solution PLC is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. Which works in providing solution towards solving problems. Among these technology-based systems; POOL technology offers transportation services to people, organizations, and institutions."
+              title="Pool Taxi"
+              description="Pool taxi is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. Which works in providing solution towards solving problems. Among these technology-based systems; POOL technology offers transportation services to people, organizations, and institutions."
               demoLink="https://pool.et"
             />
           </Col>
@@ -56,7 +56,7 @@ function Projects() {
             <ProjectCard
               imgPath={jestra}
               isBlog={false}
-              title="Logistics System"
+              title="Jestra"
               description="Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.it can have a positive impact on a business’s bottom line and the customer’s experience by reducing the costs related to shipping, storage, and spoilage and ensuring customers receive their products as expected"
               demoLink="https://jestra.ecs.et"
             />
@@ -66,8 +66,8 @@ function Projects() {
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
-              title="Ecommerce wesbsite and application"
-              description="ecommerce app project made in laravel rest and graphql api, Vuejs and tailwindcss with docker running environment tested with phpunit 10. get latest products,full search feature included,watch later products and add to cart "
+              title="Ecommerce"
+              description="ecommerce app project made in laravel, Vuejs and tailwindcss. get latest products,full search feature included,watch later products and add to cart "
               ghLink="https://github.com/ezdev21/ecommerce"
             />
           </Col> 
@@ -76,7 +76,7 @@ function Projects() {
             <ProjectCard
               imgPath={madot}
               isBlog={false}
-              title="Madot Technology Solutions"
+              title="Madot Solutions"
               description="The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country, and bringing the wealth of stakeholders and employees to a better standard of living."
               demoLink="https://madottechnology.com"
             />
@@ -86,8 +86,8 @@ function Projects() {
             <ProjectCard
               imgPath={video_sharing}
               isBlog={false}
-              title="Video sharing webiste and application"
-              description="video sharing website made with laravel,Vuejs and tailwindcss project with docker sail running environment tested with phpunit. 10 get latest videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!! "
+              title="Video sharing"
+              description="video sharing website made with laravel,Vuejs and tailwindcss. watch videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!! "
               ghLink="https://github.com/ezdev21/video-sharing"
             />
           </Col>
@@ -96,7 +96,7 @@ function Projects() {
             <ProjectCard
               imgPath={union}
               isBlog={false}
-              title="Union Academy website"
+              title="Union Academy"
               description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
               demoLink="https://union.wogenholdings.com/"
             />
@@ -106,7 +106,7 @@ function Projects() {
               imgPath={social_media}
               isBlog={false}
               title="Social Media Platform"
-              description="social media platform project built in laravel 10 websocket(pusher) vue and tailwindcss.realtime posts comments and chats,follow friends,create post,chat system integrated,friend requests and suggestions.videos Resources"
+              description="social media platform project built in laravel websocket vue and tailwindcss. get realtime posts comments and chats,follow friends,create post,chat system integrated,friend requests and suggestions.videos Resources"
               ghLink="https://github.com/ezdev21/social-media"
             />
           </Col>
