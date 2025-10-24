@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 function ProjectCards(props) {
   return (
     <motion.div
-        initial={{ opacity: 0, y: 80 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 2, delay: 1 }}
+        initial={{ opacity: 0, y: 80 , scale: 0}}
+        animate={{ opacity: 1, y: 0 , scale: 1}}
+        transition={{ duration: 2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
       >
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
