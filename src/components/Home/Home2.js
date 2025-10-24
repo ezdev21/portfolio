@@ -1,9 +1,9 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar-ezra.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiFillMail,
   AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram, } from "react-icons/fa";
@@ -40,6 +40,15 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto:ezradev21@gmail.com"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/ezdev21"
