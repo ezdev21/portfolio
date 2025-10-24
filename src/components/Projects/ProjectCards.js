@@ -20,7 +20,7 @@ function ProjectCards(props) {
         </Card.Text>
 
         {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
-        {!props.isBlog && props.ghLink && (
+        {false && !props.isBlog && props.ghLink && (
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
@@ -32,7 +32,7 @@ function ProjectCards(props) {
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {false&& !props.isBlog && props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
