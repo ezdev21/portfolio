@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar-ezra.png";
+import myImg from "../../Assets/avatar-ezra-curved.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
