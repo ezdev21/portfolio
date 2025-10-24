@@ -9,6 +9,8 @@ import union from "../../Assets/Projects/union_optimized.png";
 import jestra from "../../Assets/Projects/jestra_optimized.png";
 import social_media from "../../Assets/Projects/social-media_optimized.png";
 import biritu from "../../Assets/Projects/biritu_optimized.png";
+import haddisArt from "../../Assets/Projects/haddisart_optimized.png";
+import iims from "../../Assets/Projects/iims_optimized.png";
 
 function Projects() {
   return (
@@ -21,16 +23,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
-          <Col md={4} className="project-card">
+
+          {/* <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tiruhakim}
+              imgPath={iims}
               isBlog={false}
-              title="Tiruhakim"
-              description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
+              title="IIMS"
+              description="Industry Management System (IIMS) is a comprehensive software solution designed to streamline and optimize various industrial operations, including inventory management, production planning, quality control, and supply chain logistics."  
               demoLink="https://tiruhakim.com"
             />
+          </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={haddisArt}
+              isBlog={false}
+              title="Haddis Art"
+              description="Haddis Art is an online art gallery that showcases and sells artwork from various artists. It provides a platform for artists to display their work and for art enthusiasts to discover and purchase unique pieces."  
+              demoLink="https://haddisart.com"
+            />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={biritu}
+              isBlog={false}
+              title="Biritu"
+              description="A Digital Savings Account(Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
+              demoLink="https:biritu.et"
+            />
+          </Col> 
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -44,11 +66,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={biritu}
+              imgPath={tiruhakim}
               isBlog={false}
-              title="Biritu"
-              description="A Digital Savings Account(Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
-              demoLink="https:biritu.et"
+              title="Tiruhakim"
+              description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
+              demoLink="https://tiruhakim.com"
             />
           </Col>
 
