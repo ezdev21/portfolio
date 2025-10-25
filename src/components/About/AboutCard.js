@@ -6,7 +6,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="mb-0" style={{fontSize: "1.25em",textAlign:'left'}}>
           <p>
-              I am a Full-Stack developer based in Addis Ababa, Ethiopia. I graduated in Electrical and Computer Engineering from Addis Ababa University, and my journey in web development began during my first internship. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
+              I am a Full-Stack developer based in Addis Ababa, Ethiopia. I graduated in Computer Engineering from Addis Ababa University. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
           </p>
           
           <p style={{ color: "rgb(155 126 172)", fontFamily: "Playwrite DE SAS" }}>
