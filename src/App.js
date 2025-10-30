@@ -19,6 +19,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "./components/Particle";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +43,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/hire" element={<Navigate to="/"/>} />
           <Route path="/projects/gimp" element={<Gimp />} />
