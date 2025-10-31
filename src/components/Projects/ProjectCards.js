@@ -5,12 +5,13 @@ import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 function ProjectCards(props) {
+  console.log(props.order)
   return (
     <motion.div
-        initial={{ opacity: 0, y: 80 , scale: 0}}
-        animate={{ opacity: 1, y: 0 , scale: 1}}
-        transition={{ duration: 2, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-      >
+        initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'100%'} :  { opacity:0, scale: 0.5, y: '100%'} }
+        animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
+        transition={{ duration: 1, delay: 0.5 }}
+    >
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
       <Card.Body>
