@@ -4,8 +4,16 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
-function ProjectCards(props) {
-  console.log(props.order)
+interface ProjectCardProps{
+  imgPath: string;
+  isBlog: boolean;
+  title: string;
+  description: string;
+  demoLink: string;
+  order: number;
+}
+
+function ProjectCards(props: ProjectCardProps) {
   return (
     <motion.div
         initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'100%'} :  { opacity:0, scale: 0.5, y: '100%'} }
@@ -13,7 +21,7 @@ function ProjectCards(props) {
         transition={{ duration: 1, delay: 0.5 }}
     >
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
+      <Card.Img variant="top" src={props.imgPath} alt={props.title} height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "left", fontWeight: '300', fontSize: '16px' }}>
