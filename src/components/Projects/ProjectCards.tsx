@@ -3,13 +3,15 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
+import { Image } from "react-bootstrap";
 
 interface ProjectCardProps{
   imgPath: string;
   isBlog: boolean;
   title: string;
   description: string;
-  demoLink: string;
+  demoLink?: string;
+  ghLink?: string;
   order: number;
 }
 
@@ -21,10 +23,10 @@ function ProjectCards(props: ProjectCardProps) {
         transition={{ duration: 1, delay: 0.5 }}
     >
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt={props.title} height="200px" loading="lazy" style={{objectFit: 'cover'}}/>
+      <Image src={props.imgPath} alt={props.title} fluid loading="lazy" style={{height: "200px", objectFit: 'cover', borderRadius: '6px', margin: '10px'}}/>
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "left", fontWeight: '300', fontSize: '16px' }}>
+        <Card.Title style={{fontWeight: 'bold'}}>{props.title}</Card.Title>
+        <Card.Text style={{ color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px' }}>
           {props.description}
         </Card.Text>
 

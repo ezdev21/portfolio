@@ -50,7 +50,7 @@ function Projects() {
               imgPath={biritu}
               isBlog={false}
               title="Biritu"
-              description="A Digital Savings Account(Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
+              description="A Digital Savings Account (Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
               demoLink="https:biritu.et"
               order={2}
             />
