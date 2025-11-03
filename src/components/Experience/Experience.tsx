@@ -18,14 +18,10 @@ export default function Experience() {
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
-          <Row>
-            <Col>
-              <h1 className="heading">
-                Professional Experience
-              </h1>
-            </Col>
-          </Row>
-          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover">
+          <div>
+            <h1 className="heading">Professional <strong className="purple">Experience</strong></h1>
+          </div>
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>HADDIS ART</Card.Title>
