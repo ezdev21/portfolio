@@ -2,6 +2,18 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 export default function Experience() {
+    const variants = {
+      initial: { opacity:0, scale: 0.5 },
+      animate: { 
+        opacity: 1, 
+        scale: 1, x:0, 
+        y: 0,
+        transition: { duration: 1, delay: 0.5 },
+      },
+      hover: { scale: 1.5, rotate: 5 },
+      tap: { scale: 0.9 },
+    }
+
     return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -13,11 +25,7 @@ export default function Experience() {
               </h1>
             </Col>
           </Row>
-            <motion.div
-                initial={{ opacity:0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >  
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>HADDIS ART</Card.Title>
@@ -35,16 +43,12 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div
-                initial={{ opacity:0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >  
+          <motion.div variants={variants} initial="initial" animate="animate">  
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BIRITU DIGITAL SAVING AND COOP</Card.Title>
                  <Card.Subtitle>
-                    Software Developer Developer Sep 2024 - Feb2025
+                    Software Developer Sep 2024 - Feb2025
                 </Card.Subtitle>
                 <ul style={{padding: 0, listStyleType: '', color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px'}}>
                   <li>Contributed ideas and suggestions in team meetings and delivered updates on deadlines, designs, and enhancements.</li>
@@ -56,11 +60,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div
-                initial={{ opacity:0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >  
+          <motion.div variants={variants} initial="initial" animate="animate">  
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>POOL TAXI</Card.Title>
@@ -78,11 +78,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div
-                initial={{ opacity:0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >  
+          <motion.div variants={variants} initial="initial" animate="animate">  
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>MADOT SOLUTIONS</Card.Title>
@@ -98,11 +94,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div
-                initial={{ opacity:0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-                transition={{ duration: 1, delay: 0.5 }}
-            >  
+          <motion.div variants={variants} initial="initial" animate="animate">  
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BOTAYE DATA SCIENCE</Card.Title>
