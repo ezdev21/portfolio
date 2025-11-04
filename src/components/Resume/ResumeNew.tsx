@@ -16,7 +16,7 @@ const variants = {
   },
   exit: { 
     x: '-100vw',
-    transition: { easeIn }
+    transition: { ease: 'easeInOut' }
   },
   hover: { scale: 1.5, rotate: 5 },
   tap: { scale: 0.9 },
