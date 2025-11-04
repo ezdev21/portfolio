@@ -4,9 +4,18 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import { motion } from 'framer-motion'
+
+const variants = {
+  exit: { 
+    x: '-100vw',
+    transition: { ease: 'easeInOut' }
+  },
+}
 
 function About() {
   return (
+    <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
     <Container fluid className="about-section">
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -42,6 +51,7 @@ function About() {
         <Github />
       </Container>
     </Container>
+    </motion.div>
   );
 }
 

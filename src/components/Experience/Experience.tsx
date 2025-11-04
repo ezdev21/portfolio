@@ -1,27 +1,30 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import { motion } from "framer-motion";
 
-export default function Experience() {
-    const variants = {
-      initial: { opacity:0, scale: 0.5 },
-      animate: { 
-        opacity: 1, 
-        scale: 1, x:0, 
-        y: 0,
-        transition: { duration: 1, delay: 0.5 },
-      },
-      hover: { scale: 1.5, rotate: 5 },
-      tap: { scale: 0.9 },
-    }
+const variants = {
+  initial: { opacity:0, scale: 0.5 },
+  animate: { 
+    opacity: 1, 
+    scale: 1, x:0, 
+    y: 0,
+    transition: { duration: 1, delay: 0.5 },
+  },
+  exit: { 
+    x: '-100vw',
+    transition: { ease: 'easeInOut' }
+  },
+}
 
-    return (
+export default function Experience() {
+
+  return (
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <div>
             <h1 className="heading">Professional <strong className="purple">Experience</strong></h1>
           </div>
-          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap">
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>HADDIS ART</Card.Title>
@@ -39,7 +42,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" animate="animate">  
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BIRITU DIGITAL SAVING AND COOP</Card.Title>
@@ -56,7 +59,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" animate="animate">  
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>POOL TAXI</Card.Title>
@@ -74,7 +77,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" animate="animate">  
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>MADOT SOLUTIONS</Card.Title>
@@ -90,7 +93,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" animate="animate">  
+          <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BOTAYE DATA SCIENCE</Card.Title>

@@ -8,7 +8,6 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineBuild,
 } from "react-icons/ai";
 import { RiBuilding2Line } from "react-icons/ri";
 import { CgFileDocument } from "react-icons/cg";

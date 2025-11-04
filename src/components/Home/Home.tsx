@@ -2,10 +2,19 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { motion } from 'framer-motion'
+
+const variants = {
+  exit: { 
+    x: '-100vw',
+    transition: { ease: 'easeInOut' }
+  },
+  tap: { scale: 0.9 },
+}
 
 function Home() {
   return (
-    <section>
+    <motion.section variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
@@ -40,7 +49,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-    </section>
+    </motion.section>
   );
 }
 
