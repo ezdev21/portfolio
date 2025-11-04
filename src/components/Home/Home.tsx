@@ -30,7 +30,7 @@ function Home() {
           <motion.div
             initial={{ translateX: '-100vw', opacity:0 }}
             animate={{ translateX: '0vw', opacity: 1 }}
-            transition={{ type: 'spring', stiffness: 40}}
+            transition={{ type: 'spring', stiffness: 25, delay: 1.2}}
           >
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
