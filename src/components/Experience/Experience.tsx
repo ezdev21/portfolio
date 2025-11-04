@@ -2,6 +2,13 @@ import { Card, Container } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 const sectionVariants = {
+  initial: {opacity: 0},
+  animate: {
+    opacity: 1,
+    transition:{
+      ease: 'easeInOut'
+    }
+  },
   exit: { 
     x: '-100vw',
     opacity: 0,
@@ -38,7 +45,7 @@ export default function Experience() {
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>HADDIS ART</Card.Title>
                  <Card.Subtitle>
-                    Fullstack Developer Feb 2025 - Aug 2025
+                    Full-stack Developer Feb 2025 - Aug 2025
                 </Card.Subtitle>
                 <ul style={{padding: 0, listStyleType: '', color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px'}}>
                   <li>Complete detailed programming and development tasks for front-end as well as challenging back-end servercode.                </li>
@@ -73,7 +80,7 @@ export default function Experience() {
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>POOL TAXI</Card.Title>
                  <Card.Subtitle>
-                    Fullstack Developer Jun 2023 - Sep 2024
+                    Full-stack Developer Jun 2023 - Sep 2024
                 </Card.Subtitle>
                 <ul style={{padding: 0, listStyleType: '', color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px'}}>
                   <li>Built integrations for appropriate map services, SMS services, and payment systems.</li>
@@ -91,7 +98,7 @@ export default function Experience() {
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>MADOT SOLUTIONS</Card.Title>
                  <Card.Subtitle>
-                    Fullstack Developer Dec 2021 - Sep 2022
+                    Full-stack Developer Dec 2021 - Sep 2022
                 </Card.Subtitle>
                 <ul style={{padding: 0, listStyleType: '', color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px'}}>
                   <li>Led the development and architectural design of a complex web application implementing scalable and maintainable backend architecture</li>
@@ -107,7 +114,7 @@ export default function Experience() {
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BOTAYE DATA SCIENCE</Card.Title>
                  <Card.Subtitle>
-                    Fullstack Developer Aug 2021 - Dec 2021
+                    Full-stack Developer Aug 2021 - Dec 2021
                 </Card.Subtitle>
                 <ul style={{padding: 0, listStyleType: '', color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px'}}>
                   <li>Prepared reports on programming project specifications, activities, or status</li>

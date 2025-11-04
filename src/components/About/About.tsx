@@ -4,9 +4,16 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import { motion } from 'framer-motion'
+import { delay, motion } from 'framer-motion'
 
 const variants = {
+  initial: {opacity: 0},
+  animate: {
+    opacity: 1,
+    transition:{
+      ease: 'easeInOut'
+    }
+  },
   exit: { 
     x: '-100vw',
     opacity: 0,

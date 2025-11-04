@@ -5,6 +5,13 @@ import Type from "./Type";
 import { motion } from 'framer-motion'
 
 const variants = {
+  initial: {opacity: 0},
+  animate: {
+    opacity: 1,
+    transition:{
+      ease: 'easeInOut'
+    }
+  },
   exit: { 
     x: '-100vw',
     opacity: 0,
