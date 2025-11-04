@@ -38,7 +38,12 @@ export default function Experience() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <div>
-            <h1 className="heading">Professional <strong className="purple">Experience</strong></h1>
+            <motion.h1 
+              className="heading"
+              initial={{ translateY: '-100px' }}
+              animate={{ translateY: '0px' }}
+              transition={{ type: 'spring', stiffness: 300}}
+            >Professional <strong className="purple">Experience</strong></motion.h1>
           </div>
           <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">

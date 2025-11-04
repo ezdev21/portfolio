@@ -34,12 +34,16 @@ function Projects() {
     <motion.section variants={variants} exit="exit">
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
-        </h1>
+        <motion.div
+          initial={{ translateY: '-100px' }}
+          animate={{ translateY: '0px' }}
+          transition={{ type: 'spring', stiffness: 300}}
+        >
+        <h1 className="project-heading">My Recent <strong className="purple">Works </strong></h1>
         <p style={{ color: "white", fontSize: '21px', fontWeight: '100' }}>
           Here are a few projects I've worked on recently.
         </p>
+        </motion.div>
         <Row style={{ justifyContent: "center", paddingBottom: "10px", overflow: 'hidden' }}>
 
           {/* <Col md={4} className="project-card">
