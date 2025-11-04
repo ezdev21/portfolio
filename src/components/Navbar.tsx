@@ -15,10 +15,14 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [activeKey, setActiveKey] = useState('/');
 
   window.addEventListener("scroll", () => {
     if (window.scrollY >= 50) {
       updateNavbar(true);
+    }
+    if(window.scrollY < 50){
+      updateNavbar(false);
     }
   });
 
@@ -44,10 +48,11 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav activeKey={activeKey} onSelect={(selectedKey) => setActiveKey(selectedKey)} className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link as={Link} to="/" eventKey="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{ marginBottom: "2px" }}/>
+                <span>Home</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -55,9 +60,11 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/about"
+                eventKey="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} />
+                <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -65,12 +72,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
+                eventKey="/project"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                />
+                <span>Projects</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -78,12 +86,13 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/experience"
+                eventKey="/experience"
                 onClick={() => updateExpanded(false)}
               >
                 <RiBuilding2Line
                   style={{ marginBottom: "2px" }}
-                />{" "}
-                Experience
+                />
+                <span>Experience</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -91,9 +100,11 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
+                eventKey="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} />
+                <span>Resume</span>
               </Nav.Link>
             </Nav.Item>
 

@@ -167,6 +167,8 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 767px) {
@@ -201,7 +203,7 @@ button:focus {
   transition: all 0.3s ease-out 0s;
 }
 
-.navbar-nav .nav-item a:hover::after {
+.navbar-nav .nav-item a:hover::after{
   width: 100%;
 }
 
@@ -766,4 +768,17 @@ button:focus {
 }
 .gimp-image{
   width: 33%;
+}
+
+.active{
+  font-weight: bold !important;
+}
+
+.active > * {
+  color: #c770f0 !important;
+  font-weight: bold !important;
+}
+
+.nav-link span{
+  margin-left: 5px !important;
 }
