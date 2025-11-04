@@ -26,7 +26,12 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+          <Col md={7} className="home-header">
+          <motion.div
+            initial={{ translateX: '-100vw', opacity:0 }}
+            animate={{ translateX: '0vw', opacity: 1 }}
+            transition={{ type: 'spring', stiffness: 40}}
+          >
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -36,14 +41,14 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> EZRA</strong>
+                <strong className="main-name"> EZRA</strong> FIKADU
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+            </motion.div>  
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
