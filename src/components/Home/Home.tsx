@@ -7,14 +7,15 @@ import { motion } from 'framer-motion'
 const variants = {
   exit: { 
     x: '-100vw',
-    transition: { ease: 'easeInOut' }
+    opacity: 0,
+    transition: { ease: 'easeInOut', duration: 1 }
   },
   tap: { scale: 0.9 },
 }
 
 function Home() {
   return (
-    <motion.section variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
+    <motion.section variants={variants} initial="initial" animate="animate" exit="exit">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>

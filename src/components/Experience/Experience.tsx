@@ -1,6 +1,14 @@
 import { Card, Container } from "react-bootstrap";
 import { motion } from "framer-motion";
 
+const sectionVariants = {
+  exit: { 
+    x: '-100vw',
+    opacity: 0,
+    transition: { ease: 'easeInOut', duration: 1 }
+  },
+}
+
 const variants = {
   initial: { opacity:0, scale: 0.5 },
   animate: { 
@@ -11,14 +19,15 @@ const variants = {
   },
   exit: { 
     x: '-100vw',
-    transition: { ease: 'easeInOut' }
+    opacity: 0,
+    transition: { ease: 'easeInOut', duration: 1 }
   },
 }
 
 export default function Experience() {
 
   return (
-    <section>
+    <motion.section variants={sectionVariants} exit="exit">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <div>
@@ -111,6 +120,6 @@ export default function Experience() {
           </motion.div>
         </Container>
       </Container>
-    </section>
+    </motion.section>
   );
 }

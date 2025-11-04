@@ -7,19 +7,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 import { motion } from 'framer-motion'
 
 const variants = {
-  initial: { opacity:0, scale: 0.5 },
-  animate: { 
-    opacity: 1, 
-    scale: 1, x:0, 
-    y: 0,
-    transition: { duration: 1, delay: 0.5 },
-  },
   exit: { 
     x: '-100vw',
-    transition: { ease: 'easeInOut' }
+    opacity: 0,
+    transition: { ease: 'easeInOut', duration: 1 }
   },
-  hover: { scale: 1.5, rotate: 5 },
-  tap: { scale: 0.9 },
 }
 
 function ResumeNew() {

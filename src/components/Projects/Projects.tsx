@@ -11,9 +11,20 @@ import social_media from "../../Assets/Projects/social-media_optimized.png";
 import biritu from "../../Assets/Projects/biritu_optimized.png";
 import haddisArt from "../../Assets/Projects/haddisart_optimized.png";
 import iims from "../../Assets/Projects/iims_optimized.png";
+import { motion } from "framer-motion";
+
+
+const variants = {
+  exit: { 
+    x: '-100vw',
+    opacity: 0,
+    transition: { ease: 'easeInOut', duration: 1 }
+  },
+}
 
 function Projects() {
   return (
+    <motion.section variants={variants} exit="exit">
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
@@ -145,6 +156,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    </motion.section>
   );
 }
 
