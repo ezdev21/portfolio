@@ -46,7 +46,7 @@ export default function Experience() {
               transition={{ type: 'spring', stiffness: 300}}
             >Professional <strong className="purple">Experience</strong></motion.h1>
           </div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>HADDIS ART</Card.Title>
@@ -64,7 +64,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BIRITU DIGITAL SAVING AND COOP</Card.Title>
@@ -81,7 +81,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>POOL TAXI</Card.Title>
@@ -99,7 +99,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>MADOT SOLUTIONS</Card.Title>
@@ -115,7 +115,7 @@ export default function Experience() {
               </Card.Body>
             </Card>
           </motion.div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
             <Card className="experience-card-view">
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold'}}>BOTAYE DATA SCIENCE</Card.Title>
