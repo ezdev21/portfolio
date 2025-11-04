@@ -18,9 +18,10 @@ interface ProjectCardProps{
 function ProjectCards(props: ProjectCardProps) {
   return (
     <motion.div
-        initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'100%'} :  { opacity:0, scale: 0.5, y: '100%'} }
-        animate={{ opacity: 1, scale: 1, x:0, y: 0 }}
-        transition={{ duration: 1, delay: 0.5 }}
+        initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'-15vw'} :  { opacity:0, scale: 0.5, y: '-30vh'} }
+        whileInView={{ opacity: 1, scale: 1, x:0, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1.5, delay: 0.5 }}
     >
     <Card className="project-card-view">
       <Image src={props.imgPath} alt={props.title} fluid loading="lazy" style={{height: "200px", objectFit: 'cover', borderRadius: '6px', margin: '10px'}}/>
