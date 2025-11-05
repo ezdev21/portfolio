@@ -15,8 +15,6 @@ import {
   useLocation
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
-import "./style.css";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "./components/Particle";
 import Experience from "./components/Experience/Experience";
