@@ -9,7 +9,7 @@ function AboutCard() {
               I am a Full-Stack developer based in Addis Ababa, Ethiopia. I graduated in Computer Engineering from Addis Ababa University. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.
           </p>
           
-          <p style={{ color: "rgb(155 126 172)", fontFamily: "Playwrite DE SAS" }}>
+          <p style={{ color: "rgb(155 126 172)", fontFamily: "VT323", fontStyle: 'oblique' }}>
             "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."{" "}
           </p>
           <footer className="blockquote-footer">Linus Torvalds</footer>
