@@ -1,11 +1,11 @@
-<h2 align="center">
+<h4 align="center">
   Portfolio Website for Ezra<br/>
-  <a href="https://ezdev21.vercel.app/" target="_blank">Link</a>
-</h2>
+  <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
+</h4>
 
 <h4 align="center">
   Inspired by<br/>
-  <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">Link</a>
+  <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">https://github.com/soumyajit4419/Portfolio</a>
 </h4>
 
 ## Getting Started
