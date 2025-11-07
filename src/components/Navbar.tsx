@@ -8,9 +8,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillStar,
 } from "react-icons/ai";
 import { RiBuilding2Line } from "react-icons/ri";
-import { CgFileDocument } from "react-icons/cg";
+import { CgFileDocument, CgGitFork } from "react-icons/cg";
+import { Button } from "react-bootstrap";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -128,16 +130,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            {/* <Nav.Item className="fork-btn">
+             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/ezdev21/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item> */}
+            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>
