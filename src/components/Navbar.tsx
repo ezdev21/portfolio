@@ -53,7 +53,7 @@ function NavBar() {
           <Nav activeKey={activeKey} onSelect={(selectedKey) => setActiveKey(selectedKey)} className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" eventKey="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }}/>
+                <AiOutlineHome style={{ marginBottom: "2px", display: 'inline !important' }}/>
                 <span>Home</span>
               </Nav.Link>
             </Nav.Item>
