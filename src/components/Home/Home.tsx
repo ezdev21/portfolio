@@ -33,7 +33,8 @@ function Home() {
           >
               <h1 className="pb-[15px] pl-[50px] text-[2.4em]">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
+                <span className="inline-block origin-[70%_70%] animate-[wave-animation_2.1s_infinite]" 
+                  role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>

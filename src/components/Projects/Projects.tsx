@@ -37,8 +37,8 @@ function Projects() {
           animate={{ translateY: '0px' }}
           transition={{ type: 'spring', stiffness: 300}}
         >
-        <h1 className="text-white text-[2.3em] font-medium pt-5">My Recent <strong className="text-primary">Works </strong></h1>
-        <p className="text-white text-2xl font-extralight">
+        <h1 className="text-white text-[2.3em] font-medium pt-5 text-center">My Recent <strong className="text-primary">Works </strong></h1>
+        <p className="text-white text-2xl font-extralight text-center leading-3">
           Here are a few projects I've worked on recently.
         </p>
         </motion.div>

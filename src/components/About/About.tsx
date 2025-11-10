@@ -45,7 +45,7 @@ function About() {
 
         <Techstack />
 
-        <h1 className="text-white text-[2.3em] font-medium pt-2.5">
+        <h1 className="text-white text-[2.3em] font-medium pt-2.5 text-center">
           <strong className="text-primary">Tools</strong> I use
         </h1>
         
