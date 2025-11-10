@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
 import pdf from "../../Assets/../Assets/RESUME_EZRA_UPDATED.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 import { motion } from 'framer-motion'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const variants = {
   initial: {opacity: 0},
@@ -30,18 +30,17 @@ function ResumeNew() {
 
   return (
     <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
-      <Container fluid className="resume-section">
-        <Row className="resume"  style={{minHeight: '100vh'}}>
-          <div className="d-flex justify-content-center">
+      <div className="relative pt-[110px] pb-[30px] bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+        <div className="py-12 min-h-screen">
+          <div className="flex justify-center">
           <Document file={pdf}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
             <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
             <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
           </div>
-        </Row>
-
-      </Container>
+        </div>
+      </div>
     </motion.div>
   );
 }

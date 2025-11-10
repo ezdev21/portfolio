@@ -1,5 +1,3 @@
-import { Container } from "react-bootstrap";
-
 import img3DEffects from "../../Assets/gimp/3D-effects.jpg";
 import imgGlow from "../../Assets/gimp/anter-glow-original.webp";
 import imgAntler from "../../Assets/gimp/antler-glow.png";
@@ -59,11 +57,11 @@ import imgYellowTeeth from "../../Assets/gimp/yellow-teeth.webp";
 
 function Gimp(){
   return(
-    <Container fluid className="project-section">
-      <Container>
+    <div className="relative pt-[110px] pb-[30px] bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+      <div>
         <div className="min-h-screen">
-          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", color: '#fff' }}><strong className="purple">Gimp</strong> Projects</h1>
-          <div className="d-flex flex-wrap">
+          <h1 className="text-4xl pb-5 text-white"><strong className="text-primary">Gimp</strong> Projects</h1>
+          <div className="flex wrap">
             <img className="gimp-image col-md-3" src={img3DEffects} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgGlow} alt="gimp project"/>
             <img className="gimp-image col-md-3" src={imgAntler} alt="gimp project"/>
@@ -120,8 +118,8 @@ function Gimp(){
             <img className="gimp-image col-md-3" src={imgYellowTeeth} alt="gimp project"/>
           </div>
         </div>
-    </Container>
-    </Container>
+    </div>
+    </div>
   );
 }
 export default Gimp;

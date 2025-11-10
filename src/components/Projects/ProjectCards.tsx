@@ -1,9 +1,6 @@
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { Image } from "react-bootstrap";
 
 interface ProjectCardProps{
   imgPath: string;
@@ -23,13 +20,13 @@ function ProjectCards(props: ProjectCardProps) {
         viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 0.5 }}
     >
-    <Card className="project-card-view">
-      <Image src={props.imgPath} alt={props.title} fluid loading="lazy" style={{height: "200px", objectFit: 'cover', borderRadius: '6px', margin: '10px'}}/>
-      <Card.Body>
-        <Card.Title style={{fontWeight: 'bold'}}>{props.title}</Card.Title>
-        <Card.Text style={{ color: 'lightgray', textAlign: "left", fontWeight: 'lighter', fontSize: '16px' }}>
+    <div className="p-2 flex flex-col text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
+      <img src={props.imgPath} alt={props.title} loading="lazy" className="h-[200px] bg-cover rounded-sm"/>
+      <div>
+        <h4 className="font-bold">{props.title}</h4>
+        <p className="text-left font-light">
           {props.description}
-        </Card.Text>
+        </p>
 
         {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
         {/* {false && !props.isBlog && props.ghLink && (
@@ -55,8 +52,8 @@ function ProjectCards(props: ProjectCardProps) {
             {"Demo"}
           </Button>
         )} */}
-      </Card.Body>
-    </Card>
+      </div>
+    </div>
     </motion.div>
   );
 }

@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import ecommerce from "../../Assets/Projects/ecommerce_optimized.png";
 import video_sharing from "../../Assets/Projects/video-sharing_optimized.png";
@@ -12,7 +11,6 @@ import biritu from "../../Assets/Projects/biritu_optimized.png";
 import haddisArt from "../../Assets/Projects/haddisart_optimized.png";
 import iims from "../../Assets/Projects/iims_optimized.png";
 import { motion } from "framer-motion";
-
 
 const variants = {
     exit: { 
@@ -32,21 +30,21 @@ const variants = {
 function Projects() {
   return (
     <motion.section variants={variants} exit="exit">
-    <Container fluid className="project-section">
-      <Container>
+    <div className="relative pt-[110px] pb-[30px] bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+      <div>
         <motion.div
           initial={{ translateY: '-100px' }}
           animate={{ translateY: '0px' }}
           transition={{ type: 'spring', stiffness: 300}}
         >
-        <h1 className="project-heading">My Recent <strong className="purple">Works </strong></h1>
-        <p style={{ color: "white", fontSize: '21px', fontWeight: '100' }}>
+        <h1 className="text-white text-[2.3em] font-medium pt-5">My Recent <strong className="text-primary">Works </strong></h1>
+        <p className="text-white text-2xl font-extralight">
           Here are a few projects I've worked on recently.
         </p>
         </motion.div>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px", overflow: 'hidden' }}>
+        <div className="grid grid-cols-3 pb-2.5 px-16 overflow-hidden">
 
-          {/* <Col md={4} className="project-card">
+          {/* <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={iims}
               isBlog={false}
@@ -54,9 +52,9 @@ function Projects() {
               description="Industry Management System (IIMS) is a comprehensive software solution designed to streamline and optimize various industrial operations, including inventory management, production planning, quality control, and supply chain logistics."  
               demoLink="https://tiruhakim.com"
             />
-          </Col> */}
+          </div> */}
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={haddisArt}
               isBlog={false}
@@ -65,9 +63,9 @@ function Projects() {
               demoLink="https://haddisart.com"
               order={1}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={biritu}
               isBlog={false}
@@ -76,9 +74,9 @@ function Projects() {
               demoLink="https:biritu.et"
               order={2}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={pool}
               isBlog={false}
@@ -87,9 +85,9 @@ function Projects() {
               demoLink="https://pool.et"
               order={3}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={tiruhakim}
               isBlog={false}
@@ -98,9 +96,9 @@ function Projects() {
               demoLink="https://tiruhakim.com"
               order={1}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={jestra}
               isBlog={false}
@@ -109,9 +107,9 @@ function Projects() {
               demoLink="https://jestra.ecs.et"
               order={2}
             />
-          </Col>
+          </div>
           
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
@@ -120,9 +118,9 @@ function Projects() {
               ghLink="https://github.com/ezdev21/ecommerce"
               order={3}
             />
-          </Col> 
+          </div> 
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={madot}
               isBlog={false}
@@ -131,9 +129,9 @@ function Projects() {
               demoLink="https://madottechnology.com"
               order={1}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={video_sharing}
               isBlog={false}
@@ -142,9 +140,9 @@ function Projects() {
               ghLink="https://github.com/ezdev21/video-sharing"
               order={2}
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={union}
               isBlog={false}
@@ -153,8 +151,8 @@ function Projects() {
               demoLink="https://union.wogenholdings.com/"
               order={3}
             />
-          </Col>
-          <Col md={4} className="project-card">
+          </div>
+          <div className="px-[25px] py-[50px] h-auto">
             <ProjectCard
               imgPath={social_media}
               isBlog={false}
@@ -163,10 +161,10 @@ function Projects() {
               ghLink="https://github.com/ezdev21/social-media"
               order={1}
             />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
     </motion.section>
   );
 }

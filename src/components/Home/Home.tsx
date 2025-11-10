@@ -1,4 +1,3 @@
-import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -23,44 +22,41 @@ const variants = {
 function Home() {
   return (
     <motion.section variants={variants} initial="initial" animate="animate" exit="exit">
-      <Container fluid className="home-section" id="home">
-        <Container className="home-content">
-          <Row>
-          <Col md={7} className="home-header">
+      <div className="relative bg-no-repeat py-[30px] -z-1 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)),url(./Assets/home-bg.jpg)] bg-position-[top_center]">
+        <div className="text-left text-[whitesmoke] pt-36 pb-8 px-0">
+        <div className="flex">
+          <div className="w-7/12 pt-20 pl-[70px]">
           <motion.div
             initial={{ translateX: '-100vw', opacity:0 }}
             animate={{ translateX: '0vw', opacity: 1 }}
             transition={{ type: 'spring', stiffness: 25, delay: 1.2}}
           >
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 className="pb-[15px] pl-[50px] text-[2.4em]">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
-
-              <h1 className="heading-name">
+              <h1 className="pl-[45px] text-[2.5em]">
                 I'M
-                <strong className="main-name"> EZRA</strong> FIKADU
+                <strong className="text-primary"> EZRA</strong> FIKADU
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="p-[50px] text-left">
                 <Type />
               </div>
             </motion.div>  
-            </Col>
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            </div>
+            <div className="md:w-5/12 pb-5">
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid max-h-[450px]"
                 loading="lazy"
               />
-            </Col>
-          </Row>
-        </Container>
-      </Container>
+            </div>
+          </div>
+        </div>
+      </div>
       <Home2 />
     </motion.section>
   );

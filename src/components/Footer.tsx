@@ -1,29 +1,28 @@
-import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineMail,
-  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row style={{display: 'flex',alignItems:'end'}}>
-        <Col md="6" className="footer-copywright">
-          <div style={{color: '#fff', display: 'flex', flexDirection:'column', alignItems:'start'}}>
-            <h2 style={{color: '#fff',fontWeight: '400'}}>Get in touch</h2>
-            <h3 className="text-start">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</h3>
+    <div className="bg-[#0A0416] py-[30px] px-10 bottom-0">
+      <div className="flex items-end">
+        <div className="md:w-1/2 text-center">
+          <div className="text-white flex flex-col items-start">
+            <h3 className="text-white font-normal">Get in touch</h3>
+            <h6 className="text-start">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</h6>
           </div>
-        </Col>
-        <Col md="3" className="footer-copywright">
-          <h3>Copyright © {year} Ezra F.</h3>
-        </Col>
-        <Col md="3" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
+        </div>
+        <div className="text-white md:w-1/4 text-center">
+          <h6>Copyright © {year} Ezra F.</h6>
+        </div>
+        <div className="md:w-1/4 z-1 text-center">
+          <ul className="my-[0.5em] p-0 flex justify-end">
+            <li className="inline-block px-[15px]">
               <a
                 href="mailto:ezradev21@gmail.com"
                 style={{ color: "white", fontSize: '15px' }}
@@ -32,7 +31,7 @@ function Footer() {
                 <AiOutlineMail size={25} />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="inline-block px-[15px]">
               <a
                 href="https://github.com/ezdev21"
                 style={{ color: "white", fontSize: '15px' }}
@@ -42,7 +41,7 @@ function Footer() {
                 <AiFillGithub size={25} />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="inline-block px-[15px]">
               <a
                 href="https://www.linkedin.com/in/ezdev21"
                 style={{ color: "white" }}
@@ -52,7 +51,7 @@ function Footer() {
                 <FaLinkedinIn size={25} />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="inline-block px-[15px]">
               <a
                 href="https://t.me/ezdev21"
                 style={{ color: "white" }}
@@ -62,20 +61,20 @@ function Footer() {
                 <FaTelegram size={25} />
               </a>
             </li>
-            <li className="social-icons">
+            <li className="inline-block px-[15px]">
               <a
                 href="https://x.com/ezdev21"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter size={25} />
+                <BsTwitterX size={25} />
               </a>
             </li>
           </ul>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }
 

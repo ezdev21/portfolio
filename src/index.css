@@ -37,6 +37,14 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.text-primary{
+  color: #c770f0 !important;
+}
+
+.bg-primary{
+  background: #c770f0 !important;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -372,7 +380,7 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: flex !important;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
@@ -381,6 +389,9 @@ button:focus {
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
+  justify-content: center;
+  align-items: center;
+  color: #c770f0;
 }
 
 .home-social-icons::before {
@@ -597,13 +608,15 @@ button:focus {
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
-  padding: 10px !important;
+  padding: 30px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
@@ -802,7 +815,7 @@ button:focus {
   text-align: center !important;
 }
 
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
 @import "tw-animate-css";
 

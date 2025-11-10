@@ -1,11 +1,11 @@
 import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
 
 function Github() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+    <div className="flex justify-center">
+      <div className="pb-2.5">
+      <h1 className="text-white text-[2.3em] font-medium pt-2.5 pb-5">
+        Days I <strong className="text-primary">Code</strong>
       </h1>
       <GitHubCalendar
         username="ezdev21"
@@ -14,7 +14,8 @@ function Github() {
         color="#c084f5"
         fontSize={16}
       />
-    </Row>
+    </div>
+    </div>
   );
 }
 

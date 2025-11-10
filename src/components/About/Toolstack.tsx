@@ -1,4 +1,3 @@
-import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -13,35 +12,35 @@ import { FaAws } from "react-icons/fa";
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <div className="grid grid-cols-5 pb-12 mx-auto">
+      <div className="tech-icons">
         <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <FaAws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiGooglecloud />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiNginx />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiJest />
-      </Col>
-    </Row>
+      </div>
+    </div>
   );
 }
 
