@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particle from "./components/Particle";
 import Experience from "./components/Experience/Experience";
 import { AnimatePresence } from "framer-motion";
+import CursorFollower from "./components/ui/CursorFollower";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div>
+      <CursorFollower/>
       <Particle/>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
