@@ -39,7 +39,7 @@ export default function Experience() {
         <div className="text-left text-[whitesmoke] pt-36 pb-8 px-0">
           <div>
             <motion.h1 
-              className="pl-[50px] text-[2.4em]"
+              className="px-5 text-[2.4em]"
               initial={{ translateY: '-100px' }}
               animate={{ translateY: '0px' }}
               transition={{ type: 'spring', stiffness: 300}}
