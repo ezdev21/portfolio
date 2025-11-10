@@ -1,8 +1,8 @@
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+import Github from "../components/About/Github";
+import Techstack from "../components/About/Techstack";
+import Aboutcard from "../components/About/AboutCard";
+import laptopImg from "../Assets/about.png";
+import Toolstack from "../components/About/Toolstack";
 import { delay, motion } from 'framer-motion'
 
 const variants = {
@@ -33,7 +33,7 @@ function About() {
               transition={{ type: 'spring', stiffness: 300}}
               style={{ fontSize: "2.1em", paddingBottom: "10px" }}
             >
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="text-primary">I'M</strong>
             </motion.h1>
             <Aboutcard />
           </div>

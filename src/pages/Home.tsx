@@ -1,6 +1,6 @@
-import homeLogo from "../../Assets/home-main.svg";
-import Home2 from "./Home2";
-import Type from "./Type";
+import homeLogo from "../Assets/home-main.svg";
+import Home2 from "../components/Home/Home2";
+import Type from "../components/Home/Type";
 import { motion } from 'framer-motion'
 
 const variants = {

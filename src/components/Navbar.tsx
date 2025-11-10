@@ -25,7 +25,7 @@ function NavBar() {
   const navLinks = [
     { to: "/", icon: <AiOutlineHome />, label: "Home" },
     { to: "/about", icon: <AiOutlineUser />, label: "About" },
-    { to: "/project", icon: <AiOutlineFundProjectionScreen />, label: "Projects" },
+    { to: "/projects", icon: <AiOutlineFundProjectionScreen />, label: "Projects" },
     { to: "/experience", icon: <RiBuilding2Line />, label: "Experience" },
     { to: "/resume", icon: <CgFileDocument />, label: "Resume" },
   ];

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import pdf from "../../Assets/../Assets/RESUME_EZRA_UPDATED.pdf";
+import pdf from "../Assets/../Assets/RESUME_EZRA_UPDATED.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { motion } from 'framer-motion'
