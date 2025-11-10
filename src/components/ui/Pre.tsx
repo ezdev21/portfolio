@@ -4,7 +4,7 @@ interface PreProps{
 
 function Pre(props: PreProps) {
   return <div className={props.load ?
-     "fixed inset-0 z-999999 bg-[#0c0513] bg-no-repeat bg-center bg-[url(./Assets/pre.svg)]" 
+     "fixed inset-0 z-999999 bg-[#0c0513] bg-no-repeat bg-center bg-[url(./assets/pre.svg)]" 
      : 
      "opacity-0"}>
      </div>;

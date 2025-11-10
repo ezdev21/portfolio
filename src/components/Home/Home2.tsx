@@ -1,4 +1,4 @@
-import myImg from "../../Assets/avatar-ezra-curved.png";
+import myImg from "@assets/avatar-ezra-curved.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,

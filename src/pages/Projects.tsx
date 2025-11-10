@@ -1,15 +1,15 @@
-import ProjectCard from "../components/Projects/ProjectCards";
-import ecommerce from "../Assets/Projects/ecommerce_optimized.png";
-import video_sharing from "../Assets/Projects/video-sharing_optimized.png";
-import pool from "../Assets/Projects/pool_optimized.png";
-import madot from "../Assets/Projects/madot_optimized.png";
-import tiruhakim from "../Assets/Projects/tiruhakim_optimized.png";
-import union from "../Assets/Projects/union_optimized.png";
-import jestra from "../Assets/Projects/jestra_optimized.png";
-import social_media from "../Assets/Projects/social-media_optimized.png";
-import biritu from "../Assets/Projects/biritu_optimized.png";
-import haddisArt from "../Assets/Projects/haddisart_optimized.png";
-import iims from "../Assets/Projects/iims_optimized.png";
+import ProjectCard from "@components/Projects/ProjectCards";
+import ecommerce from "@assets/Projects/ecommerce_optimized.png";
+import video_sharing from "@assets/Projects/video-sharing_optimized.png";
+import pool from "@assets/Projects/pool_optimized.png";
+import madot from "@assets/Projects/madot_optimized.png";
+import tiruhakim from "@assets/Projects/tiruhakim_optimized.png";
+import union from "@assets/Projects/union_optimized.png";
+import jestra from "@assets/Projects/jestra_optimized.png";
+import social_media from "@assets/Projects/social-media_optimized.png";
+import biritu from "@assets/Projects/biritu_optimized.png";
+import haddisArt from "@assets/Projects/haddisart_optimized.png";
+import iims from "@assets/Projects/iims_optimized.png";
 import { motion } from "framer-motion";
 
 const variants = {

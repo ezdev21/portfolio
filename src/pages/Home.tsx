@@ -1,6 +1,6 @@
-import homeLogo from "../Assets/home-main.svg";
-import Home2 from "../components/Home/Home2";
-import Type from "../components/Home/Type";
+import homeLogo from "@assets/home-main.svg";
+import Home2 from "@components/Home/Home2";
+import Type from "@components/Home/Type";
 import { motion } from 'framer-motion'
 
 const variants = {
@@ -22,7 +22,7 @@ const variants = {
 function Home() {
   return (
     <motion.section variants={variants} initial="initial" animate="animate" exit="exit">
-      <div className="relative bg-no-repeat py-[30px] -z-1 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)),url(./Assets/home-bg.jpg)] bg-position-[top_center]">
+      <div className="relative bg-no-repeat py-[30px] -z-1 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)),url(./assets/home-bg.jpg)] bg-position-[top_center]">
         <div className="text-left text-[whitesmoke] pt-36 pb-8 px-0">
         <div className="flex">
           <div className="w-7/12 pt-20 pl-[70px]">

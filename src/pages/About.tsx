@@ -1,9 +1,9 @@
-import Github from "../components/About/Github";
-import Techstack from "../components/About/Techstack";
-import Aboutcard from "../components/About/AboutCard";
-import laptopImg from "../Assets/about.png";
-import Toolstack from "../components/About/Toolstack";
-import { delay, motion } from 'framer-motion'
+import Github from "@components/About/Github";
+import Techstack from "@components/About/Techstack";
+import Aboutcard from "@components/About/AboutCard";
+import laptopImg from "@assets/about.png";
+import Toolstack from "@components/About/Toolstack";
+import { motion } from 'framer-motion'
 
 const variants = {
   initial: {opacity: 0},
