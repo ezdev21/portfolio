@@ -8,8 +8,8 @@
 body {
   margin: 0;
   /* font-family: "PT Mono", monospace !important; */
-  font-family: "VT323", monospace !important;
-  /* font-family: "Azeret Mono", monospace; */
+  /* font-family: "VT323", monospace !important; */
+  font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto !important;
   font-weight: 500 !important;
   font-style: normal !important;
