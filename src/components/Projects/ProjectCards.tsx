@@ -28,30 +28,32 @@ function ProjectCards(props: ProjectCardProps) {
           {props.description}
         </p>
 
+        <div className="flex space-x-3 mt-3">
         {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
-        {/* {false && !props.isBlog && props.ghLink && (
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+         {!props.isBlog && props.ghLink && (
+          <button className="bg-primary py-1 px-3 rounded-sm">
+            <a className="text-white flex items-center space-x-1" href={props.ghLink} target="_blank">
+              <BsGithub />
+              <span>{props.isBlog ? "Blog" : "GitHub"}</span>
+            </a>
+          </button>
         )}
-
-        {"\n"}
-        {"\n"} */}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {/* {false&& !props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
+       {!props.isBlog && props.demoLink && (
+          <button className="bg-primary py-1 px-3 rounded-sm">
+          <a
+            className="text-white flex items-center space-x-2"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )} */}
+            <CgWebsite />
+            <span>Demo</span>
+          </a>
+          </button>
+        )}
+        </div>
       </div>
     </div>
     </motion.div>

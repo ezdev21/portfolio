@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="IIMS"
               description="Industry Management System (IIMS) is a comprehensive software solution designed to streamline and optimize various industrial operations, including inventory management, production planning, quality control, and supply chain logistics."  
-              demoLink="https://tiruhakim.com"
+              demoLink=""
             />
           </div> */}
 
@@ -60,7 +60,8 @@ function Projects() {
               isBlog={false}
               title="Haddis Art"
               description="Haddis Art is an online art gallery that showcases and sells artwork from various artists. It provides a platform for artists to display their work and for art enthusiasts to discover and purchase unique pieces."  
-              demoLink="https://haddisart.com"
+              demoLink=""
+              ghLink=""
               order={1}
             />
           </div>
@@ -71,7 +72,8 @@ function Projects() {
               isBlog={false}
               title="Biritu"
               description="A Digital Savings Account (Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
-              demoLink="https:biritu.et"
+              demoLink=""
+              ghLink=""
               order={2}
             />
           </div>
@@ -82,7 +84,8 @@ function Projects() {
               isBlog={false}
               title="Pool Taxi"
               description="Pool Taxi is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. Which works in providing solution towards solving problems. Among these technology-based systems; POOL technology offers transportation services to people, organizations, and institutions."
-              demoLink="https://pool.et"
+              demoLink=""
+              ghLink=""
               order={3}
             />
           </div>
@@ -93,7 +96,8 @@ function Projects() {
               isBlog={false}
               title="Tiruhakim"
               description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
-              demoLink="https://tiruhakim.com"
+              demoLink=""
+              ghLink=""
               order={1}
             />
           </div>
@@ -104,7 +108,8 @@ function Projects() {
               isBlog={false}
               title="Jestra"
               description="Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.it can have a positive impact on a business’s bottom line and the customer’s experience by reducing the costs related to shipping, storage, and spoilage and ensuring customers receive their products as expected"
-              demoLink="https://jestra.ecs.et"
+              demoLink=""
+              ghLink=""
               order={2}
             />
           </div>
@@ -115,7 +120,8 @@ function Projects() {
               isBlog={false}
               title="Ecommerce"
               description="ecommerce app project made in laravel, Vuejs and tailwindcss. get latest products,full search feature included,watch later products and add to cart "
-              ghLink="https://github.com/ezdev21/ecommerce"
+              demoLink=""
+              ghLink=""
               order={3}
             />
           </div> 
@@ -126,7 +132,8 @@ function Projects() {
               isBlog={false}
               title="Madot Solutions"
               description="The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country, and bringing the wealth of stakeholders and employees to a better standard of living."
-              demoLink="https://madottechnology.com"
+              demoLink=""
+              ghLink=""
               order={1}
             />
           </div>
@@ -137,7 +144,8 @@ function Projects() {
               isBlog={false}
               title="Video sharing"
               description="video sharing website made with laravel,Vuejs and tailwindcss. watch videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!! "
-              ghLink="https://github.com/ezdev21/video-sharing"
+              demoLink=""
+              ghLink=""
               order={2}
             />
           </div>
@@ -148,7 +156,8 @@ function Projects() {
               isBlog={false}
               title="Union Academy"
               description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
-              demoLink="https://union.wogenholdings.com/"
+              demoLink=""
+              ghLink=""
               order={3}
             />
           </div>
@@ -158,7 +167,8 @@ function Projects() {
               isBlog={false}
               title="Social Media Platform"
               description="social media platform project built in laravel websocket vue and tailwindcss. get realtime posts comments and chats,follow friends,create post,chat system integrated,friend requests and suggestions.videos Resources"
-              ghLink="https://github.com/ezdev21/social-media"
+              demoLink=""
+              ghLink=""
               order={1}
             />
           </div>
