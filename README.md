@@ -1,12 +1,12 @@
 # My Portfolio Website
 
-<h4 align="center">
-  Portfolio Website for Ezra<br/>
+<h4>
+  Portfolio Website for Ezra
   <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
 </h4>
 
-<h4 align="center">
-  Inspired by<br/>
+<h4>
+  Inspired by
   <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">https://github.com/soumyajit4419/Portfolio</a>
 </h4>
 
