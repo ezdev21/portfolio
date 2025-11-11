@@ -20,7 +20,7 @@ import { AnimatePresence } from "framer-motion";
 import CursorFollower from "./components/ui/CursorFollower";
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, upadateLoad] = useState<Boolean>(true);
   const location = useLocation()
 
   useEffect(() => {
@@ -36,17 +36,16 @@ function App() {
       <CursorFollower/>
       <Particle/>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className={load ? "overflow-hidden h-screen" : ""}>
         <Navbar />
         <ScrollToTop />
         <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/hire" element={<Navigate to="/"/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         </AnimatePresence>

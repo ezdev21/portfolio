@@ -23,9 +23,8 @@ body {
   color: #c770f0 !important;
 }
 
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
+.bg-primary{
+  background-color: #c770f0 !important;
 }
 
 /* --------- */
@@ -56,30 +55,14 @@ body {
 /* 👋🏻 wave animation */
 
 @keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
+   0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); } /* The following five values can be played with to make the waving more or less extreme */
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); } /* Reset for the last half to pause */
+ 100% { transform: rotate(0deg); }
 }
 
 .Typewriter__wrapper {
