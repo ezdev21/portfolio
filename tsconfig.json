@@ -10,6 +10,7 @@
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
       "@assets/*": ["assets/*"],
-    }
-  }
+    },
+  },
+  "include": ["src"]
 }
