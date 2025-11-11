@@ -10,7 +10,6 @@
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
       "@assets/*": ["assets/*"],
-      "@utils/*": ["utils/*"]
     }
   }
 }
