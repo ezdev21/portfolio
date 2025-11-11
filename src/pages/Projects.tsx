@@ -37,14 +37,14 @@ function Projects() {
           animate={{ translateY: '0px' }}
           transition={{ type: 'spring', stiffness: 300}}
         >
-        <h1 className="text-white text-[2.3em] font-medium py-5 text-center">My Recent <strong className="text-primary">Works </strong></h1>
-        <p className="text-white text-2xl font-extralight text-center leading-3">
+        <h1 className="text-white text-2xl md:text-4xl font-medium py-5 text-center">My Recent <strong className="text-primary">Works </strong></h1>
+        <p className="text-white text-lg md:text-2xl max-md:font-extralight text-center md:leading-3">
           Here are a few projects I've worked on recently.
         </p>
         </motion.div>
-        <div className="grid grid-cols-3 pb-2.5 px-16 overflow-hidden">
+        <div className="grid md:grid-cols-3 pb-2.5 px-2 md:px-16 overflow-hidden">
 
-          {/* <div className="px-[25px] py-[50px] h-auto">
+          {/* <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={iims}
               isBlog={false}
@@ -54,7 +54,7 @@ function Projects() {
             />
           </div> */}
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={haddisArt}
               isBlog={false}
@@ -65,7 +65,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={biritu}
               isBlog={false}
@@ -76,7 +76,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={pool}
               isBlog={false}
@@ -87,7 +87,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={tiruhakim}
               isBlog={false}
@@ -98,7 +98,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={jestra}
               isBlog={false}
@@ -109,7 +109,7 @@ function Projects() {
             />
           </div>
           
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
@@ -120,7 +120,7 @@ function Projects() {
             />
           </div> 
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={madot}
               isBlog={false}
@@ -131,7 +131,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={video_sharing}
               isBlog={false}
@@ -142,7 +142,7 @@ function Projects() {
             />
           </div>
 
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={union}
               isBlog={false}
@@ -152,7 +152,7 @@ function Projects() {
               order={3}
             />
           </div>
-          <div className="px-[25px] py-[50px] h-auto">
+          <div className="md:px-6 md:py-12">
             <ProjectCard
               imgPath={social_media}
               isBlog={false}

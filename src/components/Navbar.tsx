@@ -51,10 +51,10 @@ function NavBar() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-white md:hidden focus:outline-none"
+          className="text-white font-bold md:hidden focus:outline-none"
         >
           <svg
-            className="w-6 h-6"
+            className="w-10 h-10"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ function NavBar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute md:static top-16 left-0 w-full md:w-auto bg-[#0A0416] md:bg-transparent md:flex md:items-center md:space-x-10 text-white text-sm font-medium transition-all`}
+          } absolute md:static top-16 left-0 w-full md:w-auto bg-[#0A0416] md:bg-transparent md:flex md:items-center md:space-x-10 text-white text-sm font-medium transition-all py-3`}
         >
           {navLinks.map(({ to, icon, label }) => (
             <Link
@@ -105,10 +105,12 @@ function NavBar() {
             href="https://github.com/ezdev21/Portfolio"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#934cce5e]  hover:bg-[#c770f0] text-white px-5 py-2 rounded-md transition-all"
+            className="inline-block gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#934cce5e]  hover:bg-[#c770f0] text-white px-5 py-2 rounded-md transition-all"
           >
-            <CgGitFork className="text-lg" />
-            <AiFillStar className="text-lg" />
+            <div className="flex items-center">
+              <CgGitFork className="text-lg" />
+              <AiFillStar className="text-lg" />
+            </div>
           </a>
         </div>
       </div>

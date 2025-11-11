@@ -9,15 +9,15 @@ import { BsTwitterX } from "react-icons/bs";
 
 function Home2() {
   return (
-    <div className="relative py-[70px]">
+    <div className="relative py-4 md:py-[70px]">
       <div>
-        <div className="flex items-center px-10">
-          <div className="md:w-2/3 text-white pt-[100px] pb-5 pl-[60px]">
-            <h1 className="text-[2.6em]">
+        <div className="md:flex items-center px-4 md:px-10">
+          <div className="md:w-2/3 text-white p-4 md:pt-[100px] md:pl-[60px]">
+            <h1 className="text-2xl md:text-[2.6em] pb-5">
               LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
             </h1>
 
-            <p className="text-left pt-[50px] text-[1.25em]">
+            <p className="text-left md:pt-[50px] text-md md:text-[1.25em]">
               Hey there! 👋 I'm a super versatile software engineer who's all about crafting web and mobile apps that push the boundaries of what's possible.
               <br/>
               <br/>
@@ -26,7 +26,7 @@ function Home2() {
               developing full-stack solutions that meet business requirements and exceed user expectations.
             </p>
           </div>
-          <div className="md:w-1/3 flex items-center pt- justify-center pt-5">
+          <div className="md:w-1/3 md:flex items-center justify-center pt-5">
             <Tilt>
               <img src={myImg} width="300px" className="img-fluid" alt="avatar" loading="lazy"/>
             </Tilt>
@@ -43,7 +43,7 @@ function Home2() {
                 <a
                   href="mailto:ezradev21@gmail.com"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#c770f0] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillMail />
                 </a>
@@ -53,7 +53,7 @@ function Home2() {
                   href="https://github.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#c770f0] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillGithub />
                 </a>
@@ -63,7 +63,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/ezdev21/"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#c770f0] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -73,7 +73,7 @@ function Home2() {
                   href="https://t.me/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#c770f0] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaTelegram />
                 </a>
@@ -83,7 +83,7 @@ function Home2() {
                   href="https://x.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#c770f0] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <BsTwitterX />
                 </a>

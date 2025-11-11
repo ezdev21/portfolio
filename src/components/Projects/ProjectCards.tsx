@@ -20,11 +20,11 @@ function ProjectCards(props: ProjectCardProps) {
         viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 0.5 }}
     >
-    <div className="p-2 flex flex-col text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
+    <div className="max-md:my-5 p-2 flex flex-col text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
       <img src={props.imgPath} alt={props.title} loading="lazy" className="h-[200px] bg-cover rounded-sm"/>
       <div className="m-2">
-        <h4 className="font-bold text-xl my-1">{props.title}</h4>
-        <p className="text-left font-light">
+        <h4 className="font-bold text-lg md:text-xl my-1">{props.title}</h4>
+        <p className="text-left max-md:text-sm max-md:font-light font-light">
           {props.description}
         </p>
 
