@@ -1,5 +1,9 @@
 # My Portfolio Website
 
+<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/b83de617-4e60-4339-8d08-30d3daade5b3" />
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/42ad563c-3bae-4ebc-b3a2-7f03e3c307a0" />
+<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/f35403c9-82e0-4732-8df1-72810e93d574" />
+
 <h4>
   Portfolio Website for Ezra
   <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
