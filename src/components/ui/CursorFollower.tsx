@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-const CursorFollower: React.FC = () => {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+const CursorFollower = () => {
+  const [position, setPosition] = useState<{x:number,y:number}>({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
@@ -13,7 +13,7 @@ const CursorFollower: React.FC = () => {
 
   return (
     <div
-      className="min-h-screen text-white pointer-events-none fixed top-0 left-0 z-50 transition-transform duration-150 ease-out"
+      className="min-h-screen text-white pointer-events-none fixed -top-10 -left-10 z-50 transition-transform duration-150 ease-out"
       style={{
         transform: `translate(${position.x - 10}px, ${position.y - 10}px)`,
       }}
