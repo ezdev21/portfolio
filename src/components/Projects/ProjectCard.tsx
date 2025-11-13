@@ -1,6 +1,7 @@
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
+import { div, span } from "framer-motion/client";
 
 interface ProjectCardProps{
   imgPath: string;
@@ -10,9 +11,10 @@ interface ProjectCardProps{
   demoLink?: string;
   ghLink?: string;
   order: number;
+  skills?: string[];
 }
 
-function ProjectCards(props: ProjectCardProps) {
+function ProjectCard(props: ProjectCardProps) {
   return (
     <motion.div
         initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'-15vw'} :  { opacity:0, scale: 0.5, y: '-30vh'} }
@@ -27,10 +29,21 @@ function ProjectCards(props: ProjectCardProps) {
         <p className="text-left max-md:text-sm max-md:font-light font-light">
           {props.description}
         </p>
+ 
+        <div className="my-2">
+          {/* these are the skills used for building the project*/}
+          {props.skills && (
+            <div className="flex space-x-2 flex-wrap">
+              {props.skills.map(skill=>(
+                <span className="bg-primary text-white py-1 px-2 my-2 rounded-sm text-xs">{skill}</span>
+              ))}
+            </div>
+          )}
+        </div>
 
         <div className="flex space-x-3 mt-3">
         {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
-         {!props.isBlog && props.ghLink && (
+        {!props.isBlog && props.ghLink && (
           <button className="bg-primary py-1 px-3 rounded-sm">
             <a className="text-white flex items-center space-x-1" href={props.ghLink} target="_blank">
               <BsGithub />
@@ -59,4 +72,4 @@ function ProjectCards(props: ProjectCardProps) {
     </motion.div>
   );
 }
-export default ProjectCards;
+export default ProjectCard;

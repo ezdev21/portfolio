@@ -1,4 +1,3 @@
-import ProjectCard from "@components/Projects/ProjectCards";
 import ecommerce from "@assets/Projects/ecommerce_optimized.png";
 import video_sharing from "@assets/Projects/video-sharing_optimized.png";
 import pool from "@assets/Projects/pool_optimized.png";
@@ -11,6 +10,7 @@ import biritu from "@assets/Projects/biritu_optimized.png";
 import haddisArt from "@assets/Projects/haddisart_optimized.png";
 import iims from "@assets/Projects/iims_optimized.png";
 import { motion } from "framer-motion";
+import ProjectCard from "../components/Projects/ProjectCard";
 
 const variants = {
     exit: { 
@@ -63,6 +63,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={1}
+              skills={[]}
             />
           </div>
 
@@ -75,6 +76,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={2}
+              skills={[]}
             />
           </div>
 
@@ -87,6 +89,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={3}
+              skills={[]}
             />
           </div>
 
@@ -99,6 +102,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={1}
+              skills={[]}
             />
           </div>
 
@@ -111,6 +115,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={2}
+              skills={[]}
             />
           </div>
           
@@ -123,6 +128,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={3}
+              skills={[]}
             />
           </div> 
 
@@ -135,6 +141,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={1}
+              skills={[]}
             />
           </div>
 
@@ -147,6 +154,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={2}
+              skills={[]}
             />
           </div>
 
@@ -159,6 +167,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={3}
+              skills={[]}
             />
           </div>
           <div className="md:px-6 md:py-12">
@@ -170,6 +179,7 @@ function Projects() {
               demoLink=""
               ghLink=""
               order={1}
+              skills={[]}
             />
           </div>
         </div>
