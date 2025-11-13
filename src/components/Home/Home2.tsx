@@ -18,10 +18,10 @@ function Home2() {
             </h1>
 
             <p className="text-left md:pt-[50px] text-md md:text-[1.25em]">
-              Hey there! 👋 I'm a super versatile software engineer who's all about crafting web and mobile apps that push the boundaries of what's possible.
+              Hey there! 👋 I'm a software developer who's all about crafting web and mobile apps that push the boundaries of what's possible.
               <br/>
               <br/>
-              I’m a software engineer by profession, driven by a passion for solving real-world problems and creating meaningful
+              I’m a software developer by profession, driven by a passion for solving real-world problems and creating meaningful
               solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
               developing full-stack solutions that meet business requirements and exceed user expectations.
             </p>
@@ -34,12 +34,12 @@ function Home2() {
         </div>
         <div>
           <div className="md:w-full text-white text-center pt-[25px]">
-            <h1>FIND ME ON</h1>
-            <p>
+            <h1 className="text-3xl pb-5">FIND ME ON</h1>
+            <p className="pb-5 text-xl">
               Feel free to <span className="text-primary">connect </span>with me
             </p>
-            <ul className="relative pl-0 pt-[15px] justify-center flex ">
-              <li className="inline px-[15px]">
+            <ul className="relative pl-0 pt-4 flex justify-center space-x-10">
+              <li>
                 <a
                   href="mailto:ezradev21@gmail.com"
                   rel="noreferrer"
@@ -48,7 +48,7 @@ function Home2() {
                   <AiFillMail />
                 </a>
               </li>
-              <li className="inline px-[15px]">
+              <li>
                 <a
                   href="https://github.com/ezdev21"
                   target="_blank"
@@ -58,7 +58,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="inline px-[15px]">
+              <li>
                 <a
                   href="https://www.linkedin.com/in/ezdev21/"
                   target="_blank"
@@ -68,7 +68,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="inline px-[15px]">
+              <li>
                 <a
                   href="https://t.me/ezdev21"
                   target="_blank"
@@ -78,7 +78,7 @@ function Home2() {
                   <FaTelegram />
                 </a>
               </li>
-              <li className="inline px-[15px]">
+              <li>
                 <a
                   href="https://x.com/ezdev21"
                   target="_blank"
