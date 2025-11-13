@@ -33,8 +33,12 @@ The page will reload if you make edits.
 
 ## Configuring @tsparticles/react
 
-visit  <a href="[https://ezdev21.vercel.app/](https://particles.js.org/)" target="_blank">tsparticles website</a>
-chose your preset and export `tsparticles.json` file
+visit  tsparticles website
+
+<a href="[https://ezdev21.vercel.app/](https://particles.js.org/)" target="_blank">[https://ezdev21.vercel.app](https://particles.js.org/)</a>
+
+choose your preset and export `tsparticles.json` file
+
 then edit `/components/ui/Particle.tsx` file using the exported json file
 
 ## Contributing
