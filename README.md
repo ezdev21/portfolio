@@ -31,6 +31,12 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.
 
 
+## Configuring @tsparticles/react
+
+visit  <a href="[https://ezdev21.vercel.app/](https://particles.js.org/)" target="_blank">tsparticles website</a>
+chose your preset and export `tsparticles.json` file
+then edit `/components/ui/Particle.tsx` file using the exported json file
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
