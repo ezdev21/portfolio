@@ -35,7 +35,7 @@ The page will reload if you make edits.
 
 visit  tsparticles website
 
-<a href="[https://particles.js.org/](https://particles.js.org/)" target="_blank">[https://ezdev21.vercel.app](https://particles.js.org/)</a>
+<a href="https://particles.js.org/" target="_blank">https://particles.js.org/</a>
 
 choose your preset and export `tsparticles.json` file
 
