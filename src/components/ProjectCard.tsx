@@ -6,7 +6,7 @@ import type { ProjectProps } from "../utils/projects";
 function ProjectCard(props: ProjectProps) {
   return (
     <motion.div
-        initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'-15vw'} :  { opacity:0, scale: 0.5, y: '-30vh'} }
+        initial={props.order===3 ?  { opacity:0, scale: 0.5, x: -100} :  { opacity:0, scale: 0.5, y: -200} }
         whileInView={{ opacity: 1, scale: 1, x:0, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 0.5 }}

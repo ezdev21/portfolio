@@ -1,16 +1,24 @@
+import { motion } from 'framer-motion'
 
 const Education = () => {
   const education = [
     {
       degree: "Bachelor of Science in Electrical and Computer Engineering",
       school: "Addis Ababa University",
-      year: "2023",
+      year: "",
       details: "Specialized in Computer Stream software development, web technologies, and AI.",
-    }
+    },
   ];
 
   return (
-    <section id="education" className="py-16 text-white">
+    <motion.section
+      id="education" 
+      initial={{x: -200 }}
+      whileInView={{x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1.5, delay: 0 }}
+      className="py-16 text-white"
+      >
       <h2 className="text-3xl font-bold mb-10 text-center">Education</h2>
       <div className="flex flex-col items-center gap-8">
         {education.map((edu, index) => (
@@ -25,7 +33,7 @@ const Education = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -5,6 +5,7 @@ import laptopImg from "@assets/about.png";
 import { motion } from 'framer-motion'
 import Education from "../components/Education";
 import Languages from "../components/Languages";
+import SoftSkills from "../components/SoftSkills";
 
 const variants = {
   initial: {opacity: 0},
@@ -49,24 +50,16 @@ function About() {
         <Github />
 
         <div className="relative md:flex overflow-hidden">
-          <motion.div 
-            className="md:w-1/2"
-            initial={{x: -200 }}
-            whileInView={{x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5, delay: 0 }}
-          >
+          <div className="md:w-1/3">
             <Education/>
-          </motion.div>
-          <motion.div 
-            className="md:w-1/2"
-            initial={{x: 200 }}
-            whileInView={{x: 0}}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5, delay: 0 }}
-          >
+          </div>
+          <div 
+            className="md:w-5/12">
+            <SoftSkills/>
+          </div>
+          <div className="md:w-1/4">
             <Languages/>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
