@@ -9,15 +9,15 @@ import { BsTwitterX } from "react-icons/bs";
 
 function Home2() {
   return (
-    <div className="relative py-4 md:py-[70px]">
+    <div className="relative py-4 md:py-18">
       <div>
         <div className="md:flex items-center px-4 md:px-10">
-          <div className="md:w-2/3 text-white p-4 md:pt-[100px] md:pl-[60px]">
-            <h1 className="text-2xl md:text-[2.6em] pb-5">
+          <div className="md:w-2/3 text-white p-4 md:pt-25 md:pl-15">
+            <h1 className="text-2xl md:text-5xl pb-5">
               LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
             </h1>
 
-            <p className="text-left md:pt-[50px] text-md md:text-[1.25em]">
+            <p className="text-left md:pt-12 text-md md:text-xl">
               Hey there! 👋 I'm a software developer who's all about crafting web and mobile apps that push the boundaries of what's possible.
               <br/>
               <br/>
@@ -33,7 +33,7 @@ function Home2() {
           </div>
         </div>
         <div>
-          <div className="md:w-full text-white text-center pt-[25px]">
+          <div className="md:w-full text-white text-center pt-6">
             <h1 className="text-3xl pb-5">FIND ME ON</h1>
             <p className="pb-5 text-xl">
               Feel free to <span className="text-primary">connect </span>with me

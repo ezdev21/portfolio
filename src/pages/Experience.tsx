@@ -35,7 +35,7 @@ export default function Experience() {
 
   return (
     <motion.section variants={sectionVariants} exit="exit">
-      <div className="relative bg-no-repeat py-[30px] md:px-[70px] bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863))] bg-position-[top_center]">
+      <div className="relative bg-no-repeat py-7 md:px-17 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863))] bg-position-[top_center]">
         <div className="text-left text-[whitesmoke] pt-36 pb-8 px-0">
           <div>
             <motion.h1 
@@ -43,7 +43,7 @@ export default function Experience() {
               initial={{ translateY: '-100px' }}
               animate={{ translateY: '0px' }}
               transition={{ type: 'spring', stiffness: 300}}
-            >Professional <strong className="text-primary">Experience</strong></motion.h1>
+            >Professional <strong className="text-primary pb-5">Experience</strong></motion.h1>
           </div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
             <div className="p-5 my-10 text-white bg-transparent h-full transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">

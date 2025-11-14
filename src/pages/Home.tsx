@@ -22,10 +22,10 @@ const variants = {
 function Home() {
   return (
     <motion.section variants={variants} initial="initial" animate="animate" exit="exit">
-      <div className="relative bg-no-repeat py-[30px] -z-1 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)),url(./assets/home-bg.jpg)] bg-position-[top_center]">
+      <div className="relative bg-no-repeat py-7 -z-1 bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)),url(./assets/home-bg.jpg)] bg-position-[top_center]">
         <div className="text-left text-[whitesmoke] pt-36 pb-8 px-0">
         <div className="md:flex">
-          <div className="md:w-7/12 md:pt-20 md:pl-[70px]">
+          <div className="md:w-7/12 md:pt-20 md:pl-17">
           <motion.div
             initial={{ translateX: '-100vw', opacity:0 }}
             animate={{ translateX: '0vw', opacity: 1 }}
@@ -51,7 +51,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid max-h-[450px]"
+                className="img-fluid max-h-110"
                 loading="lazy"
               />
             </div>

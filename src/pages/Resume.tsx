@@ -30,7 +30,7 @@ function ResumeNew() {
 
   return (
     <motion.div variants={variants} initial="initial" animate="animate" whileHover="hover" whileTap="tap" exit="exit">
-      <div className="relative py-15 md:pt-[110px] md:pb-[30px] bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)] text-white">
+      <div className="relative py-15 md:pt-27 md:pb-7 bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)] text-white">
         <div className="py-12 min-h-screen">
           <div className="flex justify-center">
           <Document file={pdf}>

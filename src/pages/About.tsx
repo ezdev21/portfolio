@@ -25,7 +25,7 @@ const variants = {
 function About() {
   return (
     <motion.div variants={variants} initial="initial" animate="animate" exit="exit">
-    <div className="relative pt-[100px] pb-[30px] text-white bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+    <div className="relative pt-25 pb-8 text-white bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
       <div className="px-4 md:px-20">
         <div className="p-2.5 md:flex items-start">
           <div className="md:w-7/12 pt-3 md:pt-7 md:pb-12">
@@ -39,7 +39,7 @@ function About() {
             </motion.h1>
             <Aboutcard />
           </div>
-          <div className="md:w-5/12 py-2 md:py-8 md:pt-[120px] md:pb-[50px]"
+          <div className="md:w-5/12 py-2 md:py-8 md:pt-30 md:pb-12"
           >
             <img src={laptopImg} alt="about" className="img-fluid" loading="lazy"/>
           </div>

@@ -12,7 +12,7 @@ function ProjectCard(props: ProjectProps) {
         transition={{ duration: 1.5, delay: 0.5 }}
     >
     <div className="max-md:my-5 p-2 flex flex-col text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
-      <img src={props.imgPath} alt={props.title} loading="lazy" className="h-[200px] bg-cover rounded-sm"/>
+      <img src={props.imgPath} alt={props.title} loading="lazy" className="h-50 bg-cover rounded-sm grayscale-60 hover:grayscale-0"/>
       <div className="m-2">
         <h4 className="font-bold text-lg md:text-xl my-1">{props.title}</h4>
         <p className="text-left max-md:text-sm max-md:font-light font-light">
@@ -22,9 +22,9 @@ function ProjectCard(props: ProjectProps) {
         <div className="my-2">
           {/* these are the skills used for building the project*/}
           {props.skills && (
-            <div className="flex space-x-2 flex-wrap">
+            <div className="flex gap-3 flex-wrap">
               {props.skills.map(skill=>(
-                <span className="bg-primary text-white py-1 px-2 my-2 rounded-sm text-xs">{skill}</span>
+                <span className="bg-primary text-white py-1 px-2 rounded-sm text-xs">{skill}</span>
               ))}
             </div>
           )}

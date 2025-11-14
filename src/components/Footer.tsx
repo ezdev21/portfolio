@@ -21,8 +21,8 @@ function Footer() {
           <h6>Copyright © {year} Ezra F.</h6>
         </div>
         <div className="order-2 md:order-3 md:w-1/4 z-1 text-center">
-          <ul className="my-[0.5em] p-0 flex justify-start md:justify-end">
-            <li className="inline-block md:px-[15px]">
+          <ul className="my-2 flex justify-start md:justify-end">
+            <li className="inline-block md:px-4">
               <a
                 href="mailto:ezradev21@gmail.com"
                 style={{ color: "white", fontSize: '15px' }}
@@ -31,7 +31,7 @@ function Footer() {
                 <AiOutlineMail size={25} />
               </a>
             </li>
-            <li className="inline-block px-[15px]">
+            <li className="inline-block px-4">
               <a
                 href="https://github.com/ezdev21"
                 style={{ color: "white", fontSize: '15px' }}
@@ -41,7 +41,7 @@ function Footer() {
                 <AiFillGithub size={25} />
               </a>
             </li>
-            <li className="inline-block px-[15px]">
+            <li className="inline-block px-4">
               <a
                 href="https://www.linkedin.com/in/ezdev21"
                 style={{ color: "white" }}
@@ -51,7 +51,7 @@ function Footer() {
                 <FaLinkedinIn size={25} />
               </a>
             </li>
-            <li className="inline-block px-[15px]">
+            <li className="inline-block px-4">
               <a
                 href="https://t.me/ezdev21"
                 style={{ color: "white" }}
@@ -61,7 +61,7 @@ function Footer() {
                 <FaTelegram size={25} />
               </a>
             </li>
-            <li className="inline-block px-[15px]">
+            <li className="inline-block px-4">
               <a
                 href="https://x.com/ezdev21"
                 style={{ color: "white" }}
