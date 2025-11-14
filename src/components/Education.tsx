@@ -2,17 +2,11 @@
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Example",
-      year: "2020 - 2024",
-      details: "Specialized in software development, web technologies, and AI.",
-    },
-    {
-      degree: "High School Diploma",
-      school: "Example High School",
-      year: "2016 - 2020",
-      details: "Graduated with honors and led the robotics club.",
-    },
+      degree: "Bachelor of Science in Electrical and Computer Engineering",
+      school: "Addis Ababa University",
+      year: "2023",
+      details: "Specialized in Computer Stream software development, web technologies, and AI.",
+    }
   ];
 
   return (

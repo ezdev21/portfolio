@@ -1,9 +1,12 @@
+import ethiopianFlag from "@assets/flags/ET.svg";
+import americanFlag from "@assets/flags/US.svg";
+import franceFlag from "@assets/flags/FR.svg";
 
 const Languages = () => {
   const languages = [
-    { name: "Amharic", level: "Native", src: "http://purecatamphetamine.github.io/country-flag-icons/3x2/ET.svg" },
-    { name: "English", level: "Fluent", src: "http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg" },
-    { name: "French", level: "Basic", src: "http://purecatamphetamine.github.io/country-flag-icons/3x2/FR.svg" },
+    { name: "Amharic", level: "Native", src: ethiopianFlag },
+    { name: "English", level: "Fluent", src: americanFlag },
+    { name: "French", level: "Basic", src: franceFlag },
   ];
 
   return (

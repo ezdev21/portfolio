@@ -1,9 +1,11 @@
-import Github from "@components/Github";
+import Github from "@components/ui/Github";
 import Techstack from "@components/Techstack";
 import Aboutcard from "@components/AboutCard";
 import laptopImg from "@assets/about.png";
 import Toolstack from "@components/Toolstack";
 import { motion } from 'framer-motion'
+import Education from "../components/Education";
+import Languages from "../components/Languages";
 
 const variants = {
   initial: {opacity: 0},
@@ -52,6 +54,27 @@ function About() {
         <Toolstack />
         
         <Github />
+
+        <div className="md:flex">
+          <motion.div 
+            className="md:w-1/2"
+            initial={{x: '-100vh'}}
+            whileInView={{x: 0}}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, delay: 0 }}
+          >
+            <Education/>
+          </motion.div>
+          <motion.div 
+            className="md:w-1/2"
+            initial={{x: '100vh'}}
+            whileInView={{x: 0}}
+            viewport={{ once: true }}
+            transition={{ duration: 1.5, delay: 0 }}
+          >
+            <Languages/>
+          </motion.div>
+        </div>
       </div>
     </div>
     </motion.div>
