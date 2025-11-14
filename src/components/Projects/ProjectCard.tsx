@@ -1,19 +1,9 @@
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
+import type { ProjectProps } from "../../utils/projects";
 
-interface ProjectCardProps{
-  imgPath: string;
-  isBlog: boolean;
-  title: string;
-  description: string;
-  demoLink?: string;
-  ghLink?: string;
-  order: number;
-  skills?: string[];
-}
-
-function ProjectCard(props: ProjectCardProps) {
+function ProjectCard(props: ProjectProps) {
   return (
     <motion.div
         initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'-15vw'} :  { opacity:0, scale: 0.5, y: '-30vh'} }
