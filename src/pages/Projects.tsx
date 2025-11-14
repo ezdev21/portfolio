@@ -5,12 +5,103 @@ import madot from "@assets/Projects/madot_optimized.png";
 import tiruhakim from "@assets/Projects/tiruhakim_optimized.png";
 import union from "@assets/Projects/union_optimized.png";
 import jestra from "@assets/Projects/jestra_optimized.png";
-import social_media from "@assets/Projects/social-media_optimized.png";
 import biritu from "@assets/Projects/biritu_optimized.png";
 import haddisArt from "@assets/Projects/haddisart_optimized.png";
-import iims from "@assets/Projects/iims_optimized.png";
 import { motion } from "framer-motion";
 import ProjectCard from "../components/Projects/ProjectCard";
+
+const projects  = [
+  {
+    imgPath: haddisArt,
+    isBlog: false,
+    title: "Haddis Art",
+    description: "Haddis Art is an online art gallery that showcases and sells artwork from various artists. It provides a platform for artists to display their work and for art enthusiasts to discover and purchase unique pieces.",
+    demoLink: "",
+    ghLink: "",
+    order: 1,
+    skills: [],
+  },
+  {
+    imgPath: biritu,
+    isBlog: false,
+    title: "Biritu",
+    description: "A Digital Savings Account (Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process",
+    demoLink: "",
+    ghLink: "",
+    order: 2,
+    skills: []
+  },
+  {
+    imgPath: pool,
+    isBlog: false,
+    title: "Pool Taxi",
+    description: "Pool Taxi is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. It offers transportation services to people, organizations, and institutions.",
+    demoLink: "",
+    ghLink: "",
+    order: 3,
+    skills: []
+  },
+  {
+    imgPath: tiruhakim,
+    isBlog: false,
+    title: "Tiruhakim",
+    description: "TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!",
+    demoLink: "",
+    ghLink: "",
+    order: 1,
+    skills: [],
+  },
+  {
+    imgPath: jestra,
+    isBlog: false,
+    title: "Jestra",
+    description: "Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.",
+    demoLink: "",
+    ghLink: "",
+    order: 2,
+    skills: []
+  },
+  {
+    imgPath: ecommerce,
+    isBlog: false,
+    title: "Ecommerce",
+    description: "ecommerce app project made in laravel, Vuejs and tailwindcss. get latest products,full search feature included,watch later products and add to cart",
+    demoLink: "",
+    ghLink: "",
+    order: 3,
+    skills: []   
+  },
+  {
+    imgPath: madot,
+    isBlog: false,
+    title: "Madot Solutions",
+    description: "The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country.",
+    demoLink: "",
+    ghLink: "",
+    order: 1,
+    skills: []
+  },
+  {
+    imgPath: video_sharing,
+    isBlog: false,
+    title: "Video sharing",
+    description: "video sharing website made with laravel,Vuejs and tailwindcss. watch videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!!",
+    demoLink: "",
+    ghLink: "",
+    order: 2,
+    skills: []
+  },
+  {
+    imgPath: union,
+    isBlog: false,
+    title: "Union Academy",
+    description: "Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders.",
+    demoLink: "",
+    ghLink: "",
+    order: 3,
+    skills: []
+  },
+]
 
 const variants = {
     exit: { 
@@ -43,145 +134,19 @@ function Projects() {
         </p>
         </motion.div>
         <div className="grid md:grid-cols-3 pb-2.5 px-2 md:px-16 overflow-hidden">
-
-          {/* <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={iims}
-              isBlog={false}
-              title="IIMS"
-              description="Industry Management System (IIMS) is a comprehensive software solution designed to streamline and optimize various industrial operations, including inventory management, production planning, quality control, and supply chain logistics."  
-              demoLink=""
-            />
-          </div> */}
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={haddisArt}
-              isBlog={false}
-              title="Haddis Art"
-              description="Haddis Art is an online art gallery that showcases and sells artwork from various artists. It provides a platform for artists to display their work and for art enthusiasts to discover and purchase unique pieces."  
-              demoLink=""
-              ghLink=""
-              order={1}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={biritu}
-              isBlog={false}
-              title="Biritu"
-              description="A Digital Savings Account (Biritu) is an electronic version of a regular Savings Account. With a paperless, quick and secure account opening process"
-              demoLink=""
-              ghLink=""
-              order={2}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={pool}
-              isBlog={false}
-              title="Pool Taxi"
-              description="Pool Taxi is a technology-based company that works in providing cost effective and technologically advanced platforms to the society. Which works in providing solution towards solving problems. Among these technology-based systems; POOL technology offers transportation services to people, organizations, and institutions."
-              demoLink=""
-              ghLink=""
-              order={3}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={tiruhakim}
-              isBlog={false}
-              title="Tiruhakim"
-              description="TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!"  
-              demoLink=""
-              ghLink=""
-              order={1}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={jestra}
-              isBlog={false}
-              title="Jestra"
-              description="Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.it can have a positive impact on a business’s bottom line and the customer’s experience by reducing the costs related to shipping, storage, and spoilage and ensuring customers receive their products as expected"
-              demoLink=""
-              ghLink=""
-              order={2}
-              skills={[]}
-            />
-          </div>
-          
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="Ecommerce"
-              description="ecommerce app project made in laravel, Vuejs and tailwindcss. get latest products,full search feature included,watch later products and add to cart "
-              demoLink=""
-              ghLink=""
-              order={3}
-              skills={[]}
-            />
-          </div> 
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={madot}
-              isBlog={false}
-              title="Madot Solutions"
-              description="The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country, and bringing the wealth of stakeholders and employees to a better standard of living."
-              demoLink=""
-              ghLink=""
-              order={1}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={video_sharing}
-              isBlog={false}
-              title="Video sharing"
-              description="video sharing website made with laravel,Vuejs and tailwindcss. watch videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!! "
-              demoLink=""
-              ghLink=""
-              order={2}
-              skills={[]}
-            />
-          </div>
-
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={union}
-              isBlog={false}
-              title="Union Academy"
-              description="Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders."  
-              demoLink=""
-              ghLink=""
-              order={3}
-              skills={[]}
-            />
-          </div>
-          <div className="md:px-6 md:py-12">
-            <ProjectCard
-              imgPath={social_media}
-              isBlog={false}
-              title="Social Media Platform"
-              description="social media platform project built in laravel websocket vue and tailwindcss. get realtime posts comments and chats,follow friends,create post,chat system integrated,friend requests and suggestions.videos Resources"
-              demoLink=""
-              ghLink=""
-              order={1}
-              skills={[]}
-            />
-          </div>
+          {projects.map(project=>(
+            <div className="md:px-6 md:py-12">
+              <ProjectCard
+                imgPath={project.imgPath}
+                isBlog={project.isBlog}
+                title={project.title}
+                description={project.description}
+                ghLink={project.ghLink}
+                order={project.order}
+                skills={project.skills}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>

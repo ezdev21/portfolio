@@ -1,7 +1,6 @@
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
-import { div, span } from "framer-motion/client";
 
 interface ProjectCardProps{
   imgPath: string;
