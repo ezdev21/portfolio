@@ -1,68 +1,20 @@
-import { CgCPlusPlus } from "react-icons/cg";
 import { DiJava, DiJavascript1, DiLaravel, DiNodejs, DiPython, DiReact } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
-import { SiBootstrap, SiDart, SiDocker, SiExpress, SiFigma, SiFirebase, SiFlutter, SiGithub, SiGooglecloud, SiGraphql, SiLinux, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPhp, SiPostman, SiQuasar, SiSass, SiTailwindcss, SiTypescript, SiVisualstudiocode, SiVuedotjs } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-
-export const programmingLanguages = [
-  <DiPython />,
-  <CgCPlusPlus />,
-  <DiJavascript1 />,
-  <DiJava />,
-  <SiPhp />,
-  <SiDart />,
-  <SiTypescript />,
-  <TbBrandGolang />
-];
-
-export const frontendStack = [
-  <DiReact />,
-  <SiNextdotjs />,
-  <SiVuedotjs />,
-  <SiNuxtdotjs />,
-  <SiBootstrap />,
-  <SiTailwindcss />,
-  <SiSass />,
-  <SiFigma />
-];
-
-export const backendStack = [
-  <DiLaravel />,
-  <DiNodejs />,
-  <SiExpress />,
-  <SiNestjs />,
-  <SiFirebase />,
-  <SiGraphql />
-]
-
-export const mobileStack = [
-  <DiReact />,
-  <SiFlutter />,
-  <SiQuasar />
-]
-
-export const tools = [
-  <SiLinux />,
-  <SiVisualstudiocode />,
-  <SiGithub />,
-  <SiPostman />,
-  <SiDocker />,
-  <FaAws />,
-  <SiGooglecloud />,
-]
+import { FaGolang } from "react-icons/fa6";
+import { SiBootstrap, SiCplusplus, SiDart, SiDocker, SiExpress, SiFigma, SiFirebase, SiFlutter, SiGithub, SiGooglecloud, SiGraphql, SiLinux, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPhp, SiPostman, SiQuasar, SiSass, SiTailwindcss, SiTypescript, SiVisualstudiocode, SiVuedotjs } from "react-icons/si";
 
 const techStack = [
   {
     title: 'Programming Language',
     skills: [
       <DiPython />,
-      <CgCPlusPlus />,
+      <SiCplusplus />,
       <DiJavascript1 />,
       <DiJava />,
       <SiPhp />,
       <SiDart />,
       <SiTypescript />,
-      <TbBrandGolang />
+      <FaGolang />
     ]
   },
   {

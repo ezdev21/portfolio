@@ -4,7 +4,7 @@ const softSkills = [
   "Ability to write clean, efficient and documented code",
   "Excellent problem-solving and analytical skills",
   "Effective communication skill and team collaboration",
-  "Ability to make progress and adapt new technologies",
+  "Strong commitment to continuous learning and professional growth",
 ];
 
 const SoftSkills = () => {
