@@ -1,6 +1,6 @@
 import homeLogo from "@assets/home-main.svg";
-import Home2 from "@components/Home/Home2";
-import Type from "@components/Home/Type";
+import HomeCard from "@components/HomeCard";
+import Type from "@components/ui/Type";
 import { motion } from 'framer-motion'
 
 const variants = {
@@ -58,7 +58,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <Home2 />
+      <HomeCard />
     </motion.section>
   );
 }

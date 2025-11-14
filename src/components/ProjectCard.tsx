@@ -1,7 +1,7 @@
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
-import type { ProjectProps } from "../../utils/projects";
+import type { ProjectProps } from "../utils/projects";
 
 function ProjectCard(props: ProjectProps) {
   return (
