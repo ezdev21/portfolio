@@ -2,7 +2,6 @@ import Github from "@components/ui/Github";
 import Techstack from "@components/Techstack";
 import Aboutcard from "@components/AboutCard";
 import laptopImg from "@assets/about.png";
-import Toolstack from "@components/Toolstack";
 import { motion } from 'framer-motion'
 import Education from "../components/Education";
 import Languages from "../components/Languages";
@@ -46,20 +45,14 @@ function About() {
         </div>
 
         <Techstack />
-
-        <h1 className="text-white text-2xl md:text-4xl font-medium pt-2.5 text-center">
-          <strong className="text-primary">Tools</strong> I use
-        </h1>
-        
-        <Toolstack />
-        
+                
         <Github />
 
-        <div className="md:flex">
+        <div className="relative md:flex overflow-hidden">
           <motion.div 
             className="md:w-1/2"
-            initial={{x: '-100vh'}}
-            whileInView={{x: 0}}
+            initial={{x: -200 }}
+            whileInView={{x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1.5, delay: 0 }}
           >
@@ -67,7 +60,7 @@ function About() {
           </motion.div>
           <motion.div 
             className="md:w-1/2"
-            initial={{x: '100vh'}}
+            initial={{x: 200 }}
             whileInView={{x: 0}}
             viewport={{ once: true }}
             transition={{ duration: 1.5, delay: 0 }}
