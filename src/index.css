@@ -16,7 +16,7 @@ body {
   font-size-adjust: 0.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom left, rgba(17, 16, 16, 0.75), rgba(12, 10, 22, 0.75)), url(./assets/home-bg.jpg);
+  background-image: linear-gradient(to bottom left, rgb(17, 16, 16), rgb(12, 10, 22));
   color: #fff;
 }
 
