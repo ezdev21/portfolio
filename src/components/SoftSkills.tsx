@@ -11,7 +11,7 @@ const SoftSkills = () => {
   return (
     <motion.section
       id="softskills" 
-      className="bg-[#1A1126] px-8 py-16 text-white rounded-lg"
+      className="bg-card px-8 py-16 rounded-lg"
       initial={{y: 200 }}
       whileInView={{y: 0}}
       viewport={{ once: true }}

@@ -13,7 +13,7 @@ const CursorFollower = () => {
 
   return (
     <div
-      className="min-h-screen text-white pointer-events-none fixed -top-10 -left-10 z-50 transition-transform duration-150 ease-out"
+      className="min-h-screen pointer-events-none fixed -top-10 -left-10 transition-transform duration-150 ease-out"
       style={{
         transform: `translate(${position.x - 10}px, ${position.y - 10}px)`,
       }}

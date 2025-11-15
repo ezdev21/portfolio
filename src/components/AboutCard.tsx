@@ -1,7 +1,7 @@
 
 function AboutCard() {
   return (
-    <div className="bg-transparent text-white border-none">
+    <div className="bg-transparent border-none">
       <div>
         <blockquote className="text-sm md:text-lg text-left leading-5 md:leading-8 pb-5 max-md:font-light">
           <p className="pb-10">

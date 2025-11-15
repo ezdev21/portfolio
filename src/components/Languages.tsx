@@ -13,7 +13,7 @@ const Languages = () => {
   return (
     <motion.section 
       id="languages"
-      className="bg-[#1A1126] py-16 text-white rounded-lg"
+      className="bg-card py-16 rounded-lg"
       initial={{x: 200 }}
       whileInView={{x: 0}}
       viewport={{ once: true }}

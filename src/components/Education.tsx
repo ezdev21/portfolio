@@ -17,7 +17,7 @@ const Education = () => {
       whileInView={{x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1.5, delay: 0 }}
-      className="bg-[#1A1126] py-16 text-white rounded-lg"
+      className="bg-card py-16 rounded-lg"
       >
       <h2 className="text-3xl font-bold mb-10 text-center">Education</h2>
       <div className="flex flex-col items-center gap-8">

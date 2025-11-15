@@ -43,7 +43,7 @@ const ContactMe: React.FC = () => {
   };
 
   return (
-    <section className="bg-[#1A1126] max-w-6xl mx-auto px-4 py-10 flex flex-wrap gap-12 rounded-lg">
+    <section className="bg-card max-w-6xl mx-auto px-4 py-10 flex flex-wrap gap-12 rounded-lg">
       <div className="flex-1">
         <div className="px-5">
           <h1 className="text-4xl font-bold mb-4">Let's Connect!</h1>
@@ -93,8 +93,8 @@ const ContactMe: React.FC = () => {
           type="submit"
           disabled={loading}
           className={`w-full ${
-            loading ? "bg-[] cursor-not-allowed" : "bg-[#934cce5e]  hover:bg-[#c770f0] cursor-pointer"
-          } text-white font-medium py-3 rounded-lg transition-colors`}
+            loading ? "cursor-not-allowed" : "bg-primary  hover:bg-purple-600 cursor-pointer"
+          } font-medium py-3 rounded-lg transition-colors`}
         >
           {loading ? "Sending..." : "Send Message"}
         </button>

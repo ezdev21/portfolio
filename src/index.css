@@ -16,7 +16,8 @@ body {
   font-size-adjust: 0.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background-image: linear-gradient(to bottom left, rgba(17, 16, 16, 0.75), rgba(12, 10, 22, 0.75)), url(./assets/home-bg.jpg);
+  color: #fff;
 }
 
 .text-primary{
@@ -27,6 +28,11 @@ body {
   background-color: #c770f0 !important;
 }
 
+.bg-card{
+  background-color: #1A1126 !important;
+  opacity: 0.95 !important;
+  /* box-shadow: 0 5px 15px 0px rgba(119, 53, 136, 0.3) !important; */
+}
 /* --------- */
 /*Scrollbar   */
 /* --------- */

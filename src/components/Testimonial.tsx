@@ -37,7 +37,7 @@ const Testimonial: React.FC = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="bg-[#1A1126] rounded-xl shadow-lg p-4 flex flex-col items-center text-center"
+            className="bg-card rounded-xl p-4 flex flex-col items-center text-center"
           >
             <img
               src={testimonial.image}

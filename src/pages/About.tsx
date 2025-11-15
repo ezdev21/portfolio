@@ -27,7 +27,7 @@ const variants = {
 function About() {
   return (
     <motion.div variants={variants} initial="initial" animate="animate" exit="exit">
-    <div className="relative pt-25 pb-8 text-white bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+    <div className="pt-25 pb-8">
       <div className="px-4 md:px-10">
         <div className="md:flex items-start">
           <div className="p-2.5 md:w-7/12 pt-3 md:pt-7 md:pb-12">

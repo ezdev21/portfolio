@@ -20,15 +20,15 @@ const variants = {
 function Projects() {
   return (
     <motion.section variants={variants} exit="exit">
-    <div className="relative pt-27 pb-7 bg-linear-to-bl from-[rgba(17,16,16,0.582)] to-[rgba(12,8,24,0.904)]">
+    <div className="pt-27 pb-7">
       <div>
         <motion.div
           initial={{ translateY: '-100px' }}
           animate={{ translateY: '0px' }}
           transition={{ type: 'spring', stiffness: 300}}
         >
-        <h1 className="text-white text-2xl md:text-4xl font-medium pt-5 pb-15 text-center">My Recent <strong className="text-primary">Works </strong></h1>
-        <p className="text-white text-lg md:text-2xl max-md:font-extralight text-center md:leading-3">
+        <h1 className="text-2xl md:text-4xl font-medium pt-5 pb-15 text-center">My Recent <strong className="text-primary">Works </strong></h1>
+        <p className="text-lg md:text-2xl max-md:font-extralight text-center md:leading-3">
           Here are a few projects I've worked on recently.
         </p>
         </motion.div>
