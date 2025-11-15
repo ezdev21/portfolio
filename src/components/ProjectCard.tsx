@@ -11,8 +11,8 @@ function ProjectCard(props: ProjectProps) {
         viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 0.5 }}
     >
-    <div className="max-md:my-5 p-2 flex flex-col bg-card h-full transition-all duration-500 ease-linear">
-      <img src={props.imgPath} alt={props.title} loading="lazy" className="h-50 bg-cover rounded-sm grayscale-60 hover:grayscale-0"/>
+    <div className="max-md:my-5 p-2 flex flex-col card h-full transition-all duration-500 ease-linear">
+      <img src={props.imgPath} alt={props.title} loading="lazy" className="h-50 bg-cover rounded-sm grayscale-70 hover:grayscale-0"/>
       <div className="m-2">
         <h4 className="font-bold text-lg md:text-xl my-1">{props.title}</h4>
         <p className="text-left max-md:text-sm max-md:font-light font-light">

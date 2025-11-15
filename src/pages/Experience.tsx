@@ -46,7 +46,7 @@ export default function Experience() {
             >Professional <strong className="text-primary pb-5">Experience</strong></motion.h1>
           </div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
-            <div className="p-5 my-10 bg-card rounded-lg">
+            <div className="p-5 my-10 card rounded-lg">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">HADDIS ART</h2>
                 <h6 className="my-2 max-md:text-md">Full-stack Developer Feb 2025 - Aug 2025</h6>
@@ -63,7 +63,7 @@ export default function Experience() {
             </div>
           </motion.div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
-            <div className="p-5 my-10 bg-card rounded-lg">
+            <div className="p-5 my-10 card rounded-lg">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">BIRITU DIGITAL SAVING AND COOP</h2>
                 <h6 className="my-2">Software Developer Sep 2024 - Feb2025</h6>
@@ -79,7 +79,7 @@ export default function Experience() {
             </div>
           </motion.div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
-            <div className="p-5 my-10 bg-card rounded-lg">
+            <div className="p-5 my-10 card rounded-lg">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">POOL TAXI</h2>
                 <h6 className="my-2">Full-stack Developer Jun 2023 - Sep 2024</h6>
@@ -96,7 +96,7 @@ export default function Experience() {
             </div>
           </motion.div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
-            <div className="p-5 my-10 bg-card rounded-lg">
+            <div className="p-5 my-10 card rounded-lg">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">MADOT SOLUTIONS</h2>
                 <h6 className="my-2">Full-stack Developer Dec 2021 - Sep 2022</h6>
@@ -111,7 +111,7 @@ export default function Experience() {
             </div>
           </motion.div>
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}   whileHover="hover" whileTap="tap" exit="exit">
-            <div className="p-5 my-10 bg-card rounded-lg">
+            <div className="p-5 my-10 card rounded-lg">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">BOTAYE DATA SCIENCE</h2>
                 <h6 className="my-2">Full-stack Developer Aug 2021 - Dec 2021</h6>

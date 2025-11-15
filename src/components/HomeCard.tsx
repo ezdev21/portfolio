@@ -7,7 +7,7 @@ import {
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
-function Home2() {
+function HomeCard() {
   return ( 
     <div className="py-4 md:py-18">
       <div>
@@ -43,7 +43,7 @@ function Home2() {
                 <a
                   href="mailto:ezradev21@gmail.com"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-white rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillMail />
                 </a>
@@ -53,7 +53,7 @@ function Home2() {
                   href="https://github.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-white rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillGithub />
                 </a>
@@ -63,7 +63,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/ezdev21/"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-white rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -73,7 +73,7 @@ function Home2() {
                   href="https://t.me/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-white rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaTelegram />
                 </a>
@@ -83,7 +83,7 @@ function Home2() {
                   href="https://x.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-white rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <BsTwitterX />
                 </a>
@@ -95,4 +95,5 @@ function Home2() {
     </div>
   );
 }
-export default Home2;
+
+export default HomeCard;

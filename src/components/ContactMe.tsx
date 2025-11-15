@@ -43,7 +43,7 @@ const ContactMe: React.FC = () => {
   };
 
   return (
-    <section className="bg-card max-w-6xl mx-auto px-4 py-10 flex flex-wrap gap-12 rounded-lg">
+    <section className="card max-w-6xl mx-auto px-4 py-10 flex flex-wrap gap-12 rounded-lg">
       <div className="flex-1">
         <div className="px-5">
           <h1 className="text-4xl font-bold mb-4">Let's Connect!</h1>
