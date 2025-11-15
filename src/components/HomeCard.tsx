@@ -8,8 +8,8 @@ import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function Home2() {
-  return (
-    <div className="relative py-4 md:py-18">
+  return ( 
+    <div className="py-4 md:py-18">
       <div>
         <div className="md:flex items-center px-4 md:px-10">
           <div className="md:w-2/3 p-4 md:pt-25 md:pl-15">
