@@ -91,9 +91,11 @@ function NavBar() {
                 setIsOpen(false);
                 setActiveKey(to);
               }}
-              className={`text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-[#c770f0] transition-all ${
-                activeKey === to ? "text-[#c770f0]" : ""
-              }`}
+              className={`relative text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0
+                ${activeKey === to ? "text-[#c770f0] after:w-full" : "text-white"}
+                hover:text-[#c770f0] hover:after:w-full
+                after:content-[''] after:absolute after:left-0 after:-bottom-1.5 after:h-1 after:rounded-xl after:bg-[#c770f0]
+              `}
             >
               <span className="font-black">{icon}</span>
               <span >{label}</span>
