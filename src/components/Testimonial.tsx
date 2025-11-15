@@ -13,19 +13,19 @@ const testimonials: TestimonialProps[] = [
     image: Avatar,
     name: "Jane Doe",
     role: "Project Manager",
-    text: "Working with you was amazing! Your coding skills and professionalism are top-notch.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
   },
   {
     image: Avatar,
     name: "John Smith",
-    role: "CEO, TechCorp",
-    text: "A highly talented developer! Delivered the project on time and exceeded expectations.",
+    role: "CEO, Company",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
   },
   {
     image: Avatar,
     name: "Sarah Lee",
     role: "UI/UX Designer",
-    text: "Your attention to detail and creativity brought our ideas to life beautifully.",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
   },
 ];
 
