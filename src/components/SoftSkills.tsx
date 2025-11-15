@@ -11,7 +11,7 @@ const SoftSkills = () => {
   return (
     <motion.section
       id="softskills" 
-      className="py-16 text-white"
+      className="bg-[#1A1126] px-8 py-16 text-white rounded-lg"
       initial={{y: 200 }}
       whileInView={{y: 0}}
       viewport={{ once: true }}
@@ -24,7 +24,7 @@ const SoftSkills = () => {
             key={index}
             className=""
           >
-            <p className="text-md font-semibold">{skill}</p>
+            <p className="text-sm">{skill}</p>
           </li>
         ))}
       </ul>

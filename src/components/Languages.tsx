@@ -13,7 +13,7 @@ const Languages = () => {
   return (
     <motion.section 
       id="languages"
-      className="py-16 text-white"
+      className="bg-[#1A1126] py-16 text-white rounded-lg"
       initial={{x: 200 }}
       whileInView={{x: 0}}
       viewport={{ once: true }}
@@ -24,12 +24,12 @@ const Languages = () => {
         {languages.map((lang, index) => (
           <div
             key={index}
-            className="flex gap-4 bg-[#0A0416] py-1 px-5 rounded-lg justify-start hover:bg-gray-700 transition"
+            className="flex gap-4 py-1 px-5 rounded-lg justify-start"
           >
             <img src={lang.src} width="40px"/>
             <div className="text-left">
-              <h3 className="text-lg">{lang.name}</h3>
-              <p className="text-sm text-gray-400">{lang.level}</p>
+              <h3 className="text-md">{lang.name}</h3>
+              <p className="text-xs text-gray-400">{lang.level}</p>
             </div>
           </div>
         ))}

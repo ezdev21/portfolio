@@ -17,14 +17,14 @@ const Education = () => {
       whileInView={{x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1.5, delay: 0 }}
-      className="py-16 text-white"
+      className="bg-[#1A1126] py-16 text-white rounded-lg"
       >
       <h2 className="text-3xl font-bold mb-10 text-center">Education</h2>
       <div className="flex flex-col items-center gap-8">
         {education.map((edu, index) => (
           <div
             key={index}
-            className="bg-[#0A0416] mx-3 md:w-2/3 p-6 rounded-lg hover:bg-gray-700 transition duration-300"
+            className="rounded-lg transition duration-300 p-5"
           >
             <h3 className="text-md font-semibold">{edu.degree}</h3>
             <p className="text-gray-400 text-sm">{edu.school}</p>

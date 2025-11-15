@@ -9,7 +9,7 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <div className="bg-[#0A0416] py-3 md:py-7 px-4 md:px-13 bottom-0">
+    <div className="bg-black py-3 md:py-7 px-4 md:px-13 bottom-0">
       <div className="flex flex-col md:flex-row md:items-end">
         <div className="order-1 md:w-1/2 md:text-center">
           <div className="text-white md:flex flex-col items-start">
