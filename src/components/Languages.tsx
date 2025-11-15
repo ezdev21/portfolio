@@ -20,7 +20,7 @@ const Languages = () => {
       transition={{ duration: 1.5, delay: 0 }}
       >
       <h2 className="text-3xl font-bold mb-10 text-center">Languages</h2>
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-start gap-4 mx-10">
         {languages.map((lang, index) => (
           <div
             key={index}

@@ -1,7 +1,7 @@
-import { DiJava, DiJavascript1, DiLaravel, DiNodejs, DiPython, DiReact } from "react-icons/di";
+import { DiJava, DiJavascript1, DiLaravel, DiPython, DiReact } from "react-icons/di";
 import { FaAws, FaNodeJs } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
-import { SiBootstrap, SiCplusplus, SiDart, SiDocker, SiExpress, SiFigma, SiFirebase, SiFlutter, SiGithub, SiGooglecloud, SiGraphql, SiLinux, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPhp, SiPostman, SiQuasar, SiSass, SiTailwindcss, SiTypescript, SiVisualstudiocode, SiVuedotjs } from "react-icons/si";
+import { SiBootstrap, SiCplusplus, SiDart, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGooglecloud, SiGraphql, SiLinux, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPhp, SiPostman, SiQuasar, SiSass, SiTailwindcss, SiTypescript, SiVisualstudiocode, SiVuedotjs } from "react-icons/si";
 
 const techStack = [
   {
@@ -18,7 +18,7 @@ const techStack = [
     ]
   },
   {
-    title: 'Frontend Stack',
+    title: 'Frontend and Cross Platform',
     skills: [
       <DiReact />,
       <SiNextdotjs />,
@@ -27,7 +27,7 @@ const techStack = [
       <SiBootstrap />,
       <SiTailwindcss />,
       <SiSass />,
-      <SiFigma />
+      <SiFlutter />,
     ]
   },
   {
@@ -40,14 +40,6 @@ const techStack = [
       <SiFirebase />,
       <SiGraphql />
      ]
-  },
-  {
-    title: 'Mobile app Development',
-    skills: [
-      <DiReact />,
-      <SiFlutter />,
-      <SiQuasar />
-    ]
   },
   {
     title: 'Tools I use',

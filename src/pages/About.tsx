@@ -45,12 +45,16 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" loading="lazy"/>
           </div>
         </div>
+        
+        <div>
+          <Techstack />
+        </div>
 
-        <Techstack />
-                
-        <Github />
+        <div>
+          <Github />
+        </div> 
 
-        <div className="relative md:flex gap-8 overflow-hidden">
+        <div className="relative md:flex gap-8 overflow-hidden my-20">
           <div className="md:w-1/3">
             <Education/>
           </div>

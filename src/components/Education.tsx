@@ -24,7 +24,7 @@ const Education = () => {
         {education.map((edu, index) => (
           <div
             key={index}
-            className="rounded-lg transition duration-300 p-5"
+            className="rounded-lg transition duration-300 px-5"
           >
             <h3 className="text-md font-semibold">{edu.degree}</h3>
             <p className="text-gray-400 text-sm">{edu.school}</p>
