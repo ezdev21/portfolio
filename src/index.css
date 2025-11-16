@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to bottom left, rgb(17, 16, 16), rgb(12, 10, 22));
-  color: #b4acb3;
+  color: #d1d5db;
 }
 
 .text-primary{
