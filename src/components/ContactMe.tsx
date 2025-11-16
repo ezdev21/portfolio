@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
 
 const ContactMe: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -59,7 +62,7 @@ const ContactMe: React.FC = () => {
         onSubmit={handleSubmit}
         className="flex-1 min-w-[300px] flex flex-col gap-4"
       >
-        <input
+        <Input
           type="text"
           name="name"
           placeholder="John Doe"
@@ -69,7 +72,7 @@ const ContactMe: React.FC = () => {
           className="w-full p-3 border border-gray-300  rounded-sm bg-white text-gray-800 focus:outline-none"
         />
 
-        <input
+        <Input
           type="email"
           name="email"
           placeholder="coder@example.com"
@@ -79,7 +82,7 @@ const ContactMe: React.FC = () => {
           className="w-full p-3 border border-gray-300 rounded-sm bg-white text-gray-800 focus:outline-none focus:ring-2"
         />
 
-        <textarea
+        <Textarea
           name="message"
           placeholder="Hello..."
           value={formData.message}
@@ -89,7 +92,7 @@ const ContactMe: React.FC = () => {
           className="w-full p-3 border border-gray-300 rounded-sm bg-white  text-gray-800 focus:outline-none focus:ring-2 resize-none"
         />
 
-        <button
+        <Button
           type="submit"
           disabled={loading}
           className={`w-full ${
@@ -97,7 +100,7 @@ const ContactMe: React.FC = () => {
           } font-medium py-3 rounded-lg transition-colors`}
         >
           {loading ? "Sending..." : "Send Message"}
-        </button>
+        </Button>
 
         {success && (
           <p className="text-green-500 mt-2 font-medium">{success}</p>
