@@ -31,6 +31,10 @@ body {
   color: #1A1126 !important;
 }
 
+.bg-secondary{
+  background-color: #1A1126 !important;
+}
+
 .bg-primary{
   background-color: #c770f0 !important;
 }

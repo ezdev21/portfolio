@@ -8,6 +8,7 @@ import Languages from "../components/Languages";
 import SoftSkills from "../components/SoftSkills";
 import Testimonial from "../components/Testimonial";
 import ContactMe from "../components/ContactMe";
+import Hobbies from "../components/Hobbies";
 
 const variants = {
   initial: {opacity: 0},
@@ -65,6 +66,9 @@ function About() {
           <div className="md:w-1/4">
             <Languages/>
           </div>
+        </div>
+        <div>
+          <Hobbies/>
         </div>
         <div>
           <Testimonial/>
