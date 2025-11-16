@@ -6,8 +6,7 @@ import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  
   return (
     <div className="bg-black opacity-95 py-3 md:py-7 px-4 md:px-13 bottom-0">
       <div className="flex flex-col md:flex-row md:items-end">
@@ -17,8 +16,8 @@ function Footer() {
             <h6 className="text-start text-md md:text-md font-normal py-2">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</h6>
           </div>
         </div>
-        <div className="order-3 md:order-2 md:w-1/4 md:text-center text-sm md:text-sm py-2">
-          <h6>Copyright © {year} Ezra F.</h6>
+        <div className="order-3 md:order-2 md:w-1/4 md:text-center text-sm md:text-base py-2">
+          <p>Copyright © {new Date().getFullYear()} Ezra F.</p>
         </div>
         <div className="order-2 md:order-3 md:w-1/4 text-center">
           <ul className="my-2 flex justify-start md:justify-end">
