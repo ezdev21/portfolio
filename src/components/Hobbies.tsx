@@ -41,7 +41,7 @@ const hobbies: Hobby[] = [
 
 const Hobbies = () => {
   return (
-    <section className="w-full py-12 px-6 card">
+    <section className="card py-12 px-6">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">
         My Hobbies
       </h2>
