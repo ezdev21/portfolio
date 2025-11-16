@@ -31,13 +31,13 @@ const testimonials: TestimonialProps[] = [
 
 const Testimonial: React.FC = () => {
   return (
-    <section className="py-16 max-w-6xl mx-auto rounded-lg">
+    <section className="py-16 rounded-lg card">
       <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">Testimonials</h2>
-      <div className="grid md:grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-3 gap-10 px-10">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="card rounded-xl p-4 flex flex-col items-center text-center"
+            className="rounded-xl p-4 flex flex-col items-center text-center bg-secondary"
           >
             <img
               src={testimonial.image}

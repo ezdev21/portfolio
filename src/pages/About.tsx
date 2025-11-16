@@ -1,7 +1,6 @@
 import Github from "@components/ui/Github";
 import Techstack from "@components/Techstack";
 import Aboutcard from "@components/AboutCard";
-import laptopImg from "@assets/about.png";
 import { motion } from 'framer-motion'
 import Education from "../components/Education";
 import Languages from "../components/Languages";
@@ -9,6 +8,8 @@ import SoftSkills from "../components/SoftSkills";
 import Testimonial from "../components/Testimonial";
 import ContactMe from "../components/ContactMe";
 import Hobbies from "../components/Hobbies";
+import Lottie from "lottie-react";
+import AboutLottie from "@assets/about-lottie.json";
 
 const variants = {
   initial: {opacity: 0},
@@ -28,10 +29,10 @@ const variants = {
 function About() {
   return (
     <motion.div variants={variants} initial="initial" animate="animate" exit="exit">
-    <div className="pt-25 pb-8">
-      <div className="px-4 md:px-10">
-        <div className="md:flex items-start">
-          <div className="p-2.5 md:w-7/12 pt-3 md:pt-7 md:pb-12">
+    <div className="pb-7">
+      <div className="flex flex-col gap-10 md:gap-20 px-4 md:px-10">
+        <div className="md:flex mt-20">
+          <div className="md:w-1/2 md:flex flex-col pt-3 md:p-15">
             <motion.h1
               initial={{ translateY: '-100px' }}
               animate={{ translateY: '0px' }}
@@ -42,8 +43,8 @@ function About() {
             </motion.h1>
             <Aboutcard />
           </div>
-          <div className="md:w-5/12 py-2 md:py-8 md:pt-30 md:pb-12">
-            <img src={laptopImg} alt="about" className="img-fluid" loading="lazy"/>
+          <div className="md:w-1/2 z-1 scale-75 -mt-15">
+              <Lottie animationData={AboutLottie}/>
           </div>
         </div>
         

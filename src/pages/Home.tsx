@@ -49,8 +49,8 @@ function Home() {
               </div>
             </motion.div>  
             </div>
-            <div className="md:w-1/2 md:pb-0 md:pl-20 flex items-center z-1">
-              <Lottie animationData={HomeLottie} className="h-[85vh]"/>
+            <div className="md:w-1/2 z-1 ">
+              <Lottie animationData={HomeLottie}/>
             </div>
           </div>
         </div>
