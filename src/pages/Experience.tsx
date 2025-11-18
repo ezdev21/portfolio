@@ -66,7 +66,7 @@ export default function Experience() {
                 {/* Timeline dot */}
                 <div className="absolute left-1.5 -top-3 w-6 h-6 rounded-full bg-primary"></div>
 
-                <div className="px-5 my-10">
+                <div className="px-5 my-20">
                   <h2 className="font-bold text-2xl md:text-4xl my-2">{experience.company}</h2>
                   <h6 className="my-2">{experience.position} | {experience.date}</h6>
                   <hr className="my-3 border-gray-300 border-t-3 opacity-25"/>
