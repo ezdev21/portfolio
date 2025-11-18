@@ -7,7 +7,7 @@ import {
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
-function HomeCard() {
+function HomeDetail() {
   return ( 
     <div className="py-4 md:py-18">
       <div>
@@ -38,7 +38,7 @@ function HomeCard() {
             <p className="pb-5 text-xl">
               Feel free to <span className="text-primary">connect </span>with me
             </p>
-            <ul className="relative pl-0 pt-4 flex justify-center space-x-10">
+            <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
               <li>
                 <a
                   href="mailto:ezradev21@gmail.com"
@@ -96,4 +96,4 @@ function HomeCard() {
   );
 }
 
-export default HomeCard;
+export default HomeDetail;

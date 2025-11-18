@@ -32,7 +32,7 @@ const testimonials: TestimonialProps[] = [
 const Testimonial: React.FC = () => {
   return (
     <section className="py-16 rounded-lg card">
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-12">Testimonials</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Testimonials</h2>
       <div className="grid md:grid-cols-3 gap-10 px-10">
         {testimonials.map((testimonial, index) => (
           <div

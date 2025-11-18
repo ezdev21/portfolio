@@ -27,8 +27,8 @@ function Projects() {
           animate={{ translateY: '0px' }}
           transition={{ type: 'spring', stiffness: 300}}
         >
-        <h1 className="text-2xl md:text-4xl font-medium pt-5 pb-15 text-center">My Recent <strong className="text-primary">Works </strong></h1>
-        <p className="text-lg md:text-2xl max-md:font-extralight text-center md:leading-3">
+        <h1 className="text-2xl md:text-4xl font-medium py-5 md:pb-15 text-center">My Recent <strong className="text-primary">Works </strong></h1>
+        <p className="text-lg md:text-2xl max-md:font-light text-center md:leading-3">
           Here are a few projects I've worked on recently.
         </p>
         </motion.div>

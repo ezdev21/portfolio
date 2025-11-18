@@ -16,12 +16,12 @@ function Footer() {
             <h6 className="text-start text-md md:text-md font-normal py-2">My inbox is always open. Whether you have a question or just want to say hello, I will try my best to get back to you!</h6>
           </div>
         </div>
-        <div className="order-3 md:order-2 md:w-1/4 md:text-center text-sm md:text-base py-2">
+        <div className="order-3 md:order-2 md:w-1/4 text-center text-sm md:text-base py-5 md:py-2">
           <p>Copyright © {new Date().getFullYear()} Ezra F.</p>
         </div>
         <div className="order-2 md:order-3 md:w-1/4 text-center">
           <ul className="my-2 flex justify-start md:justify-end">
-            <li className="inline-block md:px-4">
+            <li className="inline-block px-4">
               <a
                 href="mailto:ezradev21@gmail.com"
                 rel="noopener noreferrer"

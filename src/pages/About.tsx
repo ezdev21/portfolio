@@ -1,6 +1,5 @@
 import Github from "@components/ui/Github";
 import Techstack from "@components/Techstack";
-import Aboutcard from "@components/AboutCard";
 import { motion } from 'framer-motion'
 import Education from "../components/Education";
 import Languages from "../components/Languages";
@@ -10,6 +9,7 @@ import ContactMe from "../components/ContactMe";
 import Hobbies from "../components/Hobbies";
 import Lottie from "lottie-react";
 import AboutLottie from "@assets/about-lottie.json";
+import AboutDetail from "../components/AboutDetail";
 
 const variants = {
   initial: {opacity: 0},
@@ -32,18 +32,18 @@ function About() {
     <div className="pb-7">
       <div className="flex flex-col gap-10 md:gap-20 px-4 md:px-10">
         <div className="md:flex mt-20">
-          <div className="md:w-1/2 md:flex flex-col pt-3 md:p-15">
+          <div className="md:w-7/12 md:flex flex-col pt-3 md:p-10">
             <motion.h1
               initial={{ translateY: '-100px' }}
               animate={{ translateY: '0px' }}
               transition={{ type: 'spring', stiffness: 300}}
-              className="text-2xl md:text-4xl pt-2 pb-5"
+              className="text-3xl md:text-4xl py-5"
             >
               Know Who <strong className="text-primary">I'M</strong>
             </motion.h1>
-            <Aboutcard />
+            <AboutDetail/>
           </div>
-          <div className="md:w-1/2 z-1 scale-75 -mt-15">
+          <div className="md:w-5/12 z-1">
               <Lottie animationData={AboutLottie}/>
           </div>
         </div>
@@ -56,7 +56,7 @@ function About() {
           <Github />
         </div> 
 
-        <div className="relative md:flex gap-8 overflow-hidden my-20">
+        <div className="relative flex flex-col md:flex-row gap-8 overflow-hidden my-20">
           <div className="md:w-1/3">
             <Education/>
           </div>
@@ -68,15 +68,19 @@ function About() {
             <Languages/>
           </div>
         </div>
-        <div>
+
+        {/* <div>
           <Hobbies/>
         </div>
+
         <div>
           <Testimonial/>
-        </div>
+        </div> */}
+
         <div>
           <ContactMe/> 
         </div>
+
       </div>
     </div>
     </motion.div>

@@ -13,13 +13,13 @@ const Languages = () => {
   return (
     <motion.section 
       id="languages"
-      className="card py-16 rounded-lg"
+      className="card py-8 md:py-16 rounded-lg flex flex-col"
       initial={{x: 200 }}
       whileInView={{x: 0}}
       viewport={{ once: true }}
       transition={{ duration: 1.5, delay: 0 }}
       >
-      <h2 className="text-3xl font-bold mb-10 text-center">Languages</h2>
+      <h2 className="text-2xl md:text-3xl font-bold mb-5 md:mb-10 mx-15">Languages</h2>
       <div className="flex flex-col items-start gap-4 mx-10">
         {languages.map((lang, index) => (
           <div

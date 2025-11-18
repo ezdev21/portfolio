@@ -46,11 +46,11 @@ const ContactMe: React.FC = () => {
   };
 
   return (
-    <section className="card p-10 flex flex-wrap gap-12 rounded-lg">
-      <div className="flex-1">
-        <div className="">
-          <h1 className="text-4xl font-bold mb-4">Let's Connect!</h1>
-          <p className="text-lg leading-relaxed text-gray-400">
+    <section className="card p-5 md:p-10 flex flex-col md:flex-row gap-12 rounded-lg">
+      <div className="md:w-1/2">
+        <div>
+          <h1 className="text-2xl md:text-3xl font-bold mb-4">Let's Connect!</h1>
+          <p className="text-md md:text-lg text-gray-400">
             Whether you're looking to collaborate on a project, discuss an
             opportunity, or just say hello I'd love to hear from you. Reach
             out anytime and let's build something great together.
@@ -58,9 +58,10 @@ const ContactMe: React.FC = () => {
         </div>
       </div>
 
+      <div className="md:w-1/2">
       <form
         onSubmit={handleSubmit}
-        className="flex-1 min-w-[300px] flex flex-col gap-4"
+        className="flex-1 flex flex-col gap-4"
       >
         <Input
           type="text"
@@ -106,6 +107,7 @@ const ContactMe: React.FC = () => {
           <p className="text-green-500 mt-2 font-medium">{success}</p>
         )}
       </form>
+      </div>
     </section>
   );
 };

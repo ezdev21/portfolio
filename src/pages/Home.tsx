@@ -1,4 +1,4 @@
-import HomeCard from "@components/HomeCard";
+import HomeCard from "@components/HomeDetail";
 import Type from "@components/ui/Type";
 import { motion } from 'framer-motion'
 import Lottie from "lottie-react";
@@ -26,7 +26,7 @@ function Home() {
       <div className="pb-7">
         <div className="bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.8),rgba(12,10,22,0.8)),url(./assets/home-bg.jpg)] bg-center text-left mt-20 pb-8 px-0">
         <div className="md:flex md:mx-23">
-          <div className="md:w-1/2 flex items-center max-md:p-5">
+          <div className="md:w-1/2 flex max-mdjustify-center items-center max-md:p-5">
           <motion.div
             initial={{ translateX: '-100vw', opacity:0 }}
             animate={{ translateX: '0vw', opacity: 1 }}

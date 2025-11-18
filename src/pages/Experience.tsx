@@ -36,7 +36,7 @@ export default function Experience() {
   return (
     <motion.section variants={sectionVariants} exit="exit">
       <div className="py-7 md:px-17">
-        <div className="text-left pt-36 pb-8 px-0">
+        <div className="text-left pt-20 md:pt-36 md:pb-8">
           <div>
             <motion.h1 
               className="px-2 md:px-5 text-2xl md:text-4xl text-center"
@@ -44,12 +44,12 @@ export default function Experience() {
               animate={{ translateY: '0px' }}
               transition={{ type: 'spring', stiffness: 300}}
             >
-              Professional <strong className="text-primary pb-5">Experience</strong>
+              Professional <strong className="text-primary">Experience</strong>
             </motion.h1>
           </div>
-          <div className="relative mt-12">
+          <div className="relative mt-5 md:mt-12">
             {/* Vertical timeline line */}
-            <div className="absolute left-4 top-0 h-full border-l-4 border-gray-300 opacity-50"></div>
+            <div className="absolute left-2 md:left-4 top-0 h-full border-l-2 md:border-l-4 border-gray-300 opacity-50"></div>
 
             {experiences.map((experience, index) => (
               <motion.div 
@@ -61,12 +61,12 @@ export default function Experience() {
                 whileHover="hover" 
                 whileTap="tap" 
                 exit="exit"
-                className="timeline-item w-full px-12 mb-10 relative"
+                className="timeline-item w-full px-4 md:px-12 mb-10 relative"
               >
                 {/* Timeline dot */}
-                <div className="absolute left-1.5 -top-3 w-6 h-6 rounded-full bg-primary"></div>
+                <div className="absolute left-0.5 md:left-1.5 -top-3 w-6 h-6 rounded-full bg-primary"></div>
 
-                <div className="px-5 my-20">
+                <div className="px-3 md:px-5 my-10 md:my-20">
                   <h2 className="font-bold text-2xl md:text-4xl my-2">{experience.company}</h2>
                   <h6 className="my-2">{experience.position} | {experience.date}</h6>
                   <hr className="my-3 border-gray-300 border-t-3 opacity-25"/>
