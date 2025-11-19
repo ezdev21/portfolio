@@ -6,6 +6,7 @@ import About from "@pages/About";
 import Projects from "@pages/Projects";
 import Footer from "@components/Footer";
 import Resume from "@pages/Resume";
+import { Analytics } from "@vercel/analytics/react";
 
 import {
   Route,
@@ -18,6 +19,7 @@ import Particle from "./components/ui/Particle";
 import Experience from "./pages/Experience";
 import { AnimatePresence } from "framer-motion";
 import CursorFollower from "./components/ui/CursorFollower";
+
 
 function App() {
   const [load, upadateLoad] = useState<Boolean>(true);
@@ -51,6 +53,7 @@ function App() {
         </AnimatePresence>
         <Footer />
       </div>
+      <Analytics />
     </div>  
   );
 }
