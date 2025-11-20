@@ -6,12 +6,12 @@ import type { ProjectProps } from "../utils/projects";
 function ProjectCard(props: ProjectProps) {
   return (
     <motion.div
-        initial={props.order===3 ?  { opacity:0, scale: 0.5, x: -100} :  { opacity:0, scale: 0.5, y: -200} }
+        initial={props.order===3 ?  { opacity:0, scale: 0.5, x: 300} :  { opacity:0, scale: 0.5, y: 150} }
         whileInView={{ opacity: 1, scale: 1, x:0, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1.5, delay: 0.5 }}
     >
-    <div className="max-md:my-5 p-2 flex flex-col card h-full transition-all duration-500 ease-linear">
+    <div className="max-md:my-5 p-2 flex flex-col card h-full transition-all duration-500 ease-linear hover:scale-105">
       <img src={props.imgPath} alt={props.title} loading="lazy" className="h-50 bg-cover rounded-sm grayscale-70 hover:grayscale-0"/>
       <div className="m-2">
         <h4 className="font-bold text-lg md:text-xl my-1">{props.title}</h4>

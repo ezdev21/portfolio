@@ -45,7 +45,7 @@ function NavBar() {
           onClick={() => setIsOpen(false)}
           className="text-primary font-black text-4xl font-mono"
         >
-          &lt;E/&gt;
+          &lt;👨‍💻/&gt;
         </Link>
 
         {/* Mobile Menu Button */}
