@@ -3,8 +3,7 @@ import Type from "@components/ui/Type";
 import { motion } from 'framer-motion'
 import Lottie from "lottie-react";
 import HomeLottie from "@assets/home-lottie.json";
-import { BackgroundBeamsWithCollision } from "../components/ui/background-beam-with-collision";
-
+import { BackgroundBeamsWithCollision } from "../components/ui/BackgroundBeamWithCollision";
 const variants = {
   initial: {opacity: 0},
   animate: {
