@@ -26,9 +26,7 @@
   },
   "include": ["src", "tailwind.config.js"],
   "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
+  "paths": {
+    "@/*": ["./src/*"]
+  }
 }

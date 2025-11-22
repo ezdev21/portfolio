@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 const softSkills = [
   "Ability to write clean, efficient and documented code",
@@ -10,20 +10,19 @@ const softSkills = [
 const SoftSkills = () => {
   return (
     <motion.section
-      id="softskills" 
+      id="softskills"
       className="card px-8 py-8 md:py-16 rounded-lg"
-      initial={{y: 200 }}
-      whileInView={{y: 0}}
+      initial={{ y: 200 }}
+      whileInView={{ y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 1.5, delay: 0 }}
-      >
-       <h2 className="text-2xl md:text-3xl font-bold mb-5 md:mb-10 text-center">Soft Skills</h2>
-       <ul className="list-disc">
+    >
+      <h2 className="text-2xl md:text-3xl font-bold mb-5 md:mb-10 text-center">
+        Soft Skills
+      </h2>
+      <ul className="list-disc">
         {softSkills.map((skill, index) => (
-          <li
-            key={index}
-            className=""
-          >
+          <li key={index} className="">
             <p className="text-sm">{skill}</p>
           </li>
         ))}

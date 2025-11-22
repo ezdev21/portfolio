@@ -8,22 +8,16 @@ import Footer from "@components/Footer";
 import Resume from "@pages/Resume";
 import { Analytics } from "@vercel/analytics/react";
 
-import {
-  Route,
-  Routes,
-  Navigate,
-  useLocation
-} from "react-router-dom";
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 import ScrollToTop from "./components/ui/ScrollToTop";
 import Particle from "./components/ui/Particle";
 import Experience from "./pages/Experience";
 import { AnimatePresence } from "framer-motion";
 import CursorFollower from "./components/ui/CursorFollower";
 
-
 function App() {
   const [load, upadateLoad] = useState<Boolean>(true);
-  const location = useLocation()
+  const location = useLocation();
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -35,26 +29,26 @@ function App() {
 
   return (
     <div>
-      <CursorFollower/>
-      <Particle/>
+      <CursorFollower />
+      <Particle />
       <Preloader load={load} />
       <div className={load ? "overflow-hidden h-screen" : ""}>
         <Navbar />
         <ScrollToTop />
         <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
-        </Routes>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
         </AnimatePresence>
         <Footer />
       </div>
       <Analytics />
-    </div>  
+    </div>
   );
 }
 

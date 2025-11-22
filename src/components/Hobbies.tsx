@@ -1,4 +1,12 @@
-import { FaCamera, FaHiking, FaBook, FaCode, FaMusic, FaDumbbell, FaGamepad } from "react-icons/fa";
+import {
+  FaCamera,
+  FaHiking,
+  FaBook,
+  FaCode,
+  FaMusic,
+  FaDumbbell,
+  FaGamepad,
+} from "react-icons/fa";
 
 interface Hobby {
   title: string;
@@ -32,7 +40,7 @@ const hobbies: Hobby[] = [
     description: "Listening to and discovering new genres.",
     icon: <FaMusic className="text-4xl text-primary" />,
   },
-   {
+  {
     title: "Fitness",
     description: "Staying active through workouts and strength training.",
     icon: <FaDumbbell className="text-4xl text-primary" />,
@@ -54,13 +62,9 @@ const Hobbies = () => {
           >
             <div className="flex items-center gap-4 mb-4">
               {hobby.icon}
-              <h3 className="text-xl font-semibold">
-                {hobby.title}
-              </h3>
+              <h3 className="text-xl font-semibold">{hobby.title}</h3>
             </div>
-            <p className="text-gray-400">
-              {hobby.description}
-            </p>
+            <p className="text-gray-400">{hobby.description}</p>
           </div>
         ))}
       </div>

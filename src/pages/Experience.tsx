@@ -8,13 +8,13 @@ const sectionVariants = {
   animate: {
     opacity: 1,
     scale: 1,
-    transition: { ease: "easeInOut" }
+    transition: { ease: "easeInOut" },
   },
   exit: {
     x: "-100vw",
     opacity: 0,
-    transition: { ease: "easeInOut", duration: 1 }
-  }
+    transition: { ease: "easeInOut", duration: 1 },
+  },
 };
 
 const variants = {
@@ -24,13 +24,13 @@ const variants = {
     scale: 1,
     x: 0,
     y: 0,
-    transition: { duration: 1 }
+    transition: { duration: 1 },
   },
   exit: {
     x: "-100vw",
     opacity: 0,
-    transition: { ease: "easeInOut", duration: 1 }
-  }
+    transition: { ease: "easeInOut", duration: 1 },
+  },
 };
 
 export default function Experience() {
@@ -38,7 +38,8 @@ export default function Experience() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const totalHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
       const scrolled = window.scrollY;
       const progress = (scrolled / totalHeight) * 2000; // adjust max height if needed
       setScrollHeight(progress);
@@ -64,13 +65,15 @@ export default function Experience() {
           </div>
 
           <div className="relative mt-5 md:mt-12">
-
             {/* Dynamic timeline line */}
             <div
               className={clsx(
-                "absolute left-2 md:left-4 top-0 border-l-2 md:border-l-4 border-gray-300 opacity-50"
+                "absolute left-2 md:left-4 top-0 border-l-2 md:border-l-4 border-gray-300 opacity-50",
               )}
-              style={{ height: `${scrollHeight}px`,  transition: "height 0.1s ease-out" }}
+              style={{
+                height: `${scrollHeight}px`,
+                transition: "height 0.1s ease-out",
+              }}
             ></div>
 
             {experiences.map((experience, index) => (

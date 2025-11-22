@@ -1,6 +1,5 @@
 # My Portfolio Website
 
-
 <img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/6bea4578-bab6-4c1c-8725-c22c64803816" />
 
 <img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/ab2dfb11-348f-4239-b88b-594a49bd4a49" />
@@ -12,7 +11,6 @@
 <img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/54e00181-734d-41d8-affa-5b59fee1e19f" />
 
 <img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/8b3d396d-ce47-43de-8470-251ff94662ea" />
-
 
 <h4>
   Portfolio Website for Ezra
@@ -28,9 +26,7 @@
 
 clone the project `git clone https://github.com/ezdev21/portfolio`
 
-
 ## 🛠 Installation and Setup Instructions
-
 
 1. Installation: `npm install`
 
@@ -40,10 +36,9 @@ Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.
 
-
 ## Configuring @tsparticles/react
 
-visit  tsparticles website
+visit tsparticles website
 
 <a href="https://particles.js.org/" target="_blank">https://particles.js.org/</a>
 
@@ -65,10 +60,13 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License.
 
 <!-- CONTACT -->
+
 ## Contact
+
 Contact me here or by email ezradev21@gmail.com

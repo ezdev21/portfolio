@@ -2,7 +2,7 @@
 
 @plugin "tailwindcss-animate";
 
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @import "tailwindcss";
 
@@ -19,31 +19,35 @@ body {
   font-size-adjust: 0.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom left, rgb(17, 16, 16), rgb(12, 10, 22));
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(17, 16, 16),
+    rgb(12, 10, 22)
+  );
   color: #d1d5db;
   user-select: none !important;
 }
 
-.text-primary{
+.text-primary {
   color: #c770f0 !important;
 }
 
-.text-secondary{
-  color: #1A1126 !important;
+.text-secondary {
+  color: #1a1126 !important;
 }
 
-.bg-secondary{
-  background-color: #1A1126 !important;
+.bg-secondary {
+  background-color: #1a1126 !important;
 }
 
-.bg-primary{
+.bg-primary {
   background-color: #c770f0 !important;
 }
 
-.card{
-  background-color: #1F1230 !important;
+.card {
+  background-color: #1f1230 !important;
   opacity: 0.95 !important;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -75,14 +79,30 @@ body {
 /* 👋🏻 wave animation */
 
 @keyframes wave-animation {
-   0% { transform: rotate(0deg); }
-  10% { transform: rotate(14deg); } /* The following five values can be played with to make the waving more or less extreme */
-  20% { transform: rotate(-8deg); }
-  30% { transform: rotate(14deg); }
-  40% { transform: rotate(-4deg); }
-  50% { transform: rotate(10deg); }
-  60% { transform: rotate(0deg); } /* Reset for the last half to pause */
- 100% { transform: rotate(0deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .Typewriter__wrapper {

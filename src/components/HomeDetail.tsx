@@ -1,14 +1,11 @@
 import myImg from "@assets/avatar-ezra-curved.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillMail,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 
 function HomeDetail() {
-  return ( 
+  return (
     <div className="py-4 md:py-18">
       <div>
         <div className="md:flex items-center px-4 md:px-10">
@@ -18,17 +15,27 @@ function HomeDetail() {
             </h1>
 
             <p className="text-left md:pt-12 text-md md:text-xl">
-              Hey there! 👋 I'm a software developer who's all about crafting web and mobile apps that push the boundaries of what's possible.
-              <br/>
-              <br/>
-              I’m a software developer by profession, driven by a passion for solving real-world problems and creating meaningful
-              solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
-              developing full-stack solutions that meet business requirements and exceed user expectations.
+              Hey there! 👋 I'm a software developer who's all about crafting
+              web and mobile apps that push the boundaries of what's possible.
+              <br />
+              <br />
+              I’m a software developer by profession, driven by a passion for
+              solving real-world problems and creating meaningful solutions.
+              With a strong foundation in both front-end and back-end
+              development, I am adept at designing and developing full-stack
+              solutions that meet business requirements and exceed user
+              expectations.
             </p>
           </div>
           <div className="md:w-1/3 md:flex items-center justify-center pt-5">
             <Tilt>
-              <img src={myImg} width="300px" className="img-fluid" alt="avatar" loading="lazy"/>
+              <img
+                src={myImg}
+                width="300px"
+                className="img-fluid"
+                alt="avatar"
+                loading="lazy"
+              />
             </Tilt>
           </div>
         </div>

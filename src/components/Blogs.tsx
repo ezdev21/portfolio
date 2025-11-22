@@ -1,4 +1,3 @@
-
 interface Blog {
   id: number;
   title: string;
@@ -13,7 +12,8 @@ const Blogs = () => {
       id: 1,
       title: "Understanding React Hooks",
       date: "2025-11-16",
-      summary: "A deep dive into React Hooks and how they can improve your code.",
+      summary:
+        "A deep dive into React Hooks and how they can improve your code.",
       url: "https://example.com/react-hooks",
     },
     {
@@ -27,14 +27,17 @@ const Blogs = () => {
       id: 3,
       title: "Building a Portfolio Website",
       date: "2025-09-05",
-      summary: "Step-by-step guide to building your personal portfolio website.",
+      summary:
+        "Step-by-step guide to building your personal portfolio website.",
       url: "https://example.com/portfolio-website",
     },
   ];
 
   return (
     <div className="card py-12 px-6">
-      <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">My Blogs</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
+        My Blogs
+      </h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {blogData.map((blog) => (
           <div

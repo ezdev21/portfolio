@@ -25,7 +25,11 @@ function NavBar() {
   const navLinks = [
     { to: "/", icon: <AiOutlineHome />, label: "Home" },
     { to: "/about", icon: <AiOutlineUser />, label: "About" },
-    { to: "/projects", icon: <AiOutlineFundProjectionScreen />, label: "Projects" },
+    {
+      to: "/projects",
+      icon: <AiOutlineFundProjectionScreen />,
+      label: "Projects",
+    },
     { to: "/experience", icon: <RiBuilding2Line />, label: "Experience" },
     { to: "/resume", icon: <CgFileDocument />, label: "Resume" },
   ];
@@ -98,7 +102,7 @@ function NavBar() {
               `}
             >
               <span className="font-black">{icon}</span>
-              <span >{label}</span>
+              <span>{label}</span>
             </Link>
           ))}
 

@@ -10,8 +10,8 @@
       "@/*": ["./src/*"],
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
-      "@assets/*": ["assets/*"],
-    },
+      "@assets/*": ["assets/*"]
+    }
   },
   "include": ["src"]
 }

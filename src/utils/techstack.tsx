@@ -1,11 +1,40 @@
-import { DiJava, DiJavascript1, DiLaravel, DiPython, DiReact } from "react-icons/di";
+import {
+  DiJava,
+  DiJavascript1,
+  DiLaravel,
+  DiPython,
+  DiReact,
+} from "react-icons/di";
 import { FaAws, FaNodeJs } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
-import { SiBootstrap, SiCplusplus, SiDart, SiDocker, SiExpress, SiFirebase, SiFlutter, SiGithub, SiGooglecloud, SiGraphql, SiLinux, SiNestjs, SiNextdotjs, SiNuxtdotjs, SiPhp, SiPostman, SiQuasar, SiSass, SiTailwindcss, SiTypescript, SiVisualstudiocode, SiVuedotjs } from "react-icons/si";
+import {
+  SiBootstrap,
+  SiCplusplus,
+  SiDart,
+  SiDocker,
+  SiExpress,
+  SiFirebase,
+  SiFlutter,
+  SiGithub,
+  SiGooglecloud,
+  SiGraphql,
+  SiLinux,
+  SiNestjs,
+  SiNextdotjs,
+  SiNuxtdotjs,
+  SiPhp,
+  SiPostman,
+  SiQuasar,
+  SiSass,
+  SiTailwindcss,
+  SiTypescript,
+  SiVisualstudiocode,
+  SiVuedotjs,
+} from "react-icons/si";
 
 const techStack = [
   {
-    title: 'Programming Language',
+    title: "Programming Language",
     skills: [
       <DiPython />,
       <SiCplusplus />,
@@ -14,11 +43,11 @@ const techStack = [
       <SiPhp />,
       <SiDart />,
       <SiTypescript />,
-      <FaGolang />
-    ]
+      <FaGolang />,
+    ],
   },
   {
-    title: 'Frontend and Cross Platform',
+    title: "Frontend and Cross Platform",
     skills: [
       <DiReact />,
       <SiNextdotjs />,
@@ -28,21 +57,21 @@ const techStack = [
       <SiTailwindcss />,
       <SiSass />,
       <SiFlutter />,
-    ]
+    ],
   },
   {
-     title: 'Backend Stack',
-     skills: [
+    title: "Backend Stack",
+    skills: [
       <DiLaravel />,
       <FaNodeJs />,
       <SiExpress />,
       <SiNestjs />,
       <SiFirebase />,
-      <SiGraphql />
-     ]
+      <SiGraphql />,
+    ],
   },
   {
-    title: 'Tools I use',
+    title: "Tools I use",
     skills: [
       <SiLinux />,
       <SiVisualstudiocode />,
@@ -51,8 +80,8 @@ const techStack = [
       <SiDocker />,
       <FaAws />,
       <SiGooglecloud />,
-    ]
-  }
+    ],
+  },
 ];
 
-export default techStack
+export default techStack;
