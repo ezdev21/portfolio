@@ -33,7 +33,7 @@ function ProjectCard(props: ProjectProps) {
             {props.skills && (
               <div className="flex gap-3 flex-wrap">
                 {props.skills.map((skill) => (
-                  <span className="bg-primary py-1 px-2 rounded-sm text-xs">
+                  <span className="bg-secondary py-1 px-2 rounded-sm text-xs">
                     {skill}
                   </span>
                 ))}
@@ -44,7 +44,7 @@ function ProjectCard(props: ProjectProps) {
           <div className="flex space-x-3 mt-3">
             {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
             {!props.isBlog && props.ghLink && (
-              <button className="bg-primary py-1 px-3 rounded-sm">
+              <button className="bg-secondary py-1 px-3 rounded-sm">
                 <a
                   className="flex items-center space-x-1"
                   href={props.ghLink}
@@ -59,7 +59,7 @@ function ProjectCard(props: ProjectProps) {
             {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
             {!props.isBlog && props.demoLink && (
-              <button className="bg-primary py-1 px-3 rounded-sm">
+              <button className="bg-secondary py-1 px-3 rounded-sm">
                 <a
                   className="flex items-center space-x-2"
                   href={props.demoLink}

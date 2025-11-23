@@ -28,7 +28,7 @@ function Projects() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <h1 className="text-2xl md:text-4xl font-medium py-5 md:pb-15 text-center">
-              My Recent <strong className="text-primary">Works </strong>
+              My Recent <strong className="text-primary-foreground">Works </strong>
             </h1>
             <p className="text-lg md:text-2xl max-md:font-light text-center md:leading-3">
               Here are a few projects I've worked on recently.

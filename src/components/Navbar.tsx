@@ -47,7 +47,7 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => setIsOpen(false)}
-          className="text-primary font-black text-4xl font-mono"
+          className="text-primary-foreground font-black text-4xl font-mono"
         >
           &lt;👨‍💻/&gt;
         </Link>
@@ -96,8 +96,8 @@ function NavBar() {
                 setActiveKey(to);
               }}
               className={`relative text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-white
-                ${activeKey === to ? "text-primary md:after:w-full" : "after:w-0"}
-                hover:text-primary md:hover:after:w-full
+                ${activeKey === to ? "text-primary-foreground md:after:w-full" : "after:w-0"}
+                hover:text-primary-foreground md:hover:after:w-full
                 after:content-[''] after:absolute after:left-0 after:-bottom-2 after:h-1 after:rounded-xl after:bg-[#c770f0] after:transition-all after:duration-700 after:ease-in-out
               `}
             >

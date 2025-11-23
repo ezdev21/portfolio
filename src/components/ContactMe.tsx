@@ -96,7 +96,7 @@ const ContactMe: React.FC = () => {
             className={`w-full ${
               loading
                 ? "cursor-not-allowed"
-                : "bg-primary  hover:bg-purple-600 cursor-pointer"
+                : "bg-secondary  hover:bg-purple-600 cursor-pointer"
             } font-medium py-3 rounded-lg transition-colors`}
           >
             {loading ? "Sending..." : "Send Message"}

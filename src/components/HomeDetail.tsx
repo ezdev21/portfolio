@@ -11,7 +11,7 @@ function HomeDetail() {
         <div className="md:flex items-center px-4 md:px-10">
           <div className="md:w-2/3 p-4 md:pt-25 md:pl-15">
             <h1 className="text-2xl md:text-5xl pb-5">
-              LET ME <span className="text-primary"> INTRODUCE </span> MYSELF
+              LET ME <span className="text-primary-foreground"> INTRODUCE </span> MYSELF
             </h1>
 
             <p className="text-left md:pt-12 text-md md:text-xl">
@@ -43,14 +43,14 @@ function HomeDetail() {
           <div className="md:w-full text-center pt-6">
             <h1 className="text-3xl pb-5">FIND ME ON</h1>
             <p className="pb-5 text-xl">
-              Feel free to <span className="text-primary">connect </span>with me
+              Feel free to <span className="text-primary-foreground">connect </span>with me
             </p>
             <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
               <li>
                 <a
                   href="mailto:ezradev21@gmail.com"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillMail />
                 </a>
@@ -60,7 +60,7 @@ function HomeDetail() {
                   href="https://github.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <AiFillGithub />
                 </a>
@@ -70,7 +70,7 @@ function HomeDetail() {
                   href="https://www.linkedin.com/in/ezdev21/"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -80,7 +80,7 @@ function HomeDetail() {
                   href="https://t.me/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <FaTelegram />
                 </a>
@@ -90,7 +90,7 @@ function HomeDetail() {
                   href="https://x.com/ezdev21"
                   target="_blank"
                   rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
                   <BsTwitterX />
                 </a>

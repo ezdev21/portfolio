@@ -28,22 +28,6 @@ body {
   user-select: none !important;
 }
 
-.text-primary {
-  color: #c770f0 !important;
-}
-
-.text-secondary {
-  color: #1a1126 !important;
-}
-
-.bg-secondary {
-  background-color: #1a1126 !important;
-}
-
-.bg-primary {
-  background-color: #c770f0 !important;
-}
-
 .card {
   background-color: #1f1230 !important;
   opacity: 0.95 !important;
@@ -172,10 +156,10 @@ body {
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
+  --primary: #1a1126;
+  --primary-foreground: #c770f0;
+  --secondary: #c770f0;
+  --secondary-foreground: #1a1126;
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);

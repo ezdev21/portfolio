@@ -60,7 +60,7 @@ export default function Experience() {
               animate={{ translateY: "0px" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Professional <strong className="text-primary">Experience</strong>
+              Professional <strong className="text-primary-foreground">Experience</strong>
             </motion.h1>
           </div>
 
@@ -89,7 +89,7 @@ export default function Experience() {
                 className="timeline-item w-full px-4 md:px-12 mb-10 relative"
               >
                 {/* Timeline dot */}
-                <div className="absolute left-0.5 md:left-1.5 -top-3 w-6 h-6 rounded-full bg-primary"></div>
+                <div className="absolute left-0.5 md:left-1.5 -top-3 w-6 h-6 rounded-full bg-secondary"></div>
 
                 <div className="px-3 md:px-5 my-10 md:my-20">
                   <h2 className="font-bold text-2xl md:text-4xl my-2">

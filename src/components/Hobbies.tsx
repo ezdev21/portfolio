@@ -18,32 +18,32 @@ const hobbies: Hobby[] = [
   {
     title: "Photography",
     description: "Capturing moments and exploring creative perspectives.",
-    icon: <FaCamera className="text-4xl text-primary" />,
+    icon: <FaCamera className="text-4xl text-primary-foreground" />,
   },
   {
     title: "Hiking",
     description: "Enjoying nature and staying active outdoors.",
-    icon: <FaHiking className="text-4xl text-primary" />,
+    icon: <FaHiking className="text-4xl text-primary-foreground" />,
   },
   {
     title: "Reading",
     description: "Diving into books on tech, psychology, and fantasy.",
-    icon: <FaBook className="text-4xl text-primary" />,
+    icon: <FaBook className="text-4xl text-primary-foreground" />,
   },
   {
     title: "Gaming",
     description: "Playing story-rich and competitive games to unwind.",
-    icon: <FaGamepad className="text-4xl text-primary" />,
+    icon: <FaGamepad className="text-4xl text-primary-foreground" />,
   },
   {
     title: "Music",
     description: "Listening to and discovering new genres.",
-    icon: <FaMusic className="text-4xl text-primary" />,
+    icon: <FaMusic className="text-4xl text-primary-foreground" />,
   },
   {
     title: "Fitness",
     description: "Staying active through workouts and strength training.",
-    icon: <FaDumbbell className="text-4xl text-primary" />,
+    icon: <FaDumbbell className="text-4xl text-primary-foreground" />,
   },
 ];
 
