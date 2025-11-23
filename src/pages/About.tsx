@@ -44,7 +44,8 @@ function About() {
                 transition={{ type: "spring", stiffness: 300 }}
                 className="text-3xl md:text-4xl py-5"
               >
-                Know Who <strong className="text-primary-foreground">I'M</strong>
+                Know Who{" "}
+                <strong className="text-primary-foreground">I'M</strong>
               </motion.h1>
               <AboutDetail />
             </div>

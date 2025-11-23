@@ -2,7 +2,6 @@ import {
   FaCamera,
   FaHiking,
   FaBook,
-  FaCode,
   FaMusic,
   FaDumbbell,
   FaGamepad,

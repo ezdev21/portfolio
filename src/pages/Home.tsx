@@ -53,7 +53,11 @@ function Home() {
                 </h1>
                 <h1 className="text-2xl md:text-4xl">
                   I'M
-                  <strong className="text-primary-foreground"> EZRA</strong> FIKADU
+                  <strong className="text-primary-foreground">
+                    {" "}
+                    EZRA
+                  </strong>{" "}
+                  FIKADU
                 </h1>
                 <div>
                   <Type />

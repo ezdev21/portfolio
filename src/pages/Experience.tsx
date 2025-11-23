@@ -60,7 +60,8 @@ export default function Experience() {
               animate={{ translateY: "0px" }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              Professional <strong className="text-primary-foreground">Experience</strong>
+              Professional{" "}
+              <strong className="text-primary-foreground">Experience</strong>
             </motion.h1>
           </div>
 

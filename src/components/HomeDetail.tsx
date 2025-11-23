@@ -11,7 +11,9 @@ function HomeDetail() {
         <div className="md:flex items-center px-4 md:px-10">
           <div className="md:w-2/3 p-4 md:pt-25 md:pl-15">
             <h1 className="text-2xl md:text-5xl pb-5">
-              LET ME <span className="text-primary-foreground"> INTRODUCE </span> MYSELF
+              LET ME{" "}
+              <span className="text-primary-foreground"> INTRODUCE </span>{" "}
+              MYSELF
             </h1>
 
             <p className="text-left md:pt-12 text-md md:text-xl">
@@ -43,7 +45,8 @@ function HomeDetail() {
           <div className="md:w-full text-center pt-6">
             <h1 className="text-3xl pb-5">FIND ME ON</h1>
             <p className="pb-5 text-xl">
-              Feel free to <span className="text-primary-foreground">connect </span>with me
+              Feel free to{" "}
+              <span className="text-primary-foreground">connect </span>with me
             </p>
             <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
               <li>
