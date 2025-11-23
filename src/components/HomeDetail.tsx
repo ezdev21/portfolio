@@ -1,5 +1,4 @@
-import myImg from "@assets/avatar-ezra-curved.png";
-import Tilt from "react-parallax-tilt";
+import myImg from "@assets/avatar-ezra.png";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
@@ -29,16 +28,21 @@ function HomeDetail() {
               expectations.
             </p>
           </div>
-          <div className="md:w-1/3 md:flex items-center justify-center pt-5">
-            <Tilt>
-              <img
-                src={myImg}
-                width="300px"
-                className="img-fluid"
-                alt="avatar"
-                loading="lazy"
-              />
-            </Tilt>
+          <div className="md:w-1/3 md:flex items-center justify-center pt-5 md:mr-10">
+            <div className="w-85 h-85 relative flex justify-center items-center">
+              <div className="absolute top-15">
+                <div className="bg-card rounded-full border-10 border-secondary w-75 h-75">
+                  <img
+                    src={myImg}
+                    className="w-full h-full rounded-full grayscale-50 hover:grayscale-0 transition duration-500"
+                    alt="avatar"
+                  />  
+                </div> 
+                <div className="top-4 right-4 absolute bg-secondary w-16 h-16 rounded-full"></div>
+                <div className="-left-4 top-[50%] absolute bg-secondary w-12 h-12 rounded-full"></div>
+                <div className="bottom-8 right-8 absolute bg-secondary w-8 h-8 rounded-full"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
