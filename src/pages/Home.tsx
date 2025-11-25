@@ -34,14 +34,14 @@ function Home() {
       <div className="pb-7">
         <div className="bg-[linear-gradient(to_bottom_left,rgba(17,16,16,0.8),rgba(12,10,22,0.8)),url(./assets/home-bg.jpg)] bg-center text-left mt-20 pb-8 px-0">
           <div className="md:flex md:mx-23">
-            <div className="md:w-1/2 flex max-mdjustify-center items-center max-md:p-5">
+            <div className="md:w-1/2 flex items-center max-md:mx-5 max-md:p-5">
               <motion.div
                 initial={{ translateX: "-100vw", opacity: 0 }}
                 animate={{ translateX: "0vw", opacity: 1 }}
                 transition={{ duration: 2, delay: 0.5 }}
                 className="flex flex-col md:gap-10"
               >
-                <h1 className="text-2xl md:text-5xl font-semibold">
+                <h1 className="text-3xl md:text-5xl font-semibold">
                   Hi There!
                   <span
                     className="inline-block origin-[70%_70%] animate-[wave-animation_2.1s_infinite]"
@@ -51,7 +51,7 @@ function Home() {
                     👋🏻
                   </span>
                 </h1>
-                <h1 className="text-2xl md:text-4xl">
+                <h1 className="text-3xl md:text-5xl py-5">
                   I'M
                   <strong className="text-primary-foreground">
                     {" "}

@@ -47,7 +47,7 @@ function HomeDetail() {
         </div>
         <div>
           <div className="md:w-full text-center pt-6">
-            <h1 className="text-3xl pb-5">FIND ME ON</h1>
+            <h1 className="text-3xl pt-15 pb-5">FIND ME ON</h1>
             <p className="pb-5 text-xl">
               Feel free to{" "}
               <span className="text-primary-foreground">connect </span>with me
