@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import ethiopianFlag from "@assets/flags/ET.svg";
-import americanFlag from "@assets/flags/US.svg";
-// import franceFlag from "@assets/flags/FR.svg";
+import ethiopianFlag from "@/assets/flags/ET.svg";
+import americanFlag from "@/assets/flags/US.svg";
+// import franceFlag from "@/assets/flags/FR.svg";
 
 const Languages = () => {
   const languages = [

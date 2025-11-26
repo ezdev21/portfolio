@@ -1,4 +1,4 @@
-import myImg from "@assets/avatar-ezra.png";
+import myImg from "@/assets/avatar-ezra.png";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";

@@ -1,15 +1,15 @@
-import Github from "@components/ui/Github";
-import Techstack from "@components/Techstack";
+import Github from "@/components/ui/Github";
+import Techstack from "@/components/Techstack";
 import { motion } from "framer-motion";
-import Education from "../components/Education";
-import Languages from "../components/Languages";
-import SoftSkills from "../components/SoftSkills";
-import Testimonial from "../components/Testimonial";
-import ContactMe from "../components/ContactMe";
-import Hobbies from "../components/Hobbies";
+import Education from "@/components/Education";
+import Languages from "@/components/Languages";
+import SoftSkills from "@/components/SoftSkills";
+import Testimonial from "@/components/Testimonial";
+import ContactMe from "@/components/ContactMe";
+import Hobbies from "@/components/Hobbies";
 import Lottie from "lottie-react";
-import AboutLottie from "@assets/about-lottie.json";
-import AboutDetail from "../components/AboutDetail";
+import AboutLottie from "@/assets/about-lottie.json";
+import AboutDetail from "@/components/AboutDetail";
 
 const variants = {
   initial: { opacity: 0 },

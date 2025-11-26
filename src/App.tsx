@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import Preloader from "@components/ui/Pre";
-import Navbar from "@components/Navbar";
-import Home from "@pages/Home";
-import About from "@pages/About";
-import Projects from "@pages/Projects";
-import Footer from "@components/Footer";
-import Resume from "@pages/Resume";
+import Preloader from "@/components/ui/Pre";
+import Navbar from "@/components/Navbar";
+import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Projects from "@/pages/Projects";
+import Footer from "@/components/Footer";
+import Resume from "@/pages/Resume";
 import { Analytics } from "@vercel/analytics/react";
 
 import { Route, Routes, Navigate, useLocation } from "react-router-dom";
