@@ -4,7 +4,7 @@
 
 <img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/ab2dfb11-348f-4239-b88b-594a49bd4a49" />
 
-<img width="1920" height="1080" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/97a35339-3bc2-4ece-9205-55d602d41e6f" />
+<img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/99e587e0-f90c-42c8-9141-698d003c9f72" />
 
 <img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/884c07b7-cc0a-4690-bdd1-e6148ea409df" />
 
@@ -35,6 +35,16 @@ clone the project `git clone https://github.com/ezdev21/portfolio`
 Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.
+
+## Installation using docker
+
+Build
+
+`docker build -t portfolio .`
+
+Run
+
+`docker run -p 8080:80 portfolio`
 
 ## Configuring @tsparticles/react
 
