@@ -23,9 +23,11 @@ function App() {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
+    
+    window.scrollTo(0, 0);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [location.pathname]);
 
   return (
     <div>
