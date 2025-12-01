@@ -9,7 +9,7 @@ const experiences: Experience[] = [
   {
     company: "HADDIS ART",
     position: "Full-stack Developer",
-    date: "Feb 2025 - Aug 2025",
+    date: "Feb 2025 - Sep 2025",
     responsibilities: [
       "Collaborated with cross-functional teams to design, develop, and deploy governmental projects.",
       "Completed several small tasks with deadlines, which let me adapt to working under a tight deadline and learn how to divide/prioritize tasks.",
@@ -67,19 +67,17 @@ const experiences: Experience[] = [
       "Diagnosed and resolved application issues by analyzing logs, debugging components, and identifying root causes.",
     ],
   },
-  // {
-  //   company: "FREELANCE PROJECTS",
-  //   position: "Freelance Developer",
-  //   date: "Jun 2022 - Present",
-  //   responsibilities: [
-  //     "Worked with clients to understand their requirements and deliver customized solutions.",
-  //     "Managed multiple projects simultaneously, ensuring timely delivery and quality output.",
-  //     "Provided ongoing support and maintenance for deployed applications.",
-  //     "Built strong relationships with clients, resulting in repeat business and referrals.",
-  //     "Utilized a variety of technologies and tools to meet diverse project needs.",
-  //     "Continuously improved development processes to enhance efficiency and effectiveness."
-  //   ]
-  // }
+  {
+    company: "FREELANCE PROJECTS",
+    position: "Freelance Developer",
+    date: "Jun 2022 - Present",
+    responsibilities: [
+      "Developed and maintained websites and web applications for various clients using technologies such as React, Node.js, and PHP.",
+      "Developer portfolio websites for clients to showcase their work and skills.",
+      "fixed small tasks and bugs for different clients on their existing applications.",
+      "fixed deployment issues for different clients on their applications hosted on various cloud platforms.",
+    ],
+  },
 ];
 
 export default experiences;
