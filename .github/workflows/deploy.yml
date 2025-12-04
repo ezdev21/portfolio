@@ -1,31 +1,37 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Vite React App
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main"]   # deploy when you push to main
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write        # required to push to gh-pages branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
+          cache: npm
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint (optional but recommended)
+        run: npm run lint
+
+      - name: Build Vite project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          npx gh-pages -d dist
