@@ -1,6 +1,4 @@
-import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import socialLinks from "../utils/social_links";
 
 function Footer() {
   return (
@@ -20,50 +18,18 @@ function Footer() {
         </div>
         <div className="order-2 md:order-3 md:w-1/4 text-center">
           <ul className="my-2 flex justify-start md:justify-end">
-            <li className="inline-block px-4">
-              <a href="mailto:ezradev21@gmail.com" rel="noopener noreferrer">
-                <AiOutlineMail size={25} />
-              </a>
-            </li>
-            <li className="inline-block px-4">
-              <a
-                href="https://github.com/ezdev21"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub size={25} />
-              </a>
-            </li>
-            <li className="inline-block px-4">
-              <a
-                href="https://www.linkedin.com/in/ezdev21"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn size={25} />
-              </a>
-            </li>
-            <li className="inline-block px-4">
-              <a
-                href="https://t.me/ezdev21"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTelegram size={25} />
-              </a>
-            </li>
-            <li className="inline-block px-4">
-              <a
-                href="https://x.com/ezdev21"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsTwitterX size={25} />
-              </a>
-            </li>
+            {socialLinks.map((link) => (
+              <li className="inline-block px-3 text-2xl" key={link.name}>
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary-foreground transition duration-300"
+                >
+                  {link.icon}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

@@ -1,7 +1,5 @@
 import myImg from "@/assets/avatar-ezra.png";
-import { AiFillGithub, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import socialLinks from "../utils/social_links";
 
 function HomeDetail() {
   return (
@@ -53,55 +51,18 @@ function HomeDetail() {
               <span className="text-primary-foreground">connect </span>with me
             </p>
             <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
-              <li>
-                <a
-                  href="mailto:ezradev21@gmail.com"
-                  rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
-                >
-                  <AiFillMail />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/ezdev21"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/ezdev21/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://t.me/ezdev21"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
-                >
-                  <FaTelegram />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://x.com/ezdev21"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
-                >
-                  <BsTwitterX />
-                </a>
-              </li>
+              {socialLinks.map((link) => ( 
+                <li>
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="relative flex w-10 h-10 text-center text-xl text-secondary bg-white rounded-full justify-center items-center leading-8 hover:text-primary-foreground hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:card before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
+                  >
+                    {link.icon}
+                  </a>
+                </li>
+              ))}   
             </ul>
           </div>
         </div>
