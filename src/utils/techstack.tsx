@@ -1,4 +1,5 @@
 import {
+  DiGoogleCloudPlatform,
   DiJava,
   DiJavascript1,
   DiLaravel,
@@ -16,19 +17,18 @@ import {
   SiFirebase,
   SiFlutter,
   SiGithub,
+  SiGithubactions,
   SiGooglecloud,
   SiGraphql,
-  SiLinux,
+  SiKubernetes,
   SiNestjs,
   SiNextdotjs,
+  SiNginx,
   SiNuxtdotjs,
   SiPhp,
-  SiPostman,
-  SiQuasar,
   SiSass,
   SiTailwindcss,
   SiTypescript,
-  SiVisualstudiocode,
   SiVuedotjs,
 } from "react-icons/si";
 
@@ -60,7 +60,7 @@ const techStack = [
     ],
   },
   {
-    title: "Backend Stack",
+    title: "Backend Development",
     skills: [
       <DiLaravel />,
       <FaNodeJs />,
@@ -71,14 +71,15 @@ const techStack = [
     ],
   },
   {
-    title: "Tools I use",
+    title: "Devops and Cloud",
     skills: [
-      <SiLinux />,
-      <SiVisualstudiocode />,
       <SiGithub />,
-      <SiPostman />,
       <SiDocker />,
+      <SiGithubactions />,
+      <SiKubernetes />,
+      <SiNginx />,
       <FaAws />,
+      <DiGoogleCloudPlatform />,
       <SiGooglecloud />,
     ],
   },
