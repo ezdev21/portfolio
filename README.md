@@ -1,19 +1,14 @@
 # My Portfolio Website
-
-<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/6bea4578-bab6-4c1c-8725-c22c64803816" />
-
-
+<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/089ce2d2-360f-410c-aa13-79d20251553e" />
+<br><br>
 <img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/ab2dfb11-348f-4239-b88b-594a49bd4a49" />
-
-
+<br><br>
 <img width="1920" height="1080" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/99e587e0-f90c-42c8-9141-698d003c9f72" />
-
-
+<br><br>
 <img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/884c07b7-cc0a-4690-bdd1-e6148ea409df" />
-
-
+<br><br>
 <img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/54e00181-734d-41d8-affa-5b59fee1e19f" />
-
+<br><br>
 <h4>
   Portfolio Website for Ezra
   <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
