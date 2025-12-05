@@ -12,47 +12,47 @@ const socialLinks: SocialLink[] = [
   {
     name: "Email",
     url: "mailto:ezradev21@gmail.com",
-    icon: <AiFillMail />
+    icon: <AiFillMail />,
   },
   {
     name: "GitHub",
     url: "https://github.com/ezdev21",
-    icon: <AiFillGithub />
+    icon: <AiFillGithub />,
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/ezdev21/",
-    icon: <FaLinkedinIn />
+    icon: <FaLinkedinIn />,
   },
   {
     name: "Telegram",
     url: "https://t.me/ezdev21",
-    icon: <FaTelegram />
+    icon: <FaTelegram />,
   },
   {
     name: "WhatsApp",
     url: "https://wa.me/251921619659",
-    icon: <FaWhatsapp />
+    icon: <FaWhatsapp />,
   },
   {
     name: "X",
     url: "",
-    icon: <BsTwitterX />
+    icon: <BsTwitterX />,
   },
   // {
   //   name: "Discord",
   //   url: "",
-  //   icon: "discord-icon"  
+  //   icon: "discord-icon"
   // },
   // {
   //   name: "Reddit",
   //   url: "",
-  //   icon: "reddit-icon" 
+  //   icon: "reddit-icon"
   // },
   // {
   //   name: "TikTok",
   //   url: "",
-  //   icon: "tiktok-icon" 
+  //   icon: "tiktok-icon"
   // },
   // {
   //   name: "YouTube",
@@ -67,7 +67,7 @@ const socialLinks: SocialLink[] = [
   // {
   //   name: "Facebook",
   //   url: "",
-  //   icon: "facebook-icon" 
+  //   icon: "facebook-icon"
   // },
   // {
   //   name: "Phone",

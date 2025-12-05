@@ -68,7 +68,7 @@ const experiences: Experience[] = [
     ],
   },
   {
-    company: "FREELANCE PROJECTS",
+    company: "FREELANCER",
     position: "Freelance Developer",
     date: "Jun 2022 - Present",
     responsibilities: [

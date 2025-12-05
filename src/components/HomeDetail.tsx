@@ -34,8 +34,8 @@ function HomeDetail() {
                     src={myImg}
                     className="w-full h-full rounded-full grayscale-50 hover:grayscale-0 transition duration-500"
                     alt="avatar"
-                  />  
-                </div> 
+                  />
+                </div>
                 <div className="top-4 right-4 absolute bg-secondary w-16 h-16 rounded-full"></div>
                 <div className="-left-4 top-[50%] absolute bg-secondary w-12 h-12 rounded-full"></div>
                 <div className="bottom-8 right-8 absolute bg-secondary w-8 h-8 rounded-full"></div>
@@ -51,7 +51,7 @@ function HomeDetail() {
               <span className="text-primary-foreground">connect </span>with me
             </p>
             <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
-              {socialLinks.map((link) => ( 
+              {socialLinks.map((link) => (
                 <li>
                   <a
                     href={link.url}
@@ -62,7 +62,7 @@ function HomeDetail() {
                     {link.icon}
                   </a>
                 </li>
-              ))}   
+              ))}
             </ul>
           </div>
         </div>
