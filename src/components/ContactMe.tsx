@@ -60,25 +60,27 @@ const ContactMe: React.FC = () => {
 
       <div className="md:w-1/2">
         <form onSubmit={handleSubmit} className="flex-1 flex flex-col gap-4">
-          <Input
-            type="text"
-            name="name"
-            placeholder="John Doe"
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="w-full p-3 border border-gray-300  rounded-sm bg-white text-gray-800 focus:outline-none"
-          />
+          <div className="flex flex-col md:flex-row gap-4">
+            <Input
+              type="text"
+              name="name"
+              placeholder="John Doe"
+              value={formData.name}
+              onChange={handleChange}
+              required
+              className="flex-1 p-3 border border-gray-300 rounded-sm bg-white text-gray-800 outline outline-1 outline-primary focus:outline-2 focus:outline-primary"
+            />
 
-          <Input
-            type="email"
-            name="email"
-            placeholder="coder@example.com"
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="w-full p-3 border border-gray-300 rounded-sm bg-white text-gray-800 focus:outline-none focus:ring-2"
-          />
+            <Input
+              type="email"
+              name="email"
+              placeholder="coder@example.com"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              className="flex-1 p-3 border border-gray-300 rounded-sm bg-white text-gray-800 focus:outline-2 focus:outline-primary outline outline-1 outline-primary"
+            />
+          </div>
 
           <Textarea
             name="message"
@@ -87,7 +89,7 @@ const ContactMe: React.FC = () => {
             onChange={handleChange}
             rows={5}
             required
-            className="w-full p-3 border border-gray-300 rounded-sm bg-white  text-gray-800 focus:outline-none focus:ring-2 resize-none"
+            className="w-full p-3 border border-gray-300 rounded-sm bg-white text-gray-800 outline outline-1 outline-primary focus:outline-2 focus:outline-primary resize-none"
           />
 
           <Button
