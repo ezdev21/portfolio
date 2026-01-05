@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard";
-import { projects } from "@/utils/projects";
+import { projects } from "@/data/projects";
 
 const variants = {
   exit: {

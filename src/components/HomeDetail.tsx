@@ -1,5 +1,5 @@
 import myImg from "@/assets/avatar-ezra.png";
-import socialLinks from "../utils/social_links";
+import socialLinks from "../data/social_links";
 
 function HomeDetail() {
   return (

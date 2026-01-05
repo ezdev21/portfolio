@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import experiences from "@/utils/experience";
+import experiences from "@/data/experience";
 import clsx from "clsx";
 
 const sectionVariants = {

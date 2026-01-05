@@ -1,4 +1,4 @@
-import techStack from "@/utils/techstack";
+import techStack from "@/data/techstack";
 
 function Techstack() {
   return (

@@ -13,6 +13,7 @@ import {
   SiCplusplus,
   SiDart,
   SiDocker,
+  SiExpo,
   SiExpress,
   SiFirebase,
   SiFlutter,
@@ -47,7 +48,7 @@ const techStack = [
     ],
   },
   {
-    title: "Frontend and Cross Platform",
+    title: "Frontend and Mobile Development",
     skills: [
       <DiReact />,
       <SiNextdotjs />,
@@ -57,6 +58,7 @@ const techStack = [
       <SiTailwindcss />,
       <SiSass />,
       <SiFlutter />,
+      <SiExpo />,
     ],
   },
   {
