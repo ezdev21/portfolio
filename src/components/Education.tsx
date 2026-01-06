@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { PiGraduationCapBold } from "react-icons/pi";
-import { FaSchool, FaBookOpen } from "react-icons/fa";
+import { FaSchool } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa6";
 
 const Education = () => {
   const education = [
@@ -8,7 +9,7 @@ const Education = () => {
       degree: "Bachelor of Science in Electrical and Computer Engineering",
       school: "Addis Ababa University",
       year: "",
-      details: "Specialized in Computer Stream",
+      specialization: "Specialized in Computer Stream",
     },
   ];
 
@@ -46,8 +47,8 @@ const Education = () => {
                 </div>
               </div>
               <div className="flex items-center rounded-lg p-3 border border-white/10">
-                <FaBookOpen className="w-24 h-24 text-secondary mx-3" />
-                <p>{edu.details}</p>
+                <FaComputer className="w-8 h-8 text-secondary mx-3" />
+                <p>{edu.specialization}</p>
               </div>
             </div>
           </div>
