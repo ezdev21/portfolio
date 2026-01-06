@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { PiGraduationCapBold } from "react-icons/pi";
-import { FaSchool, FaCalendarAlt, FaBookOpen } from "react-icons/fa";
+import { FaSchool, FaBookOpen } from "react-icons/fa";
 
 const Education = () => {
   const education = [
@@ -8,8 +8,7 @@ const Education = () => {
       degree: "Bachelor of Science in Electrical and Computer Engineering",
       school: "Addis Ababa University",
       year: "",
-      details:
-        "Specialized in Computer Stream software development, web technologies, and AI.",
+      details: "Specialized in Computer Stream",
     },
   ];
 
