@@ -3,6 +3,8 @@ import {
   DiJava,
   DiJavascript1,
   DiLaravel,
+  DiMysql,
+  DiPostgresql,
   DiPython,
   DiReact,
 } from "react-icons/di";
@@ -70,6 +72,8 @@ const techStack = [
       <SiNestjs />,
       <SiFirebase />,
       <SiGraphql />,
+      <DiMysql />,
+      <DiPostgresql />,
     ],
   },
   {

@@ -7,7 +7,7 @@ const Education = () => {
     {
       degree: "Bachelor of Science in Electrical and Computer Engineering",
       school: "Addis Ababa University",
-      year: "2022",
+      year: "",
       details:
         "Specialized in Computer Stream software development, web technologies, and AI.",
     },
