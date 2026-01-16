@@ -46,8 +46,14 @@ function NavBar() {
         {/* Logo */}
         <Link
           to="/"
-          onClick={() => setIsOpen(false)}
-          className="text-primary-foreground font-black text-4xl font-mono"
+          key="/"
+          onClick={() => {
+            setIsOpen(false);
+            setActiveKey("/");
+          }}
+          className={`relative text-3xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-white
+            ${activeKey === "/" ? "text-primary-foreground md:after:w-full" : "after:w-0"}
+            hover:text-primary-foreground md:hover:after:w-full after:absolute `}
         >
           &lt;👨‍💻/&gt;
         </Link>

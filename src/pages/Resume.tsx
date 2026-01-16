@@ -21,7 +21,7 @@ const variants = {
   },
 };
 
-function ResumeNew() {
+const Resume = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -52,4 +52,4 @@ function ResumeNew() {
   );
 }
 
-export default ResumeNew;
+export default Resume;

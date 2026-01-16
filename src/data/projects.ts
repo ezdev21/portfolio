@@ -81,7 +81,7 @@ export const projects: ProjectProps[] = [
     isBlog: false,
     title: "Ecommerce",
     description:
-      "ecommerce app project made in laravel, Vuejs and tailwindcss. get latest products,full search feature included,watch later products and add to cart",
+      "ecommerce web application digital platform that enables users to browse products, add items to a cart, place orders.. It provides sellers with tools to manage products, inventory, orders, and customers, offering a complete online shopping experience.",
     demoLink: "",
     ghLink: "",
     order: 3,
@@ -103,7 +103,7 @@ export const projects: ProjectProps[] = [
     isBlog: false,
     title: "Video sharing",
     description:
-      "video sharing website made with laravel,Vuejs and tailwindcss. watch videos, create channel, upload videos, like and comment on videos, create playlist, subscribe channels, get notifications.!!",
+      "video sharing and streaming application using React, Zustand, Tailwindcss, Shadcn, Nodejs, Express, Prisma and Postgresql, where people watch videos, like and comment and stream videos by creating channels and uploading videos.",
     demoLink: "",
     ghLink: "",
     order: 2,
