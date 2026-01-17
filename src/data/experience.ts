@@ -49,22 +49,11 @@ const experiences: Experience[] = [
     position: "Junior Full-stack Developer",
     date: "Dec 2021 - Sep 2022",
     responsibilities: [
-      "Debugged complex issues across the UI, API, and database layers using logs, monitoring tools, and dev-tools.",
-      "Collaborated with cross-functional teams to design, develop, and deploy an app to the cloud.",
-      "Contributed to the development of Logistics System and Lideta Health Science College website, with UI improvement and API development.",
+      " Contributed to the development of Logistics Systems and Lideta Health Science College website, with UI improvement and API development.",
       "Develop and maintain user interfaces using modern frameworks like React.js, Vue.js, Bootstrap and Tailwindcss.",
-      "Designed and optimized database schemas, queries, and data models.",
-    ],
-  },
-  {
-    company: "BOTAYE DATA SCIENCE",
-    position: "Junior Web Developer",
-    date: "Aug 2021 - Dec 2021",
-    responsibilities: [
-      "Gathered, documented, and maintained software requirements throughout the project lifecycle.",
-      "Converted design prototypes created in Figma into functional, dynamic web components using React andTailwindcss.",
       "Designed and implemented backend features, including authentication, authorization and database architecture of application.",
-      "Diagnosed and resolved application issues by analyzing logs, debugging components, and identifying root causes.",
+      "Gathered, documented, and maintained software requirements throughout the project lifecycle.",
+      "Converted design prototypes created in Figma into functional, dynamic web components using React and Tailwindcss.",
     ],
   },
   {
@@ -72,9 +61,9 @@ const experiences: Experience[] = [
     position: "Freelance Developer",
     date: "Jun 2022 - Present",
     responsibilities: [
-      "Developed and maintained websites and web applications for various clients using technologies such as React, Node.js, and PHP.",
+      "Developed and maintained websites and web applications for various clients using technologies",
       "Developer portfolio websites for clients to showcase their work and skills.",
-      "fixed small tasks and bugs for different clients on their existing applications.",
+      "fixed small tasks and bugs for different clients on their existing applications in Freelance Ethiopia.",
       "fixed deployment issues for different clients on their applications hosted on various cloud platforms.",
     ],
   },
