@@ -2,7 +2,6 @@ import ecommerce from "@/assets/Projects/ecommerce_optimized.png";
 import video_sharing from "@/assets/Projects/video-sharing_optimized.png";
 import pool from "@/assets/Projects/pool_optimized.png";
 import madot from "@/assets/Projects/madot_optimized.png";
-import tiruhakim from "@/assets/Projects/tiruhakim_optimized.png";
 import union from "@/assets/Projects/union_optimized.png";
 import originland from "@/assets/Projects/originland_optimized.jfif";
 import jestra from "@/assets/Projects/jestra_optimized.png";
@@ -52,17 +51,6 @@ export const projects: ProjectProps[] = [
     demoLink: "",
     ghLink: "",
     order: 3,
-    skills: [],
-  },
-  {
-    imgPath: tiruhakim,
-    isBlog: false,
-    title: "Tiruhakim",
-    description:
-      "TiruHakim is an online database of patient reviews for doctors and facilities in Ethiopia. we give you the tools you need to find the best provider for you!",
-    demoLink: "",
-    ghLink: "",
-    order: 1,
     skills: [],
   },
   {
