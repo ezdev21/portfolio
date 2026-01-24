@@ -1,5 +1,6 @@
 import myImg from "@/assets/avatar-ezra.png";
 import socialLinks from "../data/social_links";
+import { home } from "../data/about";
 
 function HomeDetail() {
   return (
@@ -13,18 +14,11 @@ function HomeDetail() {
               MYSELF
             </h1>
 
-            <p className="text-left md:pt-12 text-md md:text-xl">
-              Hey there! 👋 I'm a software developer who's all about crafting
-              web and mobile apps that push the boundaries of what's possible.
-              <br />
-              <br />
-              I’m a software developer by profession, driven by a passion for
-              solving real-world problems and creating meaningful solutions.
-              With a strong foundation in both front-end and back-end
-              development, I am adept at designing and developing full-stack
-              solutions that meet business requirements and exceed user
-              expectations.
-            </p>
+            {home.map((paragraph, index) => (
+              <p key={index} className="text-left md:pt-12 text-md md:text-xl">
+                {paragraph}
+              </p>
+            ))}
           </div>
           <div className="md:w-1/3 md:flex items-center justify-center pt-5 md:mr-10">
             <div className="w-85 h-85 relative flex justify-center items-center">

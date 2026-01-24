@@ -1,0 +1,10 @@
+export const home: string[] = [
+  "Hey There! I am a Software developer based in Addis Ababa, Ethiopia. I hold a Bsc in Electrical and Computer Engineering from Addis Ababa University. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack apps and open sourceprojects.",
+];
+
+export const about: string[] = [
+  "Hello there! My interest in computers began early, when I was first introduced to them in Grade 3. During high school, I developed a strong passion for physics, which naturally led me to pursue Electrical and Computer Engineering at Addis Ababa University.",
+  "At university, I began exploring software development more deeply, starting with C++ and solving algorithmic challenges on Project Euler. While still a student, my consistent GitHub contributions helped me secure my first professional role—reinforcing my belief in learning through hands-on practice.",
+  "I fully immersed myself in becoming a better software engineer, dedicating significant time to solving complex problems and building impactful projects. I strongly believe that the most effective way to learn is by doing, which is why I continuously seek opportunities to apply my skills to real-world challenges.",
+  "Driven by curiosity and a desire for continuous growth, I am always pushing my boundaries and deepening my expertise. I am excited to contribute to meaningful, challenging projects that create lasting value.",
+];
