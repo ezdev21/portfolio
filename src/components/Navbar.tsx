@@ -55,7 +55,7 @@ function NavBar() {
             ${activeKey === "/" ? "text-primary-foreground md:after:w-full" : "after:w-0"}
             hover:text-primary-foreground md:hover:after:w-full after:absolute `}
         >
-          &lt;👨‍💻/&gt;
+          &lt;👨🏾‍💻/&gt;
         </Link>
 
         {/* Mobile Menu Button */}
