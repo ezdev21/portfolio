@@ -16,6 +16,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* ✅ PATH ALIAS (THIS IS THE KEY) */
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -24,9 +31,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "tailwind.config.js"],
-  "baseUrl": ".",
-  "paths": {
-    "@/*": ["./src/*"]
-  }
+  "include": ["src", "tailwind.config.js"]
 }
