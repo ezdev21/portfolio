@@ -34,6 +34,66 @@ Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.
 
+## ✉️ Contact Form (EmailJS) Configuration
+
+This project uses EmailJS to handle the contact form without a backend.
+
+1️⃣ Create environment variables
+
+Copy the example environment file:
+
+`cp .env.example .env`
+
+Then open .env and fill in your EmailJS credentials:
+
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+
+## 2️⃣ Set up EmailJS
+
+1. Go to https://www.emailjs.com
+
+2. Create an account and add an Email Service (Gmail recommended)
+
+3. Create an Email Template
+
+4. Use the following template variables:
+
+. from_name
+
+. reply_to
+
+. subject
+
+. message
+
+. Example template setup:
+
+. From Name: {{from_name}}
+
+. Reply To: {{reply_to}}
+
+. Subject: {{subject}}
+
+. Message Body: {{message}}
+
+## 3️⃣ How it works
+
+When the contact form is submitted:
+
+. The sender name shown in Gmail comes from the user’s name input
+
+. Replies go directly to the user’s email address
+
+. Emails are sent securely using EmailJS and environment variables
+
+## 4️⃣ Restart the dev server
+
+After updating .env, restart the app:
+
+`npm run dev`
+
 ## Installation using docker
 
 Build
