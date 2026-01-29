@@ -46,7 +46,7 @@ function HomeDetail() {
             </p>
             <ul className="relative pt-4 flex justify-center space-x-7 md:space-x-10">
               {socialLinks.map((link) => (
-                <li>
+                <li key={link.name}>
                   <a
                     href={link.url}
                     target="_blank"
