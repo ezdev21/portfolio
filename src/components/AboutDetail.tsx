@@ -1,4 +1,4 @@
-import { about } from "../data/about";
+import { about, quote } from "../data/about";
 
 function AboutDetail() {
   return (
@@ -16,11 +16,9 @@ function AboutDetail() {
           className="text-[#a588c0] pt-3 md:pt-4 text-lg"
           style={{ fontFamily: "Gloria Hallelujah" }}
         >
-          "Most good programmers do programming not because they expect to get
-          paid or get adulation by the public, but because it is fun to
-          program."
+          "{quote.text}"
         </p>
-        <p className="text-secondary mt-1 md:mt-2">- Linus Torvalds</p>
+        <p className="text-secondary mt-1 md:mt-2">- {quote.author}</p>
       </blockquote>
     </section>
   );
