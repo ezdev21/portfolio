@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import pdf from "@/assets/RESUME_EZRA_UPDATED.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -22,11 +22,7 @@ const variants = {
 };
 
 const Resume = () => {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+  const [width] = useState(window.innerWidth);
 
   return (
     <motion.div
@@ -39,6 +35,15 @@ const Resume = () => {
     >
       <div className="py-15 md:pt-27 md:pb-7">
         <div className="py-12 min-h-screen">
+          <div className="flex justify-center mb-4">
+            <a
+              href={pdf}
+              download="RESUME_EZRA_UPDATED.pdf"
+              className="bg-primary-foreground hover:bg-primary-foreground/90 font-bold py-2 px-4 rounded cursor-pointer transition duration-300 ease-in-out"
+            >
+              &nbsp;Download CV
+            </a>
+          </div>
           <div className="flex justify-center">
             <Document file={pdf}>
               <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
@@ -46,10 +51,19 @@ const Resume = () => {
               <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} />
             </Document>
           </div>
+          <div className="flex justify-center mb-4">
+            <a
+              href={pdf}
+              download="RESUME_EZRA_UPDATED.pdf"
+              className="bg-primary-foreground hover:bg-primary-foreground/90 font-bold py-2 px-4 rounded cursor-pointer transition duration-300 ease-in-out"
+            >
+              &nbsp;Download CV
+            </a>
+          </div>
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
 export default Resume;
