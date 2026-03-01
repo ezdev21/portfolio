@@ -69,9 +69,9 @@ export const projects: ProjectProps[] = [
     isBlog: false,
     title: "Ecommerce",
     description:
-      "ecommerce web application digital platform that enables users to browse products, add items to a cart, place orders.. It provides sellers with tools to manage products, inventory, orders, and customers, offering a complete online shopping experience.",
+      "An e-commerce web application that allows users to browse products, add items to a cart, and place orders. It provides sellers with tools to manage products, inventory, orders, and customers, delivering a complete online shopping experience.",
     demoLink: "",
-    ghLink: "",
+    ghLink: "https://github.com/ezdev21/ecommerce",
     order: 3,
     skills: [],
   },
@@ -91,9 +91,9 @@ export const projects: ProjectProps[] = [
     isBlog: false,
     title: "Video sharing",
     description:
-      "video sharing and streaming application using React, Zustand, Tailwindcss, Shadcn, Nodejs, Express, Prisma and Postgresql, where people watch videos, like and comment and stream videos by creating channels and uploading videos.",
+      "video streaming and sharing platform where users can watch, like, and comment on videos, subscribe to channels, and receive personalized recommendations. Users can also create their own channels, upload and organize videos, and engage with a community through comments and interactions. The application supports video streaming, content management, and user-driven engagement features.",
     demoLink: "",
-    ghLink: "",
+    ghLink: "https://github.com/ezdev21/video-sharing",
     order: 2,
     skills: [],
   },

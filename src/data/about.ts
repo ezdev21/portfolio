@@ -1,5 +1,5 @@
 export const home: string[] = [
-  "Hey There! I am a Software developer based in Addis Ababa, Ethiopia. I hold a Bsc in Electrical and Computer Engineering from Addis Ababa University. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack apps and open sourceprojects.",
+  "Hey There! I am a Senior Software Engineer from Addis Ababa, Ethiopia, holding a BSc in Electrical and Computer Engineering from Addis Ababa University. I enjoy creating applications that are both beautiful and highly functional, and I am always eager to learn new technologies and develop professionally.",
 ];
 
 export const about: string[] = [
