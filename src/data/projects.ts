@@ -1,12 +1,11 @@
 import ecommerce from "@/assets/Projects/ecommerce_optimized.png";
 import video_sharing from "@/assets/Projects/video-sharing_optimized.png";
-import pool from "@/assets/Projects/pool_optimized.png";
+import pool from "@/assets/Projects/pool_logo.jpg";
 import madot from "@/assets/Projects/madot_optimized.png";
 import union from "@/assets/Projects/union_optimized.png";
 import originland from "@/assets/Projects/originland_optimized.jfif";
 import jestra from "@/assets/Projects/jestra_optimized.png";
-import biritu from "@/assets/Projects/biritu_optimized.png";
-import haddisArt from "@/assets/Projects/haddisart_optimized.png";
+import biritu from "@/assets/Projects/biritu_logo.jpg";
 
 export interface ProjectProps {
   imgPath: string;
