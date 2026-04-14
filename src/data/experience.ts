@@ -61,8 +61,8 @@ const experiences: Experience[] = [
     position: "Freelance Developer",
     date: "Jun 2022 - Present",
     responsibilities: [
-      "Developed and maintained websites and web applications for various clients using technologies",
-      "Developer portfolio websites for clients to showcase their work and skills.",
+      "Developed and maintained websites and web applications for various clients using different technologies",
+      "Developed portfolio websites for clients to showcase their work and skills.",
       "fixed small tasks and bugs for different clients on their existing applications in Freelance Ethiopia.",
       "fixed deployment issues for different clients on their applications hosted on various cloud platforms.",
     ],
