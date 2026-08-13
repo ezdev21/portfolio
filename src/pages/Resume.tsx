@@ -1,11 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import pdf from "@/assets/RESUME_EZRA_UPDATED.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 import { motion } from "framer-motion";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+// Correct modern worker setup matching the installed pdfjs version
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.mjs`;
 
 const variants = {
   initial: { opacity: 0 },
@@ -23,15 +24,20 @@ const variants = {
 };
 
 const Resume = () => {
-  const [width] = useState(window.innerWidth);
+  const [width, setWidth] = useState(window.innerWidth);
+
+  // Track window resizing for responsive scaling
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <motion.div
       variants={variants}
       initial="initial"
       animate="animate"
-      whileHover="hover"
-      whileTap="tap"
       exit="exit"
     >
       <div className="py-15 md:pt-27 md:pb-7">
@@ -45,14 +51,20 @@ const Resume = () => {
               &nbsp;Download CV
             </a>
           </div>
-          <div className="flex justify-center">
-            <Document file={pdf}>
-              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-              <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
-              <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} />
+
+          <div className="flex flex-col items-center justify-center">
+            <Document 
+              file={pdf}
+              loading={<div className="text-center py-4">Loading CV...</div>}
+              error={<div className="text-red-500 py-4">Failed to load PDF file. Please check the file path.</div>}
+            >
+              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} className="mb-4 shadow-lg" />
+              <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} className="mb-4 shadow-lg" />
+              <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} className="shadow-lg" />
             </Document>
           </div>
-          <div className="flex justify-center mb-4">
+
+          <div className="flex justify-center mt-6 mb-4">
             <a
               href={pdf}
               download="RESUME_EZRA_UPDATED.pdf"
