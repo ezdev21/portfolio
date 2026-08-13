@@ -3,6 +3,7 @@ import {
   DiJava,
   DiJavascript1,
   DiLaravel,
+  DiMongodb,
   DiMysql,
   DiPostgresql,
   DiPython,
@@ -33,6 +34,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVuedotjs,
+  SiKubernetes
 } from "react-icons/si";
 
 const techStack = [
@@ -75,6 +77,7 @@ const techStack = [
       <SiGraphql />,
       <DiMysql />,
       <DiPostgresql />,
+      <DiMongodb />,
     ],
   },
   {
@@ -82,6 +85,7 @@ const techStack = [
     skills: [
       <SiGithub />,
       <SiDocker />,
+      <SiKubernetes />,
       <SiGithubactions />,
       <SiNginx />,
       <FaAws />,

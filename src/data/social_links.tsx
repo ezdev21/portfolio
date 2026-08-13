@@ -39,6 +39,11 @@ const socialLinks: SocialLink[] = [
     url: "",
     icon: <BsTwitterX />,
   },
+  {
+    name: "Telegram Channel",
+    url: "https://t.me/ezdev21",
+    icon: <FaTelegram />,
+  },
   // {
   //   name: "Discord",
   //   url: "",
