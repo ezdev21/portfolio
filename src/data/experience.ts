@@ -11,12 +11,11 @@ const experiences: Experience[] = [
     position: "Full-stack Developer",
     date: "Feb 2025 - Sep 2025",
     responsibilities: [
-      "Collaborated with cross-functional teams to design, develop, and deploy governmental projects.",
-      "Completed several small tasks with deadlines, which let me adapt to working under a tight deadline and learn how to divide/prioritize tasks.",
-      "Designed and implemented mobile-first, user-friendly UI designs for responsible and accessible websites.",
-      "Managed large-scale software deployments including testing features and fixing code issues.",
+      "Coordinated with multi-disciplinary teams to design, execute, and deploy government solutions.",
+      "Improved product speed and quality by revising and refactoring code written by less experienced developers.",
+      "Designed and implemented mobile-first, user-friendly UI designs for responsive and accessible websites.",
       "Proposed improvements to code organization to improve code quality and overall performance.",
-      "Debugged complex issues across the UI, API, and database using logs and dev-tools.",
+      "Debugged complex issues across the API and database using logs and dev-tools.",
     ],
   },
   {
@@ -26,9 +25,9 @@ const experiences: Experience[] = [
     responsibilities: [
       "Wrote easy-to-understand, documented API for the mobile app using Postman Collections.",
       "Involved in all phases of the Software Development Life Cycle, including user interface, API development, deployment, and mobile application development.",
-      "Developed an easy-to-use and optimized administration dashboard for administrators using React and Laravel.",
-      "Completed several small tasks with deadlines which allowed me adapt to working under a tight deadline and how to divide/prioritize tasks.",
+      "Led the development of an easy-to-use and optimized administration dashboard for administrators.",
       "Launched cross platform mobile application of Biritu using React Native.",
+      "Mentored interns, providing guidance on coding practices, design, and API development."
     ],
   },
   {
@@ -38,10 +37,9 @@ const experiences: Experience[] = [
     responsibilities: [
       "Built integrations for appropriate map services, SMS services, and payment gateways.",
       "Worked directly with the headquarters located in Nairobi, Kenya, using remote development technologies.",
-      "Integrated core features like achievements, spin and win lottery system, backup system.",
-      "Improved product speed and quality by revising and refactoring code written by less experienced developers.",
-      "Managed large-scale software deployments to AWS and GCP, including testing features and correcting code.",
-      "Mentored internships, providing guidance on coding practices, design, and API development.",
+      "Integrated core features like achievements, spin and win lottery system, backup system",
+      "Managed large-scale software deployments to cloud platforms, including testing features and correcting code",
+      "Completed several tasks with deadlines, which let me adapt to working under a tight deadline and learn how to divide/prioritize tasks."
     ],
   },
   {
@@ -49,11 +47,11 @@ const experiences: Experience[] = [
     position: "Junior Full-stack Developer",
     date: "Dec 2021 - Sep 2022",
     responsibilities: [
-      " Contributed to the development of Logistics Systems and Lideta Health Science College website, with UI improvement and API development.",
+      "Contributed to the development of Logistics Systems and Lideta Health Science College website, with UI improvement and API development",
       "Developed and maintained user interfaces using modern frameworks like React.js, Vue.js, Bootstrap and Tailwindcss.",
       "Designed and implemented backend features, including authentication, authorization and database architecture of application.",
       "Gathered, documented, and maintained software requirements throughout the project lifecycle.",
-      "Converted design prototypes created in Figma into functional, dynamic web components using React and Tailwindcss.",
+      "Converted design prototypes created in Figma into functional, dynamic web components using React and Tailwindcss."
     ],
   },
   {
@@ -62,10 +60,10 @@ const experiences: Experience[] = [
     date: "Jan 2023 - Present",
     responsibilities: [
       "Developed and maintained websites and web applications for various clients using different technologies",
+      "Fixed small tasks and bugs for different clients on their existing applications in Freelance Ethiopia Afriwork.",
       "Developed portfolio websites for clients to showcase their work and skills.",
-      "Fixed small tasks and bugs for different clients on their existing applications in Freelance Ethiopia.",
-      "Fixed deployment issues for different clients on their applications hosted on various cloud platforms.",
-    ],
+      "Fixed deployment issues for different clients on their applications hosted on various cloud platforms."
+    ]
   },
 ];
 

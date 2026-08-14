@@ -41,7 +41,7 @@ const socialLinks: SocialLink[] = [
   },
   {
     name: "Telegram Channel",
-    url: "https://t.me/ezdev21",
+    url: "https://t.me/ezracodes",
     icon: <FaTelegram />,
   },
   // {

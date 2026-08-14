@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import pdf from "@/assets/RESUME_EZRA_UPDATED.pdf";
+import pdf from "@/assets/DEVELOPER_RESUME.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
@@ -45,7 +45,7 @@ const Resume = () => {
           <div className="flex justify-center mb-4">
             <a
               href={pdf}
-              download="RESUME_EZRA_UPDATED.pdf"
+              download="DEVELOPER_RESUME.pdf"
               className="bg-primary-foreground hover:bg-primary-foreground/90 font-bold py-2 px-4 rounded cursor-pointer transition duration-300 ease-in-out"
             >
               &nbsp;Download CV
