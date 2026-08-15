@@ -6,8 +6,16 @@ import { PiGlobeHemisphereWestBold } from "react-icons/pi";
 
 const Languages = () => {
   const languages = [
-    { name: "Amharic", level: "Native / Bilingual proficiency", src: ethiopianFlag },
-    { name: "English", level: "Full professional proficiency", src: americanFlag },
+    {
+      name: "Amharic",
+      level: "Native / Bilingual proficiency",
+      src: ethiopianFlag,
+    },
+    {
+      name: "English",
+      level: "Full professional proficiency",
+      src: americanFlag,
+    },
     // { name: "French", level: "Basic", src: franceFlag },
   ];
 

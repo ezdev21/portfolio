@@ -53,14 +53,30 @@ const Resume = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <Document 
+            <Document
               file={pdf}
               loading={<div className="text-center py-4">Loading CV...</div>}
-              error={<div className="text-red-500 py-4">Failed to load PDF file. Please check the file path.</div>}
+              error={
+                <div className="text-red-500 py-4">
+                  Failed to load PDF file. Please check the file path.
+                </div>
+              }
             >
-              <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} className="mb-4 shadow-lg" />
-              <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} className="mb-4 shadow-lg" />
-              <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} className="shadow-lg" />
+              <Page
+                pageNumber={1}
+                scale={width > 786 ? 1.7 : 0.6}
+                className="mb-4 shadow-lg"
+              />
+              <Page
+                pageNumber={2}
+                scale={width > 786 ? 1.7 : 0.6}
+                className="mb-4 shadow-lg"
+              />
+              <Page
+                pageNumber={3}
+                scale={width > 786 ? 1.7 : 0.6}
+                className="shadow-lg"
+              />
             </Document>
           </div>
 

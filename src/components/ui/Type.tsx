@@ -10,7 +10,7 @@ function Type() {
           "Mobile App Developer",
           "Freelancer",
           "Open Source Contributor",
-          "AI & ML Enthusiast"
+          "AI & ML Enthusiast",
         ],
         autoStart: true,
         loop: true,

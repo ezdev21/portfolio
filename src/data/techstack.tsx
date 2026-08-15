@@ -34,7 +34,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVuedotjs,
-  SiKubernetes
+  SiKubernetes,
 } from "react-icons/si";
 
 const techStack = [
