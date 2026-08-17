@@ -1,37 +1,38 @@
-name: Build and Deploy Vite React App
+name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches: ["main"] # deploy when you push to main
+  workflow_run:
+    workflows: ["React CI"]
+    types:
+      - completed
+    branches: [main]
 
 permissions:
-  contents: write # required to push to gh-pages branch
+  contents: write
 
 jobs:
-  build:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      - name: Lint (optional but recommended)
-        run: npm run lint
-
-      - name: Build Vite project
+      - name: Build
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          npx gh-pages -d dist
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
