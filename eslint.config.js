@@ -6,6 +6,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import prettier from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
+import globals from "globals";
 
 export default [
   js.configs.recommended,
@@ -16,7 +17,7 @@ export default [
       ecmaVersion: 2021,
       sourceType: "module",
       globals: {
-        window: true,
+        ...globals.browser,
       },
     },
     plugins: {
@@ -28,9 +29,10 @@ export default [
     rules: {
       ...reactHooks.configs.recommended.rules,
       ...reactRefresh.configs.recommended.rules,
-      "prettier/prettier": "error", // show prettier issues as ESLint errors
+      "prettier/prettier": "error",
+      "no-undef": "off", // TS compiler already catches this; avoids false positives on TS-only globals like JSX
       // your custom rules here
     },
   },
-  prettierConfig, // turn off conflict rules
+  prettierConfig,
 ];
