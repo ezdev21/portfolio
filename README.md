@@ -15,11 +15,6 @@
   <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
 </h4>
 
-<h4>
-  Inspired by
-  <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">https://github.com/soumyajit4419/Portfolio</a>
-</h4>
-
 ## Getting Started
 
 clone the project `git clone https://github.com/ezdev21/portfolio`
@@ -116,7 +111,7 @@ then edit `/components/ui/Particle.tsx` file using the exported json file
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You may use AI tools to assist you.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!

@@ -1,9 +1,6 @@
 import ecommerce from "@/assets/Projects/ecommerce_optimized.png";
 import video_sharing from "@/assets/Projects/video-sharing_optimized.png";
 import pool from "@/assets/Projects/pool_logo.jpg";
-import madot from "@/assets/Projects/madot_optimized.png";
-import union from "@/assets/Projects/union_optimized.png";
-import originland from "@/assets/Projects/originland_optimized.jfif";
 import jestra from "@/assets/Projects/jestra_optimized.png";
 import biritu from "@/assets/Projects/biritu_logo.jpg";
 
@@ -69,39 +66,6 @@ export const projects: ProjectProps[] = [
     title: "Jestra",
     description:
       "Logistics management ensures a company has sufficient resources to fulfill client needs through the manufacturing of products, and that the products can be delivered accurately and in good condition.",
-    demoLink: "",
-    ghLink: "",
-    order: 2,
-    skills: [],
-  },
-  {
-    imgPath: madot,
-    isBlog: false,
-    title: "Madot Solutions",
-    description:
-      "The company's mission is to promote problem-solving within our organization; produce, deliver, and support technology to make it more accessible to our customers. Increasing the capital of the organization, creating job opportunities, playing a significant role in the economic development of our country.",
-    demoLink: "",
-    ghLink: "",
-    order: 3,
-    skills: [],
-  },
-  {
-    imgPath: union,
-    isBlog: false,
-    title: "Union Academy",
-    description:
-      "Union academy dedicated to holistic education, fostering innovation, nurturing talents, and cultivating a vibrant learning community for future leaders.",
-    demoLink: "",
-    ghLink: "",
-    order: 1,
-    skills: [],
-  },
-  {
-    imgPath: originland,
-    isBlog: false,
-    title: "",
-    description:
-      "Origin land general trading PLC is registered in Ethiopia to engage in Agricultural products export mainly Green Arabica Coffee, Roasted Coffee, Minerals, oil seeds, pulses, spices industrial and chemical products import to Ethiopia.",
     demoLink: "",
     ghLink: "",
     order: 2,

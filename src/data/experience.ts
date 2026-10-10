@@ -11,11 +11,10 @@ const experiences: Experience[] = [
     position: "Full-stack Developer",
     date: "Feb 2025 - Sep 2025",
     responsibilities: [
-      "Collaborated with cross-functional teams to design, execute, and deliver scalable enterprise-grade solutions.",
-      "Enhanced maintainability of the administration dashboard through comprehensive code reviews, refactoring, diagnosing and resolving complex database issues",
-      "Architected responsive, accessible, and mobile-first user interfaces to deliver seamless, intuitive digital experiences.",
-      "Proposed improvements to code organization to improve code quality and overall performance.",
-      "Designed and developed a suite of high-performance reporting modules, empowering users with data-driven decision-making tools and real-time metrics.",
+      "Designed and developed high-performance reporting modules that gave users real-time metrics and data-driven decision-making tools.",
+      "Improved maintainability of the administration dashboard through systematic code reviews, refactoring, and resolving complex database issues.",
+      "Led the investigation and resolution of production incidents, performance bottlenecks, database issues, and deployment failures, driving improvements in system reliability, performance, and operational stability.",
+      "Owned delivery of multiple production features from technical design through deployment while coordinating priorities and resolving implementation blockers.",
     ],
   },
   {
@@ -23,10 +22,10 @@ const experiences: Experience[] = [
     position: "Software Developer",
     date: "Sep 2024 - Feb 2025",
     responsibilities: [
-      "Designed and maintained well-documented APIs for mobile application services, ensuring seamless integration and scalability.",
-      "Architected and delivered a high-performance administration dashboard for digital savings and cooperative management, streamlining workflows for administrators.",
-      "Developed the cross-platform mobile application for Biritu from scratch using React Native, leading the project through its initial launch phase.",
-      "Mentored interns on software engineering fundamentals, driving excellence in code quality, system design, and API development.",
+      "Designed and delivered 50+ production-ready APIs for the mobile application, focusing on performance, reliable data flow, and clear documentation.",
+      "Architected and shipped a high-performance administration dashboard for digital savings and cooperative management, streamlining day-to-day workflows for administrators.",
+      "Built the cross-platform mobile application for Biritu from scratch using React Native and led it through the initial launch.",
+      "Mentored junior engineers and interns, providing guidance on software architecture, API design, code quality, debugging and development practices.",
     ],
   },
   {
@@ -34,10 +33,11 @@ const experiences: Experience[] = [
     position: "Full-stack Developer",
     date: "Jun 2023 - Sep 2024",
     responsibilities: [
-      "Built integrations for appropriate map services, SMS services, and payment gateways.",
-      "Integrated core features like achievements, spin and win lottery system, backup system",
-      "Managed software deployments to vps and cloud platforms, including testing features and correcting code",
-      "Completed several tasks with deadlines, which let me adapt to working under a tight deadline and learn how to divide/prioritize tasks.",
+      "Developed robust APIs for a ride-hailing platform that scaled to 25k+ active drivers and passengers, enabling seamless cross-platform mobile integration and real-time data sync.",
+      "Designed integrations with payment gateways, SMS providers, mapping services and third-party APIs.",
+      "Implemented key product features including achievements, spin-and-win lottery, and backup systems.",
+      "Managed deployments to VPS and cloud environments, including feature testing and production bug fixes.",
+      "Designed and optimized backend architecture for core ride-hailing workflows, improving API performance, data reliability, and scalability while supporting seamless integration with cross-platform mobile clients.",
     ],
   },
   {
@@ -45,11 +45,11 @@ const experiences: Experience[] = [
     position: "Junior Full-stack Developer",
     date: "Dec 2021 - Sep 2022",
     responsibilities: [
-      "Contributed to the development of Logistics Systems and Lideta Health Science College website, with UI improvement and API development.",
-      "Developed and maintained user interfaces using modern frameworks like React.js, Vue.js, Bootstrap and Tailwindcss.",
-      "Designed and implemented backend features, including authentication, authorization and database architecture of application.",
+      "Designed and implemented backend features including authentication, authorization, and database architecture.",
+      "Built and maintained user interfaces with React.js, Vue.js, Bootstrap, and Tailwind CSS.",
+      "Converted Figma design prototypes into functional, dynamic web components using React and Tailwind stacks.",
+      "Contributed to Logistics Systems and the Lideta Health Science College website through UI improvements and API development.",
       "Gathered, documented, and maintained software requirements throughout the project lifecycle.",
-      "Converted design prototypes created in Figma into functional, dynamic web components using React and Tailwindcss.",
     ],
   },
   {
@@ -57,10 +57,10 @@ const experiences: Experience[] = [
     position: "Freelance Developer",
     date: "Jan 2023 - Present",
     responsibilities: [
-      "Delivered and supported custom web applications and sites for varied clients utilizing adaptable technology stacks.",
-      "Resolved critical bugs and delivered feature enhancements across diverse client applications, ensuring high system stability and client satisfaction.",
-      "Designed and developed custom, responsive portfolio websites that empower clients to professionally showcase their work and personal brands.",
-      "Diagnosed and resolved deployment failures across applications, ensuring reliable and seamless releases.",
+      "Owned end-to-end delivery of custom software projects, working directly with clients from requirements gathering and technical design through implementation, deployment and production support.",
+      "Resolved critical bugs and shipped feature enhancements across client applications, improving system stability and client satisfaction.",
+      "Designed and developed custom responsive portfolio websites that helped clients professionally showcase their work and personal brands.",
+      "Maintained and contributed to open-source projects on GitHub focusing on clean code, documentation, and reusable components.",
     ],
   },
 ];

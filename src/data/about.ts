@@ -1,5 +1,5 @@
 export const home: string[] = [
-  "Hey There! I am a Senior Software Engineer from Addis Ababa, Ethiopia, holding a BSc in Electrical and Computer Engineering from Addis Ababa University. I enjoy creating applications that are both beautiful and highly functional, and I am always eager to learn new technologies and develop professionally.",
+  "Senior Full Stack Software Engineer with 4+ years of experience designing, building, and scaling production web and mobile applications. Experienced in end-to-end system development, high-performance API design, scalable architecture, and production deployments using React/Vue + Node.js/Python. Strong focus on system design, performance optimization, code quality, and technical ownership.",
 ];
 
 export const about: string[] = [
@@ -8,13 +8,3 @@ export const about: string[] = [
   "I fully immersed myself in becoming a better software engineer, dedicating significant time to solving complex problems and building impactful projects. I strongly believe that the most effective way to learn is by doing, which is why I continuously seek opportunities to apply my skills to real-world challenges.",
   "Driven by curiosity and a desire for continuous growth, I am always pushing my boundaries and deepening my expertise. I am excited to contribute to meaningful, challenging projects that create lasting value.",
 ];
-
-interface Quote {
-  text: string;
-  author: string;
-}
-
-export const quote: Quote = {
-  text: "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
-  author: "Linus Torvalds",
-};

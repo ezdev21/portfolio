@@ -1,4 +1,4 @@
-import { about, quote } from "../data/about";
+import { about } from "../data/about";
 
 function AboutDetail() {
   return (
@@ -11,14 +11,6 @@ function AboutDetail() {
             </p>
           ))}
         </div>
-
-        <p
-          className="text-[#a588c0] pt-3 md:pt-4 text-lg"
-          style={{ fontFamily: "Gloria Hallelujah" }}
-        >
-          "{quote.text}"
-        </p>
-        <p className="text-secondary mt-1 md:mt-2">- {quote.author}</p>
       </blockquote>
     </section>
   );

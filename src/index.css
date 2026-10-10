@@ -26,7 +26,6 @@ body {
     rgb(12, 10, 22)
   );
   color: #d1d5db;
-  user-select: none !important;
 }
 
 .card {
